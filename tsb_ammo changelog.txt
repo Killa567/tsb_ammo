@@ -1,0 +1,95 @@
++added
+*Changes
+-Removal
+
+By Killa567
+V2 (2022-9-18)
+	+ 556x45 20rnd STANAG
+	+ 556x45 EPM Mags
+	+ 556x45 SCAR Mags
+	+ 556x45 Double 20rnd
+	+ 556x45 100 Rnd Beta Mags
+	+ 556x45 150 Rnd Beta Mags
+	+ 556x45 60rnd Quadstack Mags
+	+ 556x45 100rnd & 200rnd M81 & UCP Sofpacks
+	+ 556x45 200rnd Boxes
+	* Fixed Sig 550 mags with base classes
+	+ 762x51 Black SCAR Mags
+	+ 762x51 50rnd Softpacks
+	+ 12Ga Ammo Types
+	  + HE
+	  + Frag
+	* Adjusted the values of the following Ammo
+	  * M995 AP
+	  * M948 SLAP
+	  * M959 SLAPT
+	  * M993 AP
+	+ Mag Well Fixes for the following weapons
+	  * 3CB Augs
+	  * RHS Shotguns
+Innitial Upload (2022-07-26)
+	+ 556x45 ammo types
+	  + M193
+	  + M196
+	  + M855
+	  + M855A1
+	  + M856
+	  + M856A1
+	  + M855LF
+	  + M995
+	  + XM996
+	  + MLU26P
+	  + MK262
+	  + MK318
+	  + Sub Sonic
+	  + SS109
+	+ 556x45 STANAG
+	+ 556x45 PMAG
+	+ 556x45 Tan PMAG
+	+ 556x45 M21 Mags
+	+ 556x45 100rnd Softpack
+	+ 556x45 200rnd Softpack
+	+ 556x45 VHS2 Mags
+	+ 556x45 G36 Mags
+	+ 556x45 AK Mags
+	+ 762x39 SAVZ58 Mags
+	+ 762x51 Ammo
+	  + M59
+	  + M61
+	  + M62
+	  + M80
+	  + M80A1
+	  + M118SB
+	  + M276
+	  + M948
+	  + M959
+	  + M993
+	  + MK316
+	  + MK319
+	+ 762x51 M14 Mags
+	+ 762x51 100rnd Boxs
+	+ 762x51 200rnd Belts
+	+ 762x51 SCARH Mags
+	+ 762x51 SR-25 Mags
+	+ 762x51 5rnd Loose ammo Mags
+	+ 762x51 ACIS Mags
+	+ 762x51 20rnd FAL Mags
+	+ .30-06 Ammo
+	  + M2 AP
+	  + M2 Ball
+	  + M1 Tracer
+	+ M1 Garand Mags
+	+ M1903 Springfield Mags
+	+ 45 ACP Ammo
+	  + Ball
+	  + M15 Bird
+	  + JHP
+	  + +P
+	  + T30
+	+ 1911 Mags
+	+ M3 Mags
+	+ Shotgun Ammo
+	  + AP Rounds
+	  + Bean Bag Rounds
+	+ M590 Mags
+	+ M1014 Mags
