@@ -2,6 +2,10 @@
 *Changes
 -Removal
 
+By Jzpelaez
+V_XX(2022-9-19)
+	+ 556x45 CMags 100/150 variants with Mixed and IR/DIM loadings.
+
 By Killa567
 V2 (2022-9-18)
 	+ 556x45 20rnd STANAG

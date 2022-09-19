@@ -1960,6 +1960,93 @@ class CfgMagazines {
 		displayNameShort = SS109;
 		ammo = "tsb_ammo_556x45_SS109";
 	};
+/////100rnd C-Mags-Mixed/////
+	class tsb_mag_556x45_100rnd_M193_CMag_mixed : tsb_mag_556x45_100rnd_M193_CMag{
+		author = "Jzpelaez";
+		scope = public;
+		displayName = "5.56x45 C-Mag 100rnd M193 Ball (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 100";
+		displayNameShort = M193;
+		ammo = "tsb_ammo_556x45_M193";
+		tracersEvery = 5;
+		lastRoundsTracer = 5;
+	};
+	class tsb_mag_556x45_100rnd_M855_CMag_mixed : tsb_mag_556x45_100rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 100rnd M855 Ball (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 100";
+		displayNameShort = M855;
+		ammo = "tsb_ammo_556x45_M855";
+	};
+	class tsb_mag_556x45_100rnd_M855LF_CMag_mixed : tsb_mag_556x45_100rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 100rnd M855LF Ball (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855LF<br />Capacity: 100";
+		displayNameShort = M855LF;
+		ammo = "tsb_ammo_556x45_M855LF";
+	};
+	class tsb_mag_556x45_100rnd_M855A1_CMag_mixed : tsb_mag_556x45_100rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 100rnd M855A1 EPR (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 100";
+		displayNameShort = M855A1;
+		ammo = "tsb_ammo_556x45_M855A1";
+	};
+	class tsb_mag_556x45_100rnd_M995_CMag_mixed : tsb_mag_556x45_100rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 100rnd M995 AP (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 100";
+		displayNameShort = M995;
+		ammo = "tsb_ammo_556x45_M995";
+	};
+	class tsb_mag_556x45_100rnd_MLU26P_CMag_mixed : tsb_mag_556x45_100rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 100rnd MLU26P Ball (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 100";
+		displayNameShort = MLU26P;
+		ammo = "tsb_ammo_556x45_MLU26P";
+	};
+	class tsb_mag_556x45_100rnd_Mk262mod1_CMag_mixed : tsb_mag_556x45_100rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 100rnd Mk262mod1 OTM (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 100";
+		displayNameShort = Mk262mod1;
+		ammo = "tsb_ammo_556x45_Mk262mod1";
+	};
+	class tsb_mag_556x45_100rnd_Mk318mod0_CMag_mixed : tsb_mag_556x45_100rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 100rnd Mk318mod0 OTM (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 100";
+		displayNameShort = Mk318mod0;
+		ammo = "tsb_ammo_556x45_Mk318mod0";
+	};
+	class tsb_mag_556x45_100rnd_SS_CMag_mixed : tsb_mag_556x45_100rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 100rnd Sub Sonic (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS<br />Capacity: 100";
+		displayNameShort = SubSonic;
+		ammo = "tsb_ammo_556x45_SS";
+	};
+	class tsb_mag_556x45_100rnd_SS109_CMag_mixed : tsb_mag_556x45_100rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 100rnd SS109 Ball (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 100";
+		displayNameShort = SS109;
+		ammo = "tsb_ammo_556x45_SS109";
+	};
+/////100rnd C-Mags-IRDIM/////
+	class tsb_mag_556x45_100rnd_M855_CMag_ir : tsb_mag_556x45_100rnd_M193_CMag{
+		author = "Jzpelaez";
+		scope = public;
+		displayName = "5.56x45 C-Mag 100rnd M855 Ball IR/DIM";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 100";
+		displayNameShort = M855;
+		ammo = "tsb_ammo_556x45_M855ir";
+		tracersEvery = 1;
+	};
+	class tsb_mag_556x45_100rnd_M855A1_CMag_ir : tsb_mag_556x45_100rnd_M855_CMag_ir{
+		displayName = "5.56x45 C-Mag 100rnd M855A1 EPR IR/DIM";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 100";
+		displayNameShort = M855A1;
+		ammo = "tsb_ammo_556x45_M855A1ir";
+	};
+	class tsb_mag_556x45_100rnd_M995_CMag_ir : tsb_mag_556x45_100rnd_M855_CMag_ir{
+		displayName = "5.56x45 C-Mag 100rnd M995 AP IR/DIM";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 100";
+		displayNameShort = M995;
+		ammo = "tsb_ammo_556x45_M995ir";
+	};
 ///150rnd C-Mags///
 	class tsb_mag_556x45_150rnd_M193_CMag : 150Rnd_556x45_Drum_Mag_F{
 		author = "Killa567";
@@ -2052,6 +2139,93 @@ class CfgMagazines {
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 150";
 		displayNameShort = SS109;
 		ammo = "tsb_ammo_556x45_SS109";
+	};
+/////150rnd C-Mags-Mixed/////
+	class tsb_mag_556x45_150rnd_M193_CMag_mixed : tsb_mag_556x45_150rnd_M193_CMag{
+		author = "Jzpelaez";
+		scope = public;
+		displayName = "5.56x45 C-Mag 150rnd M193 Ball (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 150";
+		displayNameShort = M193;
+		ammo = "tsb_ammo_556x45_M193";
+		tracersEvery = 5;
+		lastRoundsTracer = 5;
+	};
+	class tsb_mag_556x45_150rnd_M855_CMag_mixed : tsb_mag_556x45_150rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 150rnd M855 Ball (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 150";
+		displayNameShort = M855;
+		ammo = "tsb_ammo_556x45_M855";
+	};
+	class tsb_mag_556x45_150rnd_M855LF_CMag_mixed : tsb_mag_556x45_150rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 150rnd M855LF Ball (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855LF<br />Capacity: 150";
+		displayNameShort = M855LF;
+		ammo = "tsb_ammo_556x45_M855LF";
+	};
+	class tsb_mag_556x45_150rnd_M855A1_CMag_mixed : tsb_mag_556x45_150rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 150rnd M855A1 EPR (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 150";
+		displayNameShort = M855A1;
+		ammo = "tsb_ammo_556x45_M855A1";
+	};
+	class tsb_mag_556x45_150rnd_M995_CMag_mixed : tsb_mag_556x45_150rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 150rnd M995 AP (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 150";
+		displayNameShort = M995;
+		ammo = "tsb_ammo_556x45_M995";
+	};
+	class tsb_mag_556x45_150rnd_MLU26P_CMag_mixed : tsb_mag_556x45_150rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 150rnd MLU26P Ball (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 150";
+		displayNameShort = MLU26P;
+		ammo = "tsb_ammo_556x45_MLU26P";
+	};
+	class tsb_mag_556x45_150rnd_Mk262mod1_CMag_mixed : tsb_mag_556x45_150rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 150rnd Mk262mod1 OTM (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 150";
+		displayNameShort = Mk262mod1;
+		ammo = "tsb_ammo_556x45_Mk262mod1";
+	};
+	class tsb_mag_556x45_150rnd_Mk318mod0_CMag_mixed : tsb_mag_556x45_150rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 150rnd Mk318mod0 OTM (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 150";
+		displayNameShort = Mk318mod0;
+		ammo = "tsb_ammo_556x45_Mk318mod0";
+	};
+	class tsb_mag_556x45_150rnd_SS_CMag_mixed : tsb_mag_556x45_150rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 150rnd Sub Sonic (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS<br />Capacity: 150";
+		displayNameShort = SubSonic;
+		ammo = "tsb_ammo_556x45_SS";
+	};
+	class tsb_mag_556x45_150rnd_SS109_CMag_mixed : tsb_mag_556x45_150rnd_M193_CMag_mixed{
+		displayName = "5.56x45 C-Mag 150rnd SS109 Ball (Mixed)";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 150";
+		displayNameShort = SS109;
+		ammo = "tsb_ammo_556x45_SS109";
+	};
+/////150rnd C-Mags-IRDIM/////
+	class tsb_mag_556x45_150rnd_M855_CMag_ir : tsb_mag_556x45_150rnd_M193_CMag{
+		author = "Jzpelaez";
+		scope = public;
+		displayName = "5.56x45 C-Mag 150rnd M855 Ball IR/DIM";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 150";
+		displayNameShort = M855;
+		ammo = "tsb_ammo_556x45_M855ir";
+		tracersEvery = 1;
+	};
+	class tsb_mag_556x45_150rnd_M855A1_CMag_ir : tsb_mag_556x45_150rnd_M855_CMag_ir{
+		displayName = "5.56x45 C-Mag 150rnd M855A1 EPR IR/DIM";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 150";
+		displayNameShort = M855A1;
+		ammo = "tsb_ammo_556x45_M855A1ir";
+	};
+	class tsb_mag_556x45_150rnd_M995_CMag_ir : tsb_mag_556x45_150rnd_M855_CMag_ir{
+		displayName = "5.56x45 C-Mag 150rnd M995 AP IR/DIM";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 150";
+		displayNameShort = M995;
+		ammo = "tsb_ammo_556x45_M995ir";
 	};
 ///60rnd Quadstack///
 	class tsb_mag_556x45_60rnd_M193_STANAG : 75Rnd_556x45_Stanag_red_lxWS{
