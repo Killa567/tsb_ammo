@@ -807,10 +807,40 @@ class CfgAmmo {
 //////////////////////////////////////////////////////////  7.9 x 57 //////////////////////////////////////////////////////////
 	// class tsb_ammo_79x57_ xxx : 
 ////////////////////////////////////////////////////////// 8.60 x 70 (338 Lapua) //////////////////////////////////////////////
+	// class tsb_ammo_860x70_ xxx :
 //////////////////////////////////////////////////////////    9 x 18 //////////////////////////////////////////////////////////
+	// class tsb_ammo_9x18_ xxx :
 //////////////////////////////////////////////////////////    9 x 19 //////////////////////////////////////////////////////////
+	// class tsb_ammo_9x19_Ball : 
+	// adjusting from ACE3 cfgAmmoReference
+	//		ACE_caliber = 9.01
+	//		ACE_bulletLength = 19.152
+	//		ACE_bulletMass = 8.035
+	//		ACE_ammoTempMuzzleVelocityShifts[] = {-2.655, -2.547, -2.285, -2.012, -1.698, -1.280, -0.764, -0.153, 0.596, 1.517, 2.619};
+	//		ACE_ballisticCoefficients[] = {0.165}; 
+	//		ACE_velocityBoundaries[] = {};
+    //		ACE_standardAtmosphere = "ASM";
+    //		ACE_dragModel = 1;
+    //		ACE_muzzleVelocities[] = {340, 370, 400};
+    //		ACE_barrelLengths[] = {101.6, 127.0, 228.6};
+	//		hit = 6;
+	//		indirectHit = 0;
+	//		indirectHitRange = 0;
+	//		suppressionRadiusBulletClose = 0;
+	//		cartridge = "FxCartridge_9mm";
+	//		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+	//		caliber = .1;
+	//		deflecting = 30;
+	//		visibleFire = 1.5;
+	//		audibleFire = 3;
+	//		cost = 100;
+	//		typicalSpeed = 350
+	//		airFriction = 
+    };
 //////////////////////////////////////////////////////////    9 x 21 //////////////////////////////////////////////////////////
+	// class tsb_ammo_9x21_ xxx :
 //////////////////////////////////////////////////////////    9 x 39 //////////////////////////////////////////////////////////
+	// class tsb_ammo_9x39_ xxx :
 ////////////////////////////////////////////////////////// 11.4 x 23 (.45 ACP) ////////////////////////////////////////////////
 
 	class tsb_ammo_45_Ball : BulletBase {
@@ -830,7 +860,7 @@ class CfgAmmo {
 		suppressionRadiusBulletClose = 0;
 		cartridge = "FxCartridge_9mm";
 		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
-		caliber = .6;
+		caliber = .15; //old .6; doesn't make sense for .45 Ball to have higher penetration than a 5.45 or 7.62x39. (pen. depth in mm = velocity(m/s) * "caliber" * penetrability/1000. Penetrability material property- examples given: RHA steel = 15, concrete = 80, flesh = 250
 		deflecting = 30;
 		visibleFire = 1.5;
 		audibleFire = 3;
@@ -839,8 +869,8 @@ class CfgAmmo {
 		airFriction = -0.0027667;
 	};
 	class tsb_ammo_45_m15 :	tsb_ammo_45_Ball{
-		caliber = 0.45;
-        hit = 5;
+		caliber = 0.1; //old .45; same reason above
+        hit = 1.5; //old 5. It's birdshot for small game. It's not doing more damage than the 12 gauge birdshot.
         triggerTime = 0.008
         submunitionAmmo = "tsb_ammo_M15_No7_Bird";
 	    submunitionConeType[] = {"poissondisc", 108};
@@ -848,22 +878,22 @@ class CfgAmmo {
 	    triggerSpeedCoef[] = {0.8, 1};
 	};
 	class tsb_ammo_M15_No7_Bird : BulletBase{
-		caliber = 0.45;
-		hit = 1.5;
+		caliber = 0.1; // old .45, given reasons above.
+		hit = 1.5; //
 		airFriction = -0.08;
 	};
 	class tsb_ammo_45_JHP : tsb_ammo_45_Ball{
 		hit = 7.2;
-		caliber = .55;
+		caliber = .1; //old .55. Reasons above. JHP expands, less penetration than ball, no?
 	 	typicalSpeed = 360;
     };
     class tsb_ammo_45_P : tsb_ammo_45_Ball{
     	hit = 6.3;
-    	caliber = .74;
-    	typicalSpeed = 428;
+    	caliber = .2; //old .74, reasons above.
+    	typicalSpeed = 380; //old 428; based on what I could find, out of a 5 inch barrel, couldn't find a .45 +P that had a velocity higher than roughly 1250 ft/s, roughly 380 m/s.
     };
     class tsb_ammo_45_T30 : tsb_ammo_45_Ball{
-		caliber = 0.45;
+		caliber = 0.1; //old .45. Reasons above
 		hit = 1.5;
 		airFriction = -0.08;
 		tracerStartTime	= 0.073;
