@@ -476,7 +476,7 @@ class CfgMagazines {
 	class tsb_mag_545x39_30rnd_7n6_plum_double : tsb_mag_545x39_30rnd_7n6_bakelite{
 		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_545x39_7N10_2mag_plum_AK_ca.paa";
 		displayName = "5.45x39 Plum 30rnd Double 7N6 Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7N6 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7N6 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6<br />Capacity: 30+30";
 		displayNameShort = 7N6;
 		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak_2mag_plum";
 		hiddenSelections[] = {"camo"};
@@ -488,76 +488,76 @@ class CfgMagazines {
 	};
 	class tsb_mag_545x39_30rnd_7n6m_plum_double : tsb_mag_545x39_30rnd_7n6_plum_double{
 		displayName = "5.45x39 Plum 30rnd Double 7N6M Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7N6M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7N6M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6M<br />Capacity: 30+30";
 		displayNameShort = 7N6M;
 		ammo = "tsb_ammo_545x39_7n6m";
 	};
 	class tsb_mag_545x39_30rnd_7n10_plum_double : tsb_mag_545x39_30rnd_7n6_plum_double{
 		displayName = "5.45x39 Plum 30rnd Double 7N10 Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7N10 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7N10 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10<br />Capacity: 30+30";
 		displayNameShort = 7N10;
 		ammo = "tsb_ammo_545x39_7n10";
 	};
 	class tsb_mag_545x39_30rnd_7n10m_plum_double : tsb_mag_545x39_30rnd_7n6_plum_double{
 		displayName = "5.45x39 Plum 30rnd Double 7N10M Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7N10M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7N10M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10M<br />Capacity: 30+30";
 		displayNameShort = 7N10M;
 		ammo = "tsb_ammo_545x39_7n10m";
 	};
 	class tsb_mag_545x39_30rnd_7n22_plum_double : tsb_mag_545x39_30rnd_7n6_plum_double{
 		displayName = "5.45x39 Plum 30rnd Double 7N22 Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7N22 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N22<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7N22 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N22<br />Capacity: 30+30";
 		displayNameShort = 7N22;
 		ammo = "tsb_ammo_545x39_7n22";
 	};
 	class tsb_mag_545x39_30rnd_7n24_plum_double : tsb_mag_545x39_30rnd_7n6_plum_double{
 		displayName = "5.45x39 Plum 30rnd Double 7N24 Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7N24 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7N24 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24<br />Capacity: 30+30";
 		displayNameShort = 7N24;
 		ammo = "tsb_ammo_545x39_7n24";
 	};
 	class tsb_mag_545x39_30rnd_7n24m_plum_double : tsb_mag_545x39_30rnd_7n6_plum_double{
 		displayName = "5.45x39 Plum 30rnd Double 7N24M Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7N24M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7N24M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24M<br />Capacity: 30+30";
 		displayNameShort = 7N24M;
 		ammo = "tsb_ammo_545x39_7n24m";
 	};
 	class tsb_mag_545x39_30rnd_7n39_plum_double : tsb_mag_545x39_30rnd_7n6_plum_double{
 		displayName = "5.45x39 Plum 30rnd Double 7N39 Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7N39 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N39<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7N39 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N39<br />Capacity: 30+30";
 		displayNameShort = 7N39;
 		ammo = "tsb_ammo_545x39_7n39";
 	};
 	class tsb_mag_545x39_30rnd_7n40_plum_double : tsb_mag_545x39_30rnd_7n6_plum_double{
 		displayName = "5.45x39 Plum 30rnd Double 7N40 Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7N40 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N40<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7N40 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N40<br />Capacity: 30+30";
 		displayNameShort = 7N40;
 		ammo = "tsb_ammo_545x39_7n40";
 	};
 	class tsb_mag_545x39_30rnd_7t3_plum_double : tsb_mag_545x39_30rnd_7n6_plum_double{
 		displayName = "5.45x39 Plum 30rnd Double 7T3 Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7T3 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7T3 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3<br />Capacity: 30+30";
 		displayNameShort = 7T3;
 		ammo = "tsb_ammo_545x39_7t3";
 		tracersEvery = 1;
 	};
 	class tsb_mag_545x39_30rnd_7t3m_plum_double : tsb_mag_545x39_30rnd_7n6_plum_double{
 		displayName = "5.45x39 Plum 30rnd Double 7T3M Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7T3M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7T3M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3M<br />Capacity: 30+30";
 		displayNameShort = 7T3M;
 		ammo = "tsb_ammo_545x39_7t3m";
 		tracersEvery = 1;
 	};
 	class tsb_mag_545x39_30rnd_7bt4_plum_double : tsb_mag_545x39_30rnd_7n6_plum_double{
 		displayName = "5.45x39 Plum 30rnd Double 7BT4 Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7BT4 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7BT4<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7BT4 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7BT4<br />Capacity: 30+30";
 		displayNameShort = 7BT4;
 		ammo = "tsb_ammo_545x39_7bt4";
 		tracersEvery = 1;
 	};
 	class tsb_mag_545x39_30rnd_7u1_plum_double : tsb_mag_545x39_30rnd_7n6_plum_double{
 		displayName = "5.45x39 Plum 30rnd Double 7U1 Magazine";
-		descriptionShort = "5.45x39 Plum 30rnd Double 7U1 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7U1<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plum 30rnd Double 7U1 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7U1<br />Capacity: 30+30";
 		displayNameShort = 7U1;
 		ammo = "tsb_ammo_545x39_7u1";
 	};
@@ -565,7 +565,7 @@ class CfgMagazines {
 	class tsb_mag_545x39_30rnd_7n6_plastic_double : tsb_mag_545x39_30rnd_7n6_bakelite{
 		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_545x39_7N10_2mag_AK_ca.paa";
 		displayName = "5.45x39 Plastic 30rnd Double 7N6 Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7N6 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7N6 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6<br />Capacity: 30+30";
 		displayNameShort = 7N6;
 		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak_2mag";
 		modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l23x2_30rnd.p3d";
@@ -575,76 +575,76 @@ class CfgMagazines {
 	};
 	class tsb_mag_545x39_30rnd_7n6m_plastic_double : tsb_mag_545x39_30rnd_7n6_plastic_double{
 		displayName = "5.45x39 Plastic 30rnd Double 7N6M Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7N6M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7N6M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6M<br />Capacity: 30+30";
 		displayNameShort = 7N6M;
 		ammo = "tsb_ammo_545x39_7n6m";
 	};
 	class tsb_mag_545x39_30rnd_7n10_plastic_double : tsb_mag_545x39_30rnd_7n6_plastic_double{
 		displayName = "5.45x39 Plastic 30rnd Double 7N10 Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7N10 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7N10 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10<br />Capacity: 30+30";
 		displayNameShort = 7N10;
 		ammo = "tsb_ammo_545x39_7n10";
 	};
 	class tsb_mag_545x39_30rnd_7n10m_plastic_double : tsb_mag_545x39_30rnd_7n6_plastic_double{
 		displayName = "5.45x39 Plastic 30rnd Double 7N10M Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7N10M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7N10M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10M<br />Capacity: 30+30";
 		displayNameShort = 7N10M;
 		ammo = "tsb_ammo_545x39_7n10m";
 	};
 	class tsb_mag_545x39_30rnd_7n22_plastic_double : tsb_mag_545x39_30rnd_7n6_plastic_double{
 		displayName = "5.45x39 Plastic 30rnd Double 7N22 Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7N22 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N22<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7N22 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N22<br />Capacity: 30+30";
 		displayNameShort = 7N22;
 		ammo = "tsb_ammo_545x39_7n22";
 	};
 	class tsb_mag_545x39_30rnd_7n24_plastic_double : tsb_mag_545x39_30rnd_7n6_plastic_double{
 		displayName = "5.45x39 Plastic 30rnd Double 7N24 Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7N24 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7N24 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24<br />Capacity: 30+30";
 		displayNameShort = 7N24;
 		ammo = "tsb_ammo_545x39_7n24";
 	};
 	class tsb_mag_545x39_30rnd_7n24m_plastic_double : tsb_mag_545x39_30rnd_7n6_plastic_double{
 		displayName = "5.45x39 Plastic 30rnd Double 7N24M Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7N24M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7N24M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24M<br />Capacity: 30+30";
 		displayNameShort = 7N24M;
 		ammo = "tsb_ammo_545x39_7n24m";
 	};
 	class tsb_mag_545x39_30rnd_7n39_plastic_double : tsb_mag_545x39_30rnd_7n6_plastic_double{
 		displayName = "5.45x39 Plastic 30rnd Double 7N39 Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7N39 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N39<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7N39 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N39<br />Capacity: 30+30";
 		displayNameShort = 7N39;
 		ammo = "tsb_ammo_545x39_7n39";
 	};
 	class tsb_mag_545x39_30rnd_7n40_plastic_double : tsb_mag_545x39_30rnd_7n6_plastic_double{
 		displayName = "5.45x39 Plastic 30rnd Double 7N40 Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7N40 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N40<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7N40 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N40<br />Capacity: 30+30";
 		displayNameShort = 7N40;
 		ammo = "tsb_ammo_545x39_7n40";
 	};
 	class tsb_mag_545x39_30rnd_7t3_plastic_double : tsb_mag_545x39_30rnd_7n6_plastic_double{
 		displayName = "5.45x39 Plastic 30rnd Double 7T3 Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7T3 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7T3 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3<br />Capacity: 30+30";
 		displayNameShort = 7T3;
 		ammo = "tsb_ammo_545x39_7t3";
 		tracersEvery = 1;
 	};
 	class tsb_mag_545x39_30rnd_7t3m_plastic_double : tsb_mag_545x39_30rnd_7n6_plastic_double{
 		displayName = "5.45x39 Plastic 30rnd Double 7T3M Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7T3M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7T3M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3M<br />Capacity: 30+30";
 		displayNameShort = 7T3M;
 		ammo = "tsb_ammo_545x39_7t3m";
 		tracersEvery = 1;
 	};
 	class tsb_mag_545x39_30rnd_7bt4_plastic_double : tsb_mag_545x39_30rnd_7n6_plastic_double{
 		displayName = "5.45x39 Plastic 30rnd Double 7BT4 Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7BT4 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7BT4<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7BT4 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7BT4<br />Capacity: 30+30";
 		displayNameShort = 7BT4;
 		ammo = "tsb_ammo_545x39_7bt4";
 		tracersEvery = 1;
 	};
 	class tsb_mag_545x39_30rnd_7u1_plastic_double : tsb_mag_545x39_30rnd_7n6_plastic_double{
 		displayName = "5.45x39 Plastic 30rnd Double 7U1 Magazine";
-		descriptionShort = "5.45x39 Plastic 30rnd Double 7U1 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7U1<br />Capacity: 60";
+		descriptionShort = "5.45x39 Plastic 30rnd Double 7U1 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7U1<br />Capacity: 30+30";
 		displayNameShort = 7U1;
 		ammo = "tsb_ammo_545x39_7u1";
 	};
@@ -652,7 +652,7 @@ class CfgMagazines {
 	class tsb_mag_545x39_30rnd_7n6_forest_double : tsb_mag_545x39_30rnd_7n6_bakelite{
 		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_545x39_7N10_2mag_camo_AK_ca.paa";
 		displayName = "5.45x39 Forest 30rnd Double 7N6 Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7N6 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7N6 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6<br />Capacity: 30+30";
 		displayNameShort = 7N6;
 		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak_2mag_camo";
 		hiddenSelections[] = {"camo"};
@@ -664,76 +664,76 @@ class CfgMagazines {
 	};
 	class tsb_mag_545x39_30rnd_7n6m_forest_double : tsb_mag_545x39_30rnd_7n6_forest_double{
 		displayName = "5.45x39 Forest 30rnd Double 7N6M Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7N6M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7N6M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6M<br />Capacity: 30+30";
 		displayNameShort = 7N6M;
 		ammo = "tsb_ammo_545x39_7n6m";
 	};
 	class tsb_mag_545x39_30rnd_7n10_forest_double : tsb_mag_545x39_30rnd_7n6_forest_double{
 		displayName = "5.45x39 Forest 30rnd Double 7N10 Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7N10 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7N10 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10<br />Capacity: 30+30";
 		displayNameShort = 7N10;
 		ammo = "tsb_ammo_545x39_7n10";
 	};
 	class tsb_mag_545x39_30rnd_7n10m_forest_double : tsb_mag_545x39_30rnd_7n6_forest_double{
 		displayName = "5.45x39 Forest 30rnd Double 7N10M Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7N10M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7N10M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10M<br />Capacity: 30+30";
 		displayNameShort = 7N10M;
 		ammo = "tsb_ammo_545x39_7n10m";
 	};
 	class tsb_mag_545x39_30rnd_7n22_forest_double : tsb_mag_545x39_30rnd_7n6_forest_double{
 		displayName = "5.45x39 Forest 30rnd Double 7N22 Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7N22 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N22<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7N22 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N22<br />Capacity: 30+30";
 		displayNameShort = 7N22;
 		ammo = "tsb_ammo_545x39_7n22";
 	};
 	class tsb_mag_545x39_30rnd_7n24_forest_double : tsb_mag_545x39_30rnd_7n6_forest_double{
 		displayName = "5.45x39 Forest 30rnd Double 7N24 Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7N24 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7N24 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24<br />Capacity: 30+30";
 		displayNameShort = 7N24;
 		ammo = "tsb_ammo_545x39_7n24";
 	};
 	class tsb_mag_545x39_30rnd_7n24m_forest_double : tsb_mag_545x39_30rnd_7n6_forest_double{
 		displayName = "5.45x39 Forest 30rnd Double 7N24M Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7N24M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7N24M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24M<br />Capacity: 30+30";
 		displayNameShort = 7N24M;
 		ammo = "tsb_ammo_545x39_7n24m";
 	};
 	class tsb_mag_545x39_30rnd_7n39_forest_double : tsb_mag_545x39_30rnd_7n6_forest_double{
 		displayName = "5.45x39 Forest 30rnd Double 7N39 Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7N39 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N39<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7N39 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N39<br />Capacity: 30+30";
 		displayNameShort = 7N39;
 		ammo = "tsb_ammo_545x39_7n39";
 	};
 	class tsb_mag_545x39_30rnd_7n40_forest_double : tsb_mag_545x39_30rnd_7n6_forest_double{
 		displayName = "5.45x39 Forest 30rnd Double 7N40 Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7N40 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N40<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7N40 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N40<br />Capacity: 30+30";
 		displayNameShort = 7N40;
 		ammo = "tsb_ammo_545x39_7n40";
 	};
 	class tsb_mag_545x39_30rnd_7t3_forest_double : tsb_mag_545x39_30rnd_7n6_forest_double{
 		displayName = "5.45x39 Forest 30rnd Double 7T3 Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7T3 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7T3 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3<br />Capacity: 30+30";
 		displayNameShort = 7T3;
 		ammo = "tsb_ammo_545x39_7t3";
 		tracersEvery = 1;
 	};
 	class tsb_mag_545x39_30rnd_7t3m_forest_double : tsb_mag_545x39_30rnd_7n6_forest_double{
 		displayName = "5.45x39 Forest 30rnd Double 7T3M Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7T3M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7T3M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3M<br />Capacity: 30+30";
 		displayNameShort = 7T3M;
 		ammo = "tsb_ammo_545x39_7t3m";
 		tracersEvery = 1;
 	};
 	class tsb_mag_545x39_30rnd_7bt4_forest_double : tsb_mag_545x39_30rnd_7n6_forest_double{
 		displayName = "5.45x39 Forest 30rnd Double 7BT4 Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7BT4 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7BT4<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7BT4 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7BT4<br />Capacity: 30+30";
 		displayNameShort = 7BT4;
 		ammo = "tsb_ammo_545x39_7bt4";
 		tracersEvery = 1;
 	};
 	class tsb_mag_545x39_30rnd_7u1_forest_double : tsb_mag_545x39_30rnd_7n6_forest_double{
 		displayName = "5.45x39 Forest 30rnd Double 7U1 Magazine";
-		descriptionShort = "5.45x39 Forest 30rnd Double 7U1 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7U1<br />Capacity: 60";
+		descriptionShort = "5.45x39 Forest 30rnd Double 7U1 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7U1<br />Capacity: 30+30";
 		displayNameShort = 7U1;
 		ammo = "tsb_ammo_545x39_7u1";
 	};
@@ -741,7 +741,7 @@ class CfgMagazines {
 	class tsb_mag_545x39_30rnd_7n6_desert_double : tsb_mag_545x39_30rnd_7n6_bakelite{
 		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_545x39_7N10_2mag_desert_AK_ca.paa";
 		displayName = "5.45x39 Desert 30rnd Double 7N6 Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7N6 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7N6 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6<br />Capacity: 30+30";
 		displayNameShort = 7N6;
 		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak_2mag_des";
 		hiddenSelections[] = {"camo"};
@@ -753,76 +753,76 @@ class CfgMagazines {
 	};
 	class tsb_mag_545x39_30rnd_7n6m_desert_double : tsb_mag_545x39_30rnd_7n6_desert_double{
 		displayName = "5.45x39 Desert 30rnd Double 7N6M Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7N6M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7N6M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N6M<br />Capacity: 30+30";
 		displayNameShort = 7N6M;
 		ammo = "tsb_ammo_545x39_7n6m";
 	};
 	class tsb_mag_545x39_30rnd_7n10_desert_double : tsb_mag_545x39_30rnd_7n6_desert_double{
 		displayName = "5.45x39 Desert 30rnd Double 7N10 Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7N10 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7N10 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10<br />Capacity: 30+30";
 		displayNameShort = 7N10;
 		ammo = "tsb_ammo_545x39_7n10";
 	};
 	class tsb_mag_545x39_30rnd_7n10m_desert_double : tsb_mag_545x39_30rnd_7n6_desert_double{
 		displayName = "5.45x39 Desert 30rnd Double 7N10M Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7N10M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7N10M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N10M<br />Capacity: 30+30";
 		displayNameShort = 7N10M;
 		ammo = "tsb_ammo_545x39_7n10m";
 	};
 	class tsb_mag_545x39_30rnd_7n22_desert_double : tsb_mag_545x39_30rnd_7n6_desert_double{
 		displayName = "5.45x39 Desert 30rnd Double 7N22 Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7N22 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N22<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7N22 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N22<br />Capacity: 30+30";
 		displayNameShort = 7N22;
 		ammo = "tsb_ammo_545x39_7n22";
 	};
 	class tsb_mag_545x39_30rnd_7n24_desert_double : tsb_mag_545x39_30rnd_7n6_desert_double{
 		displayName = "5.45x39 Desert 30rnd Double 7N24 Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7N24 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7N24 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24<br />Capacity: 30+30";
 		displayNameShort = 7N24;
 		ammo = "tsb_ammo_545x39_7n24";
 	};
 	class tsb_mag_545x39_30rnd_7n24m_desert_double : tsb_mag_545x39_30rnd_7n6_desert_double{
 		displayName = "5.45x39 Desert 30rnd Double 7N24M Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7N24M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7N24M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N24M<br />Capacity: 30+30";
 		displayNameShort = 7N24M;
 		ammo = "tsb_ammo_545x39_7n24m";
 	};
 	class tsb_mag_545x39_30rnd_7n39_desert_double : tsb_mag_545x39_30rnd_7n6_desert_double{
 		displayName = "5.45x39 Desert 30rnd Double 7N39 Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7N39 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N39<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7N39 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N39<br />Capacity: 30+30";
 		displayNameShort = 7N39;
 		ammo = "tsb_ammo_545x39_7n39";
 	};
 	class tsb_mag_545x39_30rnd_7n40_desert_double : tsb_mag_545x39_30rnd_7n6_desert_double{
 		displayName = "5.45x39 Desert 30rnd Double 7N40 Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7N40 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N40<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7N40 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7N40<br />Capacity: 30+30";
 		displayNameShort = 7N40;
 		ammo = "tsb_ammo_545x39_7n40";
 	};
 	class tsb_mag_545x39_30rnd_7t3_desert_double : tsb_mag_545x39_30rnd_7n6_desert_double{
 		displayName = "5.45x39 Desert 30rnd Double 7T3 Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7T3 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7T3 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3<br />Capacity: 30+30";
 		displayNameShort = 7T3;
 		ammo = "tsb_ammo_545x39_7t3";
 		tracersEvery = 1;
 	};
 	class tsb_mag_545x39_30rnd_7t3m_desert_double : tsb_mag_545x39_30rnd_7n6_desert_double{
 		displayName = "5.45x39 Desert 30rnd Double 7T3M Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7T3M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3M<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7T3M Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7T3M<br />Capacity: 30+30";
 		displayNameShort = 7T3M;
 		ammo = "tsb_ammo_545x39_7t3m";
 		tracersEvery = 1;
 	};
 	class tsb_mag_545x39_30rnd_7bt4_desert_double : tsb_mag_545x39_30rnd_7n6_desert_double{
 		displayName = "5.45x39 Desert 30rnd Double 7BT4 Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7BT4 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7BT4<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7BT4 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7BT4<br />Capacity: 30+30";
 		displayNameShort = 7BT4;
 		ammo = "tsb_ammo_545x39_7bt4";
 		tracersEvery = 1;
 	};
 	class tsb_mag_545x39_30rnd_7u1_desert_double : tsb_mag_545x39_30rnd_7n6_desert_double{
 		displayName = "5.45x39 Desert 30rnd Double 7U1 Magazine";
-		descriptionShort = "5.45x39 Desert 30rnd Double 7U1 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7U1<br />Capacity: 60";
+		descriptionShort = "5.45x39 Desert 30rnd Double 7U1 Magazine<br />Caliber: 5.45x39mm<br />Bullet: 7U1<br />Capacity: 30+30";
 		displayNameShort = 7U1;
 		ammo = "tsb_ammo_545x39_7u1";
 	};
@@ -1773,7 +1773,7 @@ class CfgMagazines {
 		author = "Killa567";
 		scope = public;
 		displayName = "5.56x45 Double 40rnd M193 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 20+20";
 		displayNameShort = M193;
 		ammo = "tsb_ammo_556x45_M193";
 		count = 40;
@@ -1783,83 +1783,83 @@ class CfgMagazines {
 	};
 	class tsb_mag_556x45_40rnd_M196_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd M196 Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M196<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M196<br />Capacity: 20+20";
 		displayNameShort = M196;
 		ammo = "tsb_ammo_556x45_M196";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_40rnd_M855_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd M855 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 20+20";
 		displayNameShort = M855;
 		ammo = "tsb_ammo_556x45_M855";
 	};
 	class tsb_mag_556x45_40rnd_M855LF_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd M855LF Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855LF<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855LF<br />Capacity: 20+20";
 		displayNameShort = M855LF;
 		ammo = "tsb_ammo_556x45_M855LF";
 	};
 	class tsb_mag_556x45_40rnd_M855A1_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd M855A1 EPR Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 20+20";
 		displayNameShort = M855A1;
 		ammo = "tsb_ammo_556x45_M855A1";
 	};
 	class tsb_mag_556x45_40rnd_M856_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd M856 Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856<br />Capacity: 20+20";
 		displayNameShort = M856;
 		ammo = "tsb_ammo_556x45_M856";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_40rnd_M856A1_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd M856A1 Improved Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 20+20";
 		displayNameShort = M855A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_40rnd_M995_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd M995 AP Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 20+20";
 		displayNameShort = M995;
 		ammo = "tsb_ammo_556x45_M995";
 	};
 	class tsb_mag_556x45_40rnd_XM996_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd XM996 IR Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: XM996<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: XM996<br />Capacity: 20+20";
 		displayNameShort = XM996;
 		ammo = "tsb_ammo_556x45_XM996";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_40rnd_MLU26P_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd MLU26P Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 20+20";
 		displayNameShort = MLU26P;
 		ammo = "tsb_ammo_556x45_MLU26P";
 	};
 	class tsb_mag_556x45_40rnd_Mk262mod1_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd Mk262mod1 OTM Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 20+20";
 		displayNameShort = Mk262mod1;
 		ammo = "tsb_ammo_556x45_Mk262mod1";
 	};
 	class tsb_mag_556x45_40rnd_Mk318mod0_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd Mk318mod0 OTM Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 20+20";
 		displayNameShort = Mk318mod0;
 		ammo = "tsb_ammo_556x45_Mk318mod0";
 	};
 	class tsb_mag_556x45_40rnd_SS_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd Sub Sonic Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS<br />Capacity: 20+20";
 		displayNameShort = SubSonic;
 		ammo = "tsb_ammo_556x45_SS";
 	};
 	class tsb_mag_556x45_40rnd_SS109_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd SS109 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 40";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 20+20";
 		displayNameShort = SS109;
 		ammo = "tsb_ammo_556x45_SS109";
 	};
@@ -3925,7 +3925,7 @@ class CfgMagazines {
 		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30rnd_545x39_7N10_2mag_plum_AK_ca.paa";
 		scope = public;
 		displayName = "5.56x45 Plum 30rnd Double M193 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30+30";
 		displayNameShort = M193;
 		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak_2mag_plum";
 		hiddenSelections[] = {"camo"};
@@ -3939,83 +3939,83 @@ class CfgMagazines {
 	};
 	class tsb_mag_556x45_30rnd_M196_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double M196 Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M196<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M196<br />Capacity: 30+30";
 		displayNameShort = M196;
 		ammo = "tsb_ammo_556x45_M196";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_M855_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double M855 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 30+30";
 		displayNameShort = M855;
 		ammo = "tsb_ammo_556x45_M855";
 	};
 	class tsb_mag_556x45_30rnd_M855LF_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double M855LF Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855LF<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855LF<br />Capacity: 30+30";
 		displayNameShort = M855LF;
 		ammo = "tsb_ammo_556x45_M855LF";
 	};
 	class tsb_mag_556x45_30rnd_M855A1_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double M855A1 EPR Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 30+30";
 		displayNameShort = M855A1;
 		ammo = "tsb_ammo_556x45_M855A1";
 	};
 	class tsb_mag_556x45_30rnd_M856_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double M856 Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856<br />Capacity: 30+30";
 		displayNameShort = M856;
 		ammo = "tsb_ammo_556x45_M856";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_M856A1_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double M856A1 Improved Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30+30";
 		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_M995_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double M995 AP Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 30+30";
 		displayNameShort = M995;
 		ammo = "tsb_ammo_556x45_M995";
 	};
 	class tsb_mag_556x45_30rnd_XM996_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double XM996 IR Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: XM996<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: XM996<br />Capacity: 30+30";
 		displayNameShort = XM996;
 		ammo = "tsb_ammo_556x45_XM996";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_MLU26P_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double MLU26P Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 30+30";
 		displayNameShort = MLU26P;
 		ammo = "tsb_ammo_556x45_MLU26P";
 	};
 	class tsb_mag_556x45_30rnd_Mk262mod1_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double Mk262mod1 OTM Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 30+30";
 		displayNameShort = Mk262mod1;
 		ammo = "tsb_ammo_556x45_Mk262mod1";
 	};
 	class tsb_mag_556x45_30rnd_Mk318mod0_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double Mk318mod0 OTM Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 30+30";
 		displayNameShort = Mk318mod0;
 		ammo = "tsb_ammo_556x45_Mk318mod0";
 	};
 	class tsb_mag_556x45_30rnd_SS_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double Sub Sonic Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Sub Sonic<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Sub Sonic<br />Capacity: 30+30";
 		displayNameShort = Sub Sonic;
 		ammo = "tsb_ammo_556x45_SS";
 	};
 	class tsb_mag_556x45_30rnd_SS109_Plum_Double : tsb_mag_556x45_30rnd_M193_Plum_Double{
 		displayName = "5.56x45 Plum 30rnd Double SS109 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 30+30";
 		displayNameShort = SS109;
 		ammo = "tsb_ammo_556x45_SS109";
 	};
@@ -4025,7 +4025,7 @@ class CfgMagazines {
 		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_545x39_7N10_2mag_AK_ca.paa";
 		scope = public;
 		displayName = "5.56x45 Plastic 30rnd Double M193 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30+30";
 		displayNameShort = M193;
 		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak_2mag";
 		modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l23x2_30rnd.p3d";
@@ -4037,83 +4037,83 @@ class CfgMagazines {
 	};
 	class tsb_mag_556x45_30rnd_M196_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double M196 Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M196<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M196<br />Capacity: 30+30";
 		displayNameShort = M196;
 		ammo = "tsb_ammo_556x45_M196";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_M855_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double M855 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 30+30";
 		displayNameShort = M855;
 		ammo = "tsb_ammo_556x45_M855";
 	};
 	class tsb_mag_556x45_30rnd_M855LF_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double M855LF Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855LF<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855LF<br />Capacity: 30+30";
 		displayNameShort = M855LF;
 		ammo = "tsb_ammo_556x45_M855LF";
 	};
 	class tsb_mag_556x45_30rnd_M855A1_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double M855A1 EPR Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 30+30";
 		displayNameShort = M855A1;
 		ammo = "tsb_ammo_556x45_M855A1";
 	};
 	class tsb_mag_556x45_30rnd_M856_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double M856 Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856<br />Capacity: 30+30";
 		displayNameShort = M856;
 		ammo = "tsb_ammo_556x45_M856";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_M856A1_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double M856A1 Improved Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30+30";
 		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_M995_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double M995 AP Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 30+30";
 		displayNameShort = M995;
 		ammo = "tsb_ammo_556x45_M995";
 	};
 	class tsb_mag_556x45_30rnd_XM996_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double XM996 IR Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: XM996<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: XM996<br />Capacity: 30+30";
 		displayNameShort = XM996;
 		ammo = "tsb_ammo_556x45_XM996";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_MLU26P_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double MLU26P Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 30+30";
 		displayNameShort = MLU26P;
 		ammo = "tsb_ammo_556x45_MLU26P";
 	};
 	class tsb_mag_556x45_30rnd_Mk262mod1_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double Mk262mod1 OTM Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 30+30";
 		displayNameShort = Mk262mod1;
 		ammo = "tsb_ammo_556x45_Mk262mod1";
 	};
 	class tsb_mag_556x45_30rnd_Mk318mod0_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double Mk318mod0 OTM Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 30+30";
 		displayNameShort = Mk318mod0;
 		ammo = "tsb_ammo_556x45_Mk318mod0";
 	};
 	class tsb_mag_556x45_30rnd_SS_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double Sub Sonic Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Sub Sonic<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Sub Sonic<br />Capacity: 30+30";
 		displayNameShort = Sub Sonic;
 		ammo = "tsb_ammo_556x45_SS";
 	};
 	class tsb_mag_556x45_30rnd_SS109_Plastic_Double : tsb_mag_556x45_30rnd_M193_Plastic_Double{
 		displayName = "5.56x45 Plastic 30rnd Double SS109 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 30+30";
 		displayNameShort = SS109;
 		ammo = "tsb_ammo_556x45_SS109";
 	};
@@ -4123,7 +4123,7 @@ class CfgMagazines {
 		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_545x39_7N10_2mag_desert_AK_ca.paa";
 		scope = public;
 		displayName = "5.56x45 Desert 30rnd Double M193 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30+30";
 		displayNameShort = M193;
 		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak_2mag_des";
 		hiddenSelections[] = {"camo"};
@@ -4137,83 +4137,83 @@ class CfgMagazines {
 	};
 	class tsb_mag_556x45_30rnd_M196_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double M196 Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M196<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M196<br />Capacity: 30+30";
 		displayNameShort = M196;
 		ammo = "tsb_ammo_556x45_M196";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_M855_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double M855 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 30+30";
 		displayNameShort = M855;
 		ammo = "tsb_ammo_556x45_M855";
 	};
 	class tsb_mag_556x45_30rnd_M855LF_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double M855LF Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855LF<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855LF<br />Capacity: 30+30";
 		displayNameShort = M855LF;
 		ammo = "tsb_ammo_556x45_M855LF";
 	};
 	class tsb_mag_556x45_30rnd_M855A1_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double M855A1 EPR Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 30+30";
 		displayNameShort = M855A1;
 		ammo = "tsb_ammo_556x45_M855A1";
 	};
 	class tsb_mag_556x45_30rnd_M856_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double M856 Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856<br />Capacity: 30+30";
 		displayNameShort = M856;
 		ammo = "tsb_ammo_556x45_M856";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_M856A1_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double M856A1 Improved Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30+30";
 		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_M995_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double M995 AP Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 30+30";
 		displayNameShort = M995;
 		ammo = "tsb_ammo_556x45_M995";
 	};
 	class tsb_mag_556x45_30rnd_XM996_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double XM996 IR Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: XM996<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: XM996<br />Capacity: 30+30";
 		displayNameShort = XM996;
 		ammo = "tsb_ammo_556x45_XM996";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_MLU26P_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double MLU26P Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 30+30";
 		displayNameShort = MLU26P;
 		ammo = "tsb_ammo_556x45_MLU26P";
 	};
 	class tsb_mag_556x45_30rnd_Mk262mod1_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double Mk262mod1 OTM Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 30+30";
 		displayNameShort = Mk262mod1;
 		ammo = "tsb_ammo_556x45_Mk262mod1";
 	};
 	class tsb_mag_556x45_30rnd_Mk318mod0_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double Mk318mod0 OTM Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 30+30";
 		displayNameShort = Mk318mod0;
 		ammo = "tsb_ammo_556x45_Mk318mod0";
 	};
 	class tsb_mag_556x45_30rnd_SS_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double Sub Sonic Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Sub Sonic<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Sub Sonic<br />Capacity: 30+30";
 		displayNameShort = Sub Sonic;
 		ammo = "tsb_ammo_556x45_SS";
 	};
 	class tsb_mag_556x45_30rnd_SS109_Desert_Double : tsb_mag_556x45_30rnd_M193_Desert_Double{
 		displayName = "5.56x45 Desert 30rnd Double SS109 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 30+30";
 		displayNameShort = SS109;
 		ammo = "tsb_ammo_556x45_SS109";
 	};
@@ -4223,7 +4223,7 @@ class CfgMagazines {
 		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_545x39_7N10_2mag_camo_AK_ca.paa";
 		scope = public;
 		displayName = "5.56x45 Forest 30rnd Double M193 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30+30";
 		displayNameShort = M193;
 		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak_2mag_camo";
 		hiddenSelections[] = {"camo"};
@@ -4237,83 +4237,83 @@ class CfgMagazines {
 	};
 	class tsb_mag_556x45_30rnd_M196_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double M196 Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M196<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M196<br />Capacity: 30+30";
 		displayNameShort = M196;
 		ammo = "tsb_ammo_556x45_M196";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_M855_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double M855 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855<br />Capacity: 30+30";
 		displayNameShort = M855;
 		ammo = "tsb_ammo_556x45_M855";
 	};
 	class tsb_mag_556x45_30rnd_M855LF_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double M855LF Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855LF<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855LF<br />Capacity: 30+30";
 		displayNameShort = M855LF;
 		ammo = "tsb_ammo_556x45_M855LF";
 	};
 	class tsb_mag_556x45_30rnd_M855A1_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double M855A1 EPR Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M855A1<br />Capacity: 30+30";
 		displayNameShort = M855A1;
 		ammo = "tsb_ammo_556x45_M855A1";
 	};
 	class tsb_mag_556x45_30rnd_M856_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double M856 Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856<br />Capacity: 30+30";
 		displayNameShort = M856;
 		ammo = "tsb_ammo_556x45_M856";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_M856A1_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double M856A1 Improved Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30+30";
 		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_M995_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double M995 AP Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M995<br />Capacity: 30+30";
 		displayNameShort = M995;
 		ammo = "tsb_ammo_556x45_M995";
 	};
 	class tsb_mag_556x45_30rnd_XM996_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double XM996 IR Tracer Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: XM996<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: XM996<br />Capacity: 30+30";
 		displayNameShort = XM996;
 		ammo = "tsb_ammo_556x45_XM996";
 		tracersEvery = 1;
 	};
 	class tsb_mag_556x45_30rnd_MLU26P_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double MLU26P Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 30+30";
 		displayNameShort = MLU26P;
 		ammo = "tsb_ammo_556x45_MLU26P";
 	};
 	class tsb_mag_556x45_30rnd_Mk262mod1_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double Mk262mod1 OTM Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 30+30";
 		displayNameShort = Mk262mod1;
 		ammo = "tsb_ammo_556x45_Mk262mod1";
 	};
 	class tsb_mag_556x45_30rnd_Mk318mod0_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double Mk318mod0 OTM Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 30+30";
 		displayNameShort = Mk318mod0;
 		ammo = "tsb_ammo_556x45_Mk318mod0";
 	};
 	class tsb_mag_556x45_30rnd_SS_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double Sub Sonic Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Sub Sonic<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Sub Sonic<br />Capacity: 30+30";
 		displayNameShort = Sub Sonic;
 		ammo = "tsb_ammo_556x45_SS";
 	};
 	class tsb_mag_556x45_30rnd_SS109_Forest_Double : tsb_mag_556x45_30rnd_M193_Forest_Double{
 		displayName = "5.56x45 Forest 30rnd Double SS109 Ball Magazine";
-		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 60";
+		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 30+30";
 		displayNameShort = SS109;
 		ammo = "tsb_ammo_556x45_SS109";
 	};
@@ -5518,6 +5518,7 @@ class CfgMagazines {
 		displayNameShort = "M61";
 		ammo = "tsb_ammo_762x51_m61";
 		tracersEvery = 5;
+		lastRoundsTracer = 5; //giving belts last round tracers
 	};
 	class tsb_mag_762x51_100rnd_M62_Softpack : tsb_mag_762x51_100rnd_M59_Softpack{
 		displayName = "7.62x51 100rnd M62 Tracer Softpack";
@@ -5525,6 +5526,7 @@ class CfgMagazines {
 		displayNameShort = "M62";
 		ammo = "tsb_ammo_762x51_m62";
 		tracersEvery = 1;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_100rnd_M80_Softpack : tsb_mag_762x51_100rnd_M59_Softpack{
 		displayName = "7.62x51 100rnd M80 Ball Softpack";
@@ -5532,6 +5534,7 @@ class CfgMagazines {
 		displayNameShort = "M80";
 		ammo = "tsb_ammo_762x51_m80";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_100rnd_M80a1_Softpack : tsb_mag_762x51_100rnd_M59_Softpack{
 		displayName = "7.62x51 100rnd M80A1 EPR Softpack";
@@ -5539,6 +5542,7 @@ class CfgMagazines {
 		displayNameShort = "M80A1";
 		ammo = "tsb_ammo_762x51_m80a1";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_100rnd_M80a1nt_Softpack : tsb_mag_762x51_100rnd_M59_Softpack{
 		displayName = "7.62x51 100rnd M80A1 EPR Softpack (No Tracers)";
@@ -5552,6 +5556,7 @@ class CfgMagazines {
 		displayNameShort = "M80A1";
 		ammo = "tsb_ammo_762x51_m80a1ir";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_100rnd_m276_Softpack : tsb_mag_762x51_100rnd_M59_Softpack{
 		displayName = "7.62x51 100rnd M276 IR Tracer Softpack";
@@ -5566,6 +5571,7 @@ class CfgMagazines {
 		displayNameShort = "M948";
 		ammo = "tsb_ammo_762x51_m948";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_100rnd_m948nt_Softpack : tsb_mag_762x51_100rnd_M59_Softpack{
 		displayName = "7.62x51 100rnd M948 SLAP Softpack (No Tracers)";
@@ -5579,6 +5585,7 @@ class CfgMagazines {
 		displayNameShort = "M948";
 		ammo = "tsb_ammo_762x51_m948";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_100rnd_m959_Softpack : tsb_mag_762x51_100rnd_M59_Softpack{
 		displayName = "7.62x51 100rnd M959 SLAPT Softpack";
@@ -5593,6 +5600,7 @@ class CfgMagazines {
 		displayNameShort = "M993";
 		ammo = "tsb_ammo_762x51_m993";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_100rnd_m993nt_Softpack : tsb_mag_762x51_100rnd_M59_Softpack{
 		displayName = "7.62x51 100rnd M993 AP Softpack (No Tracers)";
@@ -5606,6 +5614,7 @@ class CfgMagazines {
 		displayNameShort = "M993";
 		ammo = "tsb_ammo_762x51_m993ir";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 ///240 50rnd///
 	class tsb_mag_762x51_50rnd_M59_Softpack : rhsusf_50Rnd_762x51{
@@ -5630,6 +5639,7 @@ class CfgMagazines {
 		displayNameShort = "M61";
 		ammo = "tsb_ammo_762x51_m61";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_50rnd_M62_Softpack : tsb_mag_762x51_50rnd_M59_Softpack{
 		displayName = "7.62x51 50rnd M62 Tracer Softpack";
@@ -5644,6 +5654,7 @@ class CfgMagazines {
 		displayNameShort = "M80";
 		ammo = "tsb_ammo_762x51_m80";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_50rnd_M80a1_Softpack : tsb_mag_762x51_50rnd_M59_Softpack{
 		displayName = "7.62x51 50rnd M80A1 EPR Softpack";
@@ -5651,6 +5662,7 @@ class CfgMagazines {
 		displayNameShort = "M80A1";
 		ammo = "tsb_ammo_762x51_m80a1";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_50rnd_M80a1nt_Softpack : tsb_mag_762x51_50rnd_M59_Softpack{
 		displayName = "7.62x51 50rnd M80A1 EPR Softpack (No Tracers)";
@@ -5664,6 +5676,7 @@ class CfgMagazines {
 		displayNameShort = "M80A1";
 		ammo = "tsb_ammo_762x51_m80a1ir";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_50rnd_m276_Softpack : tsb_mag_762x51_50rnd_M59_Softpack{
 		displayName = "7.62x51 50rnd M276 IR Tracer Softpack";
@@ -5678,6 +5691,7 @@ class CfgMagazines {
 		displayNameShort = "M948";
 		ammo = "tsb_ammo_762x51_m948";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_50rnd_m948nt_Softpack : tsb_mag_762x51_50rnd_M59_Softpack{
 		displayName = "7.62x51 50rnd M948 SLAP Softpack (No Tracers)";
@@ -5691,6 +5705,7 @@ class CfgMagazines {
 		displayNameShort = "M948";
 		ammo = "tsb_ammo_762x51_m948";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_50rnd_m959_Softpack : tsb_mag_762x51_50rnd_M59_Softpack{
 		displayName = "7.62x51 50rnd M959 SLAPT Softpack";
@@ -5705,6 +5720,7 @@ class CfgMagazines {
 		displayNameShort = "M993";
 		ammo = "tsb_ammo_762x51_m993";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_50rnd_m993nt_Softpack : tsb_mag_762x51_50rnd_M59_Softpack{
 		displayName = "7.62x51 50rnd M993 AP Softpack (No Tracers)";
@@ -5718,6 +5734,7 @@ class CfgMagazines {
 		displayNameShort = "M993";
 		ammo = "tsb_ammo_762x51_m993ir";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 ///200 Rnd Belts///
 	class tsb_mag_762x51_200rnd_M59_Softpack : rhsusf_100Rnd_762x51{
@@ -5742,6 +5759,7 @@ class CfgMagazines {
 		displayNameShort = "M61";
 		ammo = "tsb_ammo_762x51_m61";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_200rnd_M62_Softpack : tsb_mag_762x51_200rnd_M59_Softpack{
 		displayName = "7.62x51 200rnd M62 Tracer Softpack";
@@ -5756,6 +5774,7 @@ class CfgMagazines {
 		displayNameShort = "M80";
 		ammo = "tsb_ammo_762x51_m80";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_200rnd_M80a1_Softpack : tsb_mag_762x51_200rnd_M59_Softpack{
 		displayName = "7.62x51 200rnd M80A1 EPR Softpack";
@@ -5763,6 +5782,7 @@ class CfgMagazines {
 		displayNameShort = "M80A1";
 		ammo = "tsb_ammo_762x51_m80a1";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_200rnd_M80a1nt_Softpack : tsb_mag_762x51_200rnd_M59_Softpack{
 		displayName = "7.62x51 200rnd M80A1 EPR Softpack (No Tracers)";
@@ -5776,6 +5796,7 @@ class CfgMagazines {
 		displayNameShort = "M80A1";
 		ammo = "tsb_ammo_762x51_m80a1ir";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_200rnd_m276_Softpack : tsb_mag_762x51_200rnd_M59_Softpack{
 		displayName = "7.62x51 200rnd M276 IR Tracer Softpack";
@@ -5790,6 +5811,7 @@ class CfgMagazines {
 		displayNameShort = "M948";
 		ammo = "tsb_ammo_762x51_m948";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_200rnd_m948nt_Softpack : tsb_mag_762x51_200rnd_M59_Softpack{
 		displayName = "7.62x51 200rnd M948 SLAP Softpack (No Tracers)";
@@ -5803,6 +5825,7 @@ class CfgMagazines {
 		displayNameShort = "M948";
 		ammo = "tsb_ammo_762x51_m948";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_200rnd_m959_Softpack : tsb_mag_762x51_200rnd_M59_Softpack{
 		displayName = "7.62x51 200rnd M959 SLAPT Softpack";
@@ -5817,6 +5840,7 @@ class CfgMagazines {
 		displayNameShort = "M993";
 		ammo = "tsb_ammo_762x51_m993";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 	class tsb_mag_762x51_200rnd_m993nt_Softpack : tsb_mag_762x51_200rnd_M59_Softpack{
 		displayName = "7.62x51 200rnd M993 AP Softpack (No Tracers)";
@@ -5830,6 +5854,7 @@ class CfgMagazines {
 		displayNameShort = "M993";
 		ammo = "tsb_ammo_762x51_m993ir";
 		tracersEvery = 5;
+		lastRoundsTracer = 5;
 	};
 ///SCARH///
 	class tsb_mag_762x51_20rnd_M59_SCAR : rhs_mag_20Rnd_SCAR_762x51_m80_ball{
