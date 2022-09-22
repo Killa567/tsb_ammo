@@ -5,7 +5,7 @@
 (2022-9-21) Jzpelaez
 	+ Placeholder classname for 338 Lapua, 9x18, 9x19, 9x21, 9x39
 	+ Placeholder values for 9x19
-	* adjusted values for .45 ammunitions (I know you have a hardon for .45, but the values I changed made no sense compared to the other ammo.)
+	* Reverted values - adjusted values for .45 ammunitions
 
 V2 (2022-9-18)
 
