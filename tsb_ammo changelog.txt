@@ -2,8 +2,24 @@
 *Changes
 -Removal
 
-By Killa567
+(2022-9-21)_2 Jzpelaez
+	+ Gave applicable M240 softpacks 5 last round tracers.
+	* Changed descriptionShort for double magazines to show capacity in description as (half)+(half). IE. not 60 but 30+30 now, because two mags taped together. AK mags, AR-15 mags (2x 30 and 2x 20s).
+
+(2022-9-21) Jzpelaez
+	+ Placeholder classname for 338 Lapua, 9x18, 9x19, 9x21, 9x39
+	+ Placeholder values for 9x19
+	* Reverted values - adjusted values for .45 ammunitions
+
 V2 (2022-9-18)
+
+By Jzpelaez
+	+ 556x45 CMags 100/150 variants with Mixed and IR/DIM loadings.
+	* Fixed 762x54 belts. 200 and 250 round belts now have the correct ammo count. Now 200 and 250 rounds respectively.
+	* 47 round DP base now displays correct ammo capacity in descriptionShort. Now 47 rounds.
+	* .45 Grease Gun M3 Double magazines now display correct ammo count in descriptionShort. Now 30+30 rounds.
+
+By Killa567
 	+ 556x45 20rnd STANAG
 	+ 556x45 EPM Mags
 	+ 556x45 SCAR Mags
@@ -16,6 +32,7 @@ V2 (2022-9-18)
 	* Fixed Sig 550 mags with base classes
 	+ 762x51 Black SCAR Mags
 	+ 762x51 50rnd Softpacks
+	+ 762x51 1Rnd Mags
 	+ 12Ga Ammo Types
 	  + HE
 	  + Frag
