@@ -7477,4 +7477,5 @@ class CfgMagazines {
 		displayNameShort = "FRAG";
 		ammo = "tsb_ammo_12ga_FRAG";
 	};
+///////test////
 };
