@@ -11,7 +11,7 @@
 #include "CfgCloudlets.hpp"
 
 class Rifle_Base_F;
-class rhs_weap_m76;
+class uk3cb_stgw57_5104;
 
 ///Effects///
 class TSB_flashbang_1{
@@ -131,6 +131,9 @@ class cfgWeapons {
 	};
 	class rhs_weap_M590_8RD : Rifle_Base_F {
 		magazineWell[] = {"CBA_12g_8rnds"};
+	};
+	class uk3cb_stgw57_amt : uk3cb_stgw57_5104 {
+		magazineWell[] = {"CBA_762x51_SIGAMT"};
 	};
 };
 
