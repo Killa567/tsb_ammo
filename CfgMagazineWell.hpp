@@ -1752,6 +1752,23 @@ class CfgMagazineWells {
 		"tsb_mag_762x51_1rnd_mk319"
 		};
 	};
+///SIG AMT///
+	class CBA_762x51_SIGAMT {
+		TSB_Magazines[] = {
+		"tsb_mag_762x51_20rnd_M59_AMT",
+		"tsb_mag_762x51_20rnd_M61_AMT",
+		"tsb_mag_762x51_20rnd_M62_AMT",
+		"tsb_mag_762x51_20rnd_M80_AMT",
+		"tsb_mag_762x51_20rnd_M80a1_AMT",
+		"tsb_mag_762x51_20rnd_m118sb_AMT",
+		"tsb_mag_762x51_20rnd_m276_AMT",
+		"tsb_mag_762x51_20rnd_m948_AMT",
+		"tsb_mag_762x51_20rnd_m959_AMT",
+		"tsb_mag_762x51_20rnd_m993_AMT",
+		"tsb_mag_762x51_20rnd_mk316_AMT",
+		"tsb_mag_762x51_20rnd_mk319_AMT"
+		};
+	};
 ///////////////////////////////////////////////////7.62x53/////////////////////
 ///M1///
 	class CBA_3006_Garand {

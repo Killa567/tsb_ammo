@@ -6391,6 +6391,88 @@ class CfgMagazines {
 		displayNameShort = "MK319";
 		ammo = "tsb_ammo_762x51_mk319";
 	};
+//////////////////////////////// 20rnd SIG AMT /////////////////////////////////
+	class hlc_20Rnd_762x51_b_amt;
+
+	class tsb_mag_762x51_20rnd_M59_AMT : hlc_20Rnd_762x51_b_amt{
+		author = "Killa567";
+		scope = public;
+		displayName = "7.62x51 AMT 20rnd M59 Ball Magazine";
+		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: M59 Ball<br />Capacity: 20";
+		displayNameShort = "M59";
+		ammo = "tsb_ammo_762x51_m59";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_762x51_20rnd_M61_AMT : tsb_mag_762x51_20rnd_M59_AMT{
+		displayName = "7.62x51 AMT 20rnd M61 AP Magazine";
+		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: M61 AP<br />Capacity: 20";
+		displayNameShort = "M61";
+		ammo = "tsb_ammo_762x51_m61";
+	};
+	class tsb_mag_762x51_20rnd_M62_AMT : tsb_mag_762x51_20rnd_M59_AMT{
+		displayName = "7.62x51 AMT 20rnd M62 Tracer Magazine";
+		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: M62 Tracer<br />Capacity: 20";
+		displayNameShort = "M62";
+		ammo = "tsb_ammo_762x51_m62";
+		tracersEvery = 1;
+	};
+	class tsb_mag_762x51_20rnd_M80_AMT : tsb_mag_762x51_20rnd_M59_AMT{
+		displayName = "7.62x51 AMT 20rnd M80 Ball Magazine";
+		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: M80 Ball<br />Capacity: 20";
+		displayNameShort = "M80";
+		ammo = "tsb_ammo_762x51_m80";
+	};
+	class tsb_mag_762x51_20rnd_M80a1_AMT : tsb_mag_762x51_20rnd_M59_AMT{
+		displayName = "7.62x51 AMT 20rnd M80A1 EPR Magazine";
+		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: M80A1 EPR<br />Capacity: 20";
+		displayNameShort = "M80A1";
+		ammo = "tsb_ammo_762x51_m80a1";
+	};
+	class tsb_mag_762x51_20rnd_m118sb_AMT : tsb_mag_762x51_20rnd_M59_AMT{
+		displayName = "7.62x51 AMT 20rnd M118 SBLR Magazine";
+		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: M118 SBLR<br />Capacity: 20";
+		displayNameShort = "M118SB";
+		ammo = "tsb_ammo_762x51_m118sb";
+	};
+	class tsb_mag_762x51_20rnd_m276_AMT : tsb_mag_762x51_20rnd_M59_AMT{
+		displayName = "7.62x51 AMT 20rnd M276 IR Tracer Magazine";
+		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: M276 IR Tracer<br />Capacity: 20";
+		displayNameShort = "M276";
+		ammo = "tsb_ammo_762x51_m276";
+		tracersEvery = 1;
+	};
+	class tsb_mag_762x51_20rnd_m948_AMT : tsb_mag_762x51_20rnd_M59_AMT{
+		displayName = "7.62x51 AMT 20rnd M948 SLAP Magazine";
+		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: M948 SLAP<br />Capacity: 20";
+		displayNameShort = "M948";
+		ammo = "tsb_ammo_762x51_m948";
+	};
+	class tsb_mag_762x51_20rnd_m959_AMT : tsb_mag_762x51_20rnd_M59_AMT{
+		displayName = "7.62x51 AMT 20rnd M959 SLAPT Magazine";
+		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: M959 SLAPT<br />Capacity: 20";
+		displayNameShort = "M959";
+		ammo = "tsb_ammo_762x51_m959";
+		tracersEvery = 1;
+	};
+	class tsb_mag_762x51_20rnd_m993_AMT : tsb_mag_762x51_20rnd_M59_AMT{
+		displayName = "7.62x51 AMT 20rnd M993 AP Magazine";
+		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: M993 AP<br />Capacity: 20";
+		displayNameShort = "M993";
+		ammo = "tsb_ammo_762x51_m993";
+	};
+	class tsb_mag_762x51_20rnd_mk316_AMT : tsb_mag_762x51_20rnd_M59_AMT{
+		displayName = "7.62x51 AMT 20rnd MK316 SBLR Magazine";
+		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: MK316 SBLR<br />Capacity: 20";
+		displayNameShort = "MK316";
+		ammo = "tsb_ammo_762x51_mk316";
+	};
+	class tsb_mag_762x51_20rnd_mk319_AMT : tsb_mag_762x51_20rnd_M59_AMT{
+		displayName = "7.62x51 AMT 20rnd MK319 OTM Magazine";
+		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: MK319 OTM<br />Capacity: 20";
+		displayNameShort = "MK319";
+		ammo = "tsb_ammo_762x51_mk319";
+	};
 ////////////////////////////////////////////////////////// 7.62 x 54 //////////////////////////////////////////////////////////
 ////////////////////////////////   5rnd ////////////////////////////////////////
 	class tsb_mag_762x54_5rnd_7n1 : CA_Magazine{
@@ -7477,5 +7559,4 @@ class CfgMagazines {
 		displayNameShort = "FRAG";
 		ammo = "tsb_ammo_12ga_FRAG";
 	};
-///////test////
 };
