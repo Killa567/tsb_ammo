@@ -42,6 +42,12 @@ By Killa567
 	  * SIG AMT (HLC, 3CB)
 	+ 762x51 SIG AMT Mags
 	+ ACE Balistics Data for various 556 and 762 rounds
+	+ 5.7x28 Ammo Types
+	  + SS190
+	  + SS191
+	  + SS192
+	  + SB193
+	* Fixed M856A1 Desc.
 
 Innitial Upload (2022-07-26)
 	+ 556x45 ammo types

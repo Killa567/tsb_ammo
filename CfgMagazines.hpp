@@ -1226,7 +1226,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_30rnd_M856A1_STANAG : tsb_mag_556x45_30rnd_M193_STANAG{
 		displayName = "5.56x45 STANAG 30rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -1321,7 +1321,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_30rnd_M856A1_TPMAG : tsb_mag_556x45_30rnd_M193_TPMAG{
 		displayName = "5.56x45 Tan PMAG 30rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -1416,7 +1416,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_30rnd_M856A1_PMAG : tsb_mag_556x45_30rnd_M193_PMAG{
 		displayName = "5.56x45 PMAG 30rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -1511,7 +1511,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_20rnd_M856A1_STANAG : tsb_mag_556x45_20rnd_M193_STANAG{
 		displayName = "5.56x45 STANAG 20rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 20";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -1606,7 +1606,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_30rnd_M856A1_EPM : tsb_mag_556x45_30rnd_M193_EPM{
 		displayName = "5.56x45 EPM 30rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -1701,7 +1701,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_30rnd_M856A1_SCAR : tsb_mag_556x45_30rnd_M193_SCAR{
 		displayName = "5.56x45 SCAR 30rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -1798,7 +1798,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_40rnd_M856A1_Double : tsb_mag_556x45_40rnd_M193_Double{
 		displayName = "5.56x45 Double 40rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 20+20";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -1912,7 +1912,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_100rnd_M856A1_CMAG : tsb_mag_556x45_100rnd_M193_CMAG{
 		displayName = "5.56x45 100rnd M856A1 Improved Tracer CMAG";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 100";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -2009,7 +2009,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_150rnd_M856A1_CMAG : tsb_mag_556x45_150rnd_M193_CMAG{
 		displayName = "5.56x45 150rnd M856A1 Improved Tracer CMAG";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 150";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -2087,7 +2087,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_60rnd_M856A1_STANAG : tsb_mag_556x45_60rnd_M193_STANAG{
 		displayName = "5.56x45 STANAG 60rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 60";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -2182,7 +2182,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_30rnd_M856A1_M21 : tsb_mag_556x45_30rnd_M193_M21{
 		displayName = "5.56x45 M21 30rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -2298,7 +2298,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_100rnd_M856A1_Softpack : tsb_mag_556x45_100rnd_M193_Softpack{
 		displayName = "5.56x45 100rnd M856A1 Improved Tracer Softpack";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 100";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -2395,7 +2395,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_100rnd_M856A1_SoftpackUCP : tsb_mag_556x45_100rnd_M193_SoftpackUCP{
 		displayName = "5.56x45 100rnd M856A1 Improved Tracer Softpack";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 100";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -2493,7 +2493,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_100rnd_M856A1_SoftpackC : tsb_mag_556x45_100rnd_M193_SoftpackC{
 		displayName = "5.56x45 100rnd M856A1 Improved Tracer Softpack";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 100";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -2593,7 +2593,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_200rnd_M856A1_Box : tsb_mag_556x45_200rnd_M193_Box{
 		displayName = "5.56x45 200rnd M856A1 Improved Tracer Box";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 200";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -2695,7 +2695,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_200rnd_M856A1_Softpack : tsb_mag_556x45_200rnd_M193_Softpack{
 		displayName = "5.56x45 200rnd M856A1 Improved Tracer Softpack";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 200";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -2793,7 +2793,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_200rnd_M856A1_SoftpackC : tsb_mag_556x45_200rnd_M193_SoftpackC{
 		displayName = "5.56x45 200rnd M856A1 Improved Tracer Softpack";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 200";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -2891,7 +2891,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_200rnd_M856A1_SoftpackUCP : tsb_mag_556x45_200rnd_M193_SoftpackUCP{
 		displayName = "5.56x45 200rnd M856A1 Improved Tracer Softpack";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 200";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -2976,7 +2976,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_30rnd_M856A1_VHS2 : tsb_mag_556x45_30rnd_M193_VHS2{
 		displayName = "5.56x45 VHS2 30rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -3071,7 +3071,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_30rnd_M856A1_G36 : tsb_mag_556x45_30rnd_M193_G36{
 		displayName = "5.56x45 G36 30rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -3172,7 +3172,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_30rnd_M856A1_SIG : tsb_mag_556x45_30rnd_M193_SIG{
 		displayName = "5.56x45 SIG 30rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -3273,7 +3273,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_30rnd_M856A1_AUG : tsb_mag_556x45_30rnd_M193_AUG{
 		displayName = "5.56x45 AUG 30rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -3374,7 +3374,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_42rnd_M856A1_AUG : tsb_mag_556x45_42rnd_M193_AUG{
 		displayName = "5.56x45 AUG 42rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 42";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
@@ -4663,7 +4663,7 @@ class CfgMagazines {
 	class tsb_mag_556x45_30rnd_M856A1_Hk33 : tsb_mag_556x45_30rnd_M193_Hk33{
 		displayName = "5.56x45 Hk33 30rnd M856A1 Improved Tracer Magazine";
 		descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M856A1<br />Capacity: 30";
-		displayNameShort = M855A1;
+		displayNameShort = M856A1;
 		ammo = "tsb_ammo_556x45_M856A1";
 		tracersEvery = 1;
 	};
