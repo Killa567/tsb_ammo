@@ -382,6 +382,51 @@ class CfgAmmo {
 	class tsb_ammo_556x45_L18A1 : tsb_ammo_556x45_M193{};
 	class tsb_ammo_556x45_L1A1cb : tsb_ammo_556x45_M193{};
 //////////////////////////////////////////////////////////  5.7 x 28 //////////////////////////////////////////////////////////
+	class tsb_ammo_57x28_SS190 : BulletBase{
+		hit = 7;
+		indirectHit = 0;
+		indirectHitRange = 0;
+		cartridge = "RHS_Cartridge_556x45_m855";
+		visibleFire = 22;
+		audibleFire = 18;
+		visibleFireTime = 3;
+		cost = .8;
+		airLock = true;
+		caliber = 1.1;
+		model = "\rhsusf\addons\rhsusf_weapons\tracer\tracer_orange";
+		tracerScale = 1.2;
+		tracerStartTime = 0;
+		tracerEndTime = 1.3;
+		airFriction = -0.002619;
+		typicalSpeed = 715;
+		suppressionRadiusBulletClose = 2;
+		suppressionRadiusHit = 4;
+		ACE_caliber = 5.7;
+        ACE_bulletLength = 21.6;
+		ACE_bulletMass = 2; //Grams
+		ACE_ammoTempMuzzleVelocityShifts[] = {-2.655,-2.547,-2.285,-2.012,-1.698,-1.28,-0.764,-0.153,0.596,1.517,2.619};
+		ACE_ballisticCoefficients[] = {0.2};
+		ACE_velocityBoundaries[] = {};
+		ACE_standardAtmosphere = "ICAO";
+		ACE_dragModel = 7;
+		ACE_muzzleVelocities[] = {716, 776};
+		ACE_barrelLengths[] = {264, 407};
+		};
+    class tsb_ammo_57x28_SS191 : tsb_ammo_57x28_SS190{
+    	hit				= 7;
+		caliber 		= 1.1;
+		deflecting		= 21;
+		visibleFire		= 3;
+		audibleFire		= 7;
+	};
+	class tsb_ammo_57x28_SS192 : tsb_ammo_57x28_SS190{
+		hit				= 9;
+		caliber 		= .9;
+		ACE_bulletMass = 2; //Grams
+	};
+	class tsb_ammo_57x28_SB193 : tsb_ammo_57x28_SS190{
+
+	};
 //////////////////////////////////////////////////////////  6.5 x 39 //////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////  6.8 x 43 //////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////// 7.62 x 25 //////////////////////////////////////////////////////////
@@ -836,7 +881,7 @@ class CfgAmmo {
 	//		cost = 100;
 	//		typicalSpeed = 350;
 	//		airFriction = -0.001234;
-    };
+    //};
 //////////////////////////////////////////////////////////    9 x 21 //////////////////////////////////////////////////////////
 	// class tsb_ammo_9x21_ xxx :
 //////////////////////////////////////////////////////////    9 x 39 //////////////////////////////////////////////////////////
@@ -970,4 +1015,5 @@ class CfgAmmo {
 	};
 	class tsb_ammo_12ga_FRAG : rhs_ammo_12g_FRAG {
 	};
+
 };
