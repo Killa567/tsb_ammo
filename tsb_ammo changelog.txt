@@ -9,6 +9,7 @@ By Jzpelaez
 	+ Placeholder classname for 338 Lapua, 9x18, 9x19, 9x21, 9x39
 	+ Placeholder values for 9x19
 	+ Gave applicable M240 softpacks 5 last round tracers.
+
 	* Fixed 762x54 belts. 200 and 250 round belts now have the correct ammo count. Now 200 and 250 rounds respectively.
 	* 47 round DP base now displays correct ammo capacity in descriptionShort. Now 47 rounds.
 	* .45 Grease Gun M3 Double magazines now display correct ammo count in descriptionShort. Now 30+30 rounds.
@@ -16,103 +17,109 @@ By Jzpelaez
 	* Double 20rnd stanag magazines have displayName changed from "...Double 40rnd..." to "...Double 20rnd..."
 	* Magazine description changes. Display names and description will now reflect the type of ammunition i.e. FMJ, AP, Tracer, IR/DIM, Subsonic, etc. Including translated Russian designations for the applicable ammunition i.e. Standard, Improved Penetration, Precision Special, etc. Full changes listed below:
 		Note: Parenthesis indicate shorthand designation for displayNameShort if it differs from full description.- how it appears in the combined information HUD box (firemode, stamina, stance, selected grenade) 
-	  - 5.45x39:
-	     - 7N6 > 7N6 Standard
-	     - 7N6M > 7N6M Standard
-	     - 7N10 > 7N10 Improved Penetration (7N10 IPR)
-	     - 7N10M > 7N10M Improved Penetration (7N10M IPR)
-	     - 7N22 > 7N22 AP
-	     - 7N24 > 7N24 Improved AP (7N24 IAP)
-	     - 7N24M > 7N24M Improved AP (7N24M IAP)
-	     - 7N39 > 7N39 AP Special (7N39 AP Special)
-	     - 7N40 > 7N40 Precision Special (7N40 PS)
-	     - 7T3 > 7T3 Tracer
-	     - 7T3M > 7T3M Delayed Tracer (7T3M Tracer-D)
-	     - 7BT4 > 7BT4 AP Tracer (7BT4 AP-T)
-	     - 7U1 > 7U1 Subsonic
-	  - 5.56x45
-	     - M193 > M193 Ball (short)
-	     - M196 > M196 Tracer (short)
-	     - M855 > M855 Ball (short)
-	     - M855LF > M855LF Ball (short)
-	     - M855A1 > M855A1 EPR (short)
-	     - M856 > M856 Tracer (short)
-	     - M856A1 > M856A1 Tracer (short)
-	     - M995 > M995 AP (short)
-	     - XM996 > XM996 IR Tracer (short)
-	     - MLU26P > MLU26P Ball (short)
-	     - MK262mod1 > MK262mod1 OTM (short)
-	     - MK318mod0 > MK318mod0 OTM (short)
-	     - Sub Sonic > Subsonic (5.56 Subsonic)
-	     - SS109 > SS109 Ball (short)
-	  - 7.62x39
-	     - 57-N-231 > 57-n-231 Standard
-	     - 57-N-231(89) > 57-N-231(89) Standard
-	     - 7N23 > 7N23 AP Special
-	     - 57-Z-231 > 57-Z-231 Incendiary
-	     - 57-BZ-231 > 57-BZ-231 AP Incendiary (57-BZ-231 AP-I)
-	     - 57-T231P > 57-T231P Tracer
-	     - 57-T-231PM1 > 57-T-231PM1 Delayed Tracer (57-T-231PM1 Tracer-D)
-	     - 57-N-231U > 57-N-231U Subsonic
-	  - 7.62x51
-	     - M59 > M59 Ball (short)
-	     - M61 > M61 AP (short)
-	     - M62 > M62 Tracer (short)
-	     - M80 > M80 Ball (short)
-	     - M80A1 > M80A1 EPR (short)
-	     - M118SB > M118LR SB
-	     - M276 > M276 IR Tracer (short)
-	     - M948 > M948 SLAP (short)
-	     - M959 > M959 SLAP-T
-	     - M993 > M993 AP (short)
-	     - MK316 > MK316mod0 SBRL
-	     - MK319 > MK319mod0 OTM
-	  - 7.62x54
-	     - 57-N-323S > 57-N-323S Standard
-	     - 7N1 > 7N1 Precision
-	     - 7N13 > 7N13 Improved Penetration (7N13 IPR)
-	     - 7N14 > 7N14 AP Precision
-	     - 7N26 > 7N26 AP
-	     - 7N37 > 7N37 AP Special
-	     - 7BZ3 > 7BZ3 Armour Piercing Incendiary (7BZ3 AP-I)
-	     - 7BT1 > 7BT1 Armour Piercing Tracer (7BT1 AP-T)
-	     - 7T2 > 7T2 Tracer
-	     - 7T2M > 7T2M Delayed Tracer (7T2M Tracer-D)
+	  * 5.45x39:
+	     * 7N6 > 7N6 Standard
+	     * 7N6M > 7N6M Standard
+	     * 7N10 > 7N10 Improved Penetration (7N10 IPR)
+	     * 7N10M > 7N10M Improved Penetration (7N10M IPR)
+	     * 7N22 > 7N22 AP
+	     * 7N24 > 7N24 Improved AP (7N24 IAP)
+	     * 7N24M > 7N24M Improved AP (7N24M IAP)
+	     * 7N39 > 7N39 AP Special (7N39 AP Special)
+	     * 7N40 > 7N40 Precision Special (7N40 PS)
+	     * 7T3 > 7T3 Tracer
+	     * 7T3M > 7T3M Delayed Tracer (7T3M Tracer-D)
+	     * 7BT4 > 7BT4 AP Tracer (7BT4 AP-T)
+	     * 7U1 > 7U1 Subsonic
+	  * 5.56x45
+	     * M193 > M193 Ball (short)
+	     * M196 > M196 Tracer (short)
+	     * M855 > M855 Ball (short)
+	     * M855LF > M855LF Ball (short)
+	     * M855A1 > M855A1 EPR (short)
+	     * M856 > M856 Tracer (short)
+	     * M856A1 > M856A1 Tracer (short)
+	     * M995 > M995 AP (short)
+	     * XM996 > XM996 IR Tracer (short)
+	     * MLU26P > MLU26P Ball (short)
+	     * MK262mod1 > MK262mod1 OTM (short)
+	     * MK318mod0 > MK318mod0 OTM (short)
+	     * Sub Sonic > Subsonic (5.56 Subsonic)
+	     * SS109 > SS109 Ball (short)
+	  * 7.62x39
+	     * 57-N-231 > 57-n-231 Standard
+	     * 57-N-231(89) > 57-N-231(89) Standard
+	     * 7N23 > 7N23 AP Special
+	     * 57-Z-231 > 57-Z-231 Incendiary
+	     * 57-BZ-231 > 57-BZ-231 AP Incendiary (57-BZ-231 AP-I)
+	     * 57-T231P > 57-T231P Tracer
+	     * 57-T-231PM1 > 57-T-231PM1 Delayed Tracer (57-T-231PM1 Tracer-D)
+	     * 57-N-231U > 57-N-231U Subsonic
+	  * 7.62x51
+	     * M59 > M59 Ball (short)
+	     * M61 > M61 AP (short)
+	     * M62 > M62 Tracer (short)
+	     * M80 > M80 Ball (short)
+	     * M80A1 > M80A1 EPR (short)
+	     * M118SB > M118LR
+	     * M276 > M276 IR Tracer (short)
+	     * M948 > M948 SLAP (short)
+	     * M959 > M959 SLAP-T
+	     * M993 > M993 AP (short)
+	     * MK316 > MK316mod0 SBRL
+	     * MK319 > MK319mod0 OTM
+	  * 7.62x54
+	     * 57-N-323S > 57-N-323S Standard
+	     * 7N1 > 7N1 Precision
+	     * 7N13 > 7N13 Improved Penetration (7N13 IPR)
+	     * 7N14 > 7N14 AP Precision
+	     * 7N26 > 7N26 AP
+	     * 7N37 > 7N37 AP Special
+	     * 7BZ3 > 7BZ3 Armour Piercing Incendiary (7BZ3 AP-I)
+	     * 7BT1 > 7BT1 Armour Piercing Tracer (7BT1 AP-T)
+	     * 7T2 > 7T2 Tracer
+	     * 7T2M > 7T2M Delayed Tracer (7T2M Tracer-D)
 
 By Killa567
-	+ 556x45 20rnd STANAG
-	+ 556x45 EPM Mags
-	+ 556x45 SCAR Mags
-	+ 556x45 Double 20rnd
-	+ 556x45 100 Rnd Beta Mags
-	+ 556x45 150 Rnd Beta Mags
-	+ 556x45 60rnd Quadstack Mags
-	+ 556x45 100rnd & 200rnd M81 & UCP Sofpacks
-	+ 556x45 200rnd Boxes
-	* Fixed Sig 550 mags with base classes
-	+ 762x51 Black SCAR Mags
-	+ 762x51 50rnd Softpacks
-	+ 762x51 1Rnd Mags
+	+ 5.7x28mm Magazines For the following weapons
+	  + P90
+	  + FN Five-Seven
+	+ 5.56x45 Magazines for the following Weapons:
+	  + 20rnd STANAGs
+	  + EPM Mags
+	  + SCAR Mags
+	  + Double 20rnd STANAGs
+	  + 100 Rnd Beta Mags 
+	  + 150 Rnd Beta Mags
+	  + 60rnd Quadstack Mags
+	  + 100rnd & 200rnd M81 & UCP Sofpacks
+	  + 200rnd Boxes
+	+ 7.62x51 Magazines for the following weapons:
+	  + Black SCAR Mags
+	  + 50rnd Softpacks
+	  + 1Rnd Mags
+	  + SIG AMT Mags
+	+ 5.7x28 Ammo Types
+	  + SS190 AP
+	  + L191 Tracer
+	  + SS192 
+	  + SB193
 	+ 12Ga Ammo Types
 	  + HE
 	  + Frag
+	+ ACE Balistics Data for various 556 and 762 rounds
+
 	* Adjusted the values of the following Ammo
 	  * M995 AP
 	  * M948 SLAP
 	  * M959 SLAPT
 	  * M993 AP
-	+ Mag Well Fixes for the following weapons
+	* Mag Well Fixes for the following weapons
 	  * 3CB Augs
 	  * RHS Shotguns
 	  * SIG AMT (HLC, 3CB)
-	+ 762x51 SIG AMT Mags
-	+ ACE Balistics Data for various 556 and 762 rounds
-	+ 5.7x28 Ammo Types
-	  + SS190
-	  + SS191
-	  + SS192
-	  + SB193
 	* Fixed M856A1 Desc.
+	* Fixed Sig 550 mags with base classes
 
 Innitial Upload (2022-07-26)
 	+ 556x45 ammo types
@@ -178,5 +185,9 @@ Innitial Upload (2022-07-26)
 	+ Shotgun Ammo
 	  + AP Rounds
 	  + Bean Bag Rounds
+	  + No 3 Bird Shot
+	  + 00 Buck Shot
+	  + Slugs
+	  + Flechette
 	+ M590 Mags
 	+ M1014 Mags
