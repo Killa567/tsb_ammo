@@ -5408,7 +5408,7 @@ class CfgMagazines {
 	class tsb_mag_762x51_20rnd_mk316_FAL : tsb_mag_762x51_20rnd_M59_FAL{
 		displayName = "7.62x51 FAL 20rnd Mk316mod0 SBLR Magazine";
 		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: Mk316mod0 SBLR<br />Capacity: 20";
-		displayNameShort = "MK316mod0RL";
+		displayNameShort = "MK316mod0LR";
 		ammo = "tsb_ammo_762x51_mk316";
 	};
 	class tsb_mag_762x51_20rnd_mk319_FAL : tsb_mag_762x51_20rnd_M59_FAL{
@@ -5496,7 +5496,7 @@ class CfgMagazines {
 	class tsb_mag_762x51_20rnd_mk316_M14 : tsb_mag_762x51_20rnd_M59_M14{
 		displayName = "7.62x51 M14 20rnd Mk316mod0 SBLR Magazine";
 		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: Mk316mod0 SBLR<br />Capacity: 20";
-		displayNameShort = "MK316mod0RL";
+		displayNameShort = "MK316mod0LR";
 		ammo = "tsb_ammo_762x51_mk316";
 	};
 	class tsb_mag_762x51_20rnd_mk319_M14 : tsb_mag_762x51_20rnd_M59_M14{
@@ -5949,7 +5949,7 @@ class CfgMagazines {
 	class tsb_mag_762x51_20rnd_mk316_SCAR : tsb_mag_762x51_20rnd_M59_SCAR{
 		displayName = "7.62x51 SCAR 20rnd Mk316mod0 SBLR Magazine";
 		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: Mk316mod0 SBLR<br />Capacity: 20";
-		displayNameShort = "MK316mod0RL";
+		displayNameShort = "MK316mod0LR";
 		ammo = "tsb_ammo_762x51_mk316";
 	};
 	class tsb_mag_762x51_20rnd_mk319_SCAR : tsb_mag_762x51_20rnd_M59_SCAR{
@@ -6035,7 +6035,7 @@ class CfgMagazines {
 	class tsb_mag_762x51_20rnd_mk316_SCARB : tsb_mag_762x51_20rnd_M59_SCARB{
 		displayName = "7.62x51 SCARB 20rnd Mk316mod0 SBLR Magazine";
 		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: Mk316mod0 SBLR<br />Capacity: 20";
-		displayNameShort = "MK316mod0RL";
+		displayNameShort = "MK316mod0LR";
 		ammo = "tsb_ammo_762x51_mk316";
 	};
 	class tsb_mag_762x51_20rnd_mk319_SCARB : tsb_mag_762x51_20rnd_M59_SCARB{
@@ -6121,7 +6121,7 @@ class CfgMagazines {
 	class tsb_mag_762x51_20rnd_mk316_SR25 : tsb_mag_762x51_20rnd_M59_SR25{
 		displayName = "7.62x51 SR-25 20rnd Mk316mod0 SBLR Magazine";
 		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: Mk316mod0 SBLR<br />Capacity: 20";
-		displayNameShort = "MK316mod0RL";
+		displayNameShort = "MK316mod0LR";
 		ammo = "tsb_ammo_762x51_mk316";
 	};
 	class tsb_mag_762x51_20rnd_mk319_SR25 : tsb_mag_762x51_20rnd_M59_SR25{
@@ -6209,7 +6209,7 @@ class CfgMagazines {
 	class tsb_mag_762x51_5rnd_mk316 : tsb_mag_762x51_5rnd_M59{
 		displayName = "7.62x51 5rnd Mk316mod0 SBLR";
 		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: Mk316mod0 SBLR<br />Capacity: 5";
-		displayNameShort = "MK316mod0RL";
+		displayNameShort = "MK316mod0LR";
 		ammo = "tsb_ammo_762x51_mk316";
 	};
 	class tsb_mag_762x51_5rnd_mk319 : tsb_mag_762x51_5rnd_M59{
@@ -6294,7 +6294,7 @@ class CfgMagazines {
 	class tsb_mag_762x51_1rnd_mk316 : tsb_mag_762x51_1rnd_M59{
 		displayName = "7.62x51 1rnd Mk316mod0 SBLR";
 		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: Mk316mod0 SBLR<br />Capacity: 1";
-		displayNameShort = "MK316mod0RL";
+		displayNameShort = "MK316mod0LR";
 		ammo = "tsb_ammo_762x51_mk316";
 	};
 	class tsb_mag_762x51_1rnd_mk319 : tsb_mag_762x51_1rnd_M59{
@@ -6382,7 +6382,7 @@ class CfgMagazines {
 	class tsb_mag_762x51_10rnd_mk316_AICS : tsb_mag_762x51_10rnd_M59_AICS{
 		displayName = "7.62x51 AICS 10rnd Mk316mod0 SBLR Magazine";
 		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: Mk316mod0 SBLR<br />Capacity: 10";
-		displayNameShort = "MK316mod0RL";
+		displayNameShort = "MK316mod0LR";
 		ammo = "tsb_ammo_762x51_mk316";
 	};
 	class tsb_mag_762x51_10rnd_mk319_AICS : tsb_mag_762x51_10rnd_M59_AICS{
@@ -6464,7 +6464,7 @@ class CfgMagazines {
 	class tsb_mag_762x51_20rnd_mk316_AMT : tsb_mag_762x51_20rnd_M59_AMT{
 		displayName = "7.62x51 AMT 20rnd Mk316mod0 SBLR Magazine";
 		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: Mk316mod0 SBLR<br />Capacity: 20";
-		displayNameShort = "MK316mod0RL";
+		displayNameShort = "MK316mod0LR";
 		ammo = "tsb_ammo_762x51_mk316";
 	};
 	class tsb_mag_762x51_20rnd_mk319_AMT : tsb_mag_762x51_20rnd_M59_AMT{
