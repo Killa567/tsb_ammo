@@ -4712,6 +4712,72 @@ class CfgMagazines {
 		ammo = "tsb_ammo_556x45_SS109";
 	};
 //////////////////////////////////////////////////////////  5.7 x 28 //////////////////////////////////////////////////////////
+//////////////////////////////// 50rnd P90 /////////////////////////////////////
+	class 50Rnd_570x28_SMG_03;
+
+	class tsb_mag_57x28_50rnd_SS190_P90 : 50Rnd_570x28_SMG_03{
+		author = "Killa567";
+		scope = public;
+		displayName = "5.7x28 P90 50rnd SS190 AP Magazine";
+		descriptionShort = "Caliber: 5.7x28mm<br />Bullet: SS190<br />Capacity: 50";
+		displayNameShort = "SS190 AP";
+		ammo = "tsb_ammo_57x28_SS190";
+	};
+	class tsb_mag_57x28_50rnd_L191_P90 : tsb_mag_57x28_50rnd_SS190_P90{
+		author = "Killa567";
+		scope = public;
+		displayName = "5.7x28 P90 50rnd L191 Tracer Magazine";
+		descriptionShort = "Caliber: 5.7x28mm<br />Bullet: L191<br />Capacity: 50";
+		displayNameShort = "L191 Tracer";
+		ammo = "tsb_ammo_57x28_L191";
+		tracersEvery = 1;
+	};
+	class tsb_mag_57x28_50rnd_SS192_P90 : tsb_mag_57x28_50rnd_SS190_P90{
+		author = "Killa567";
+		scope = public;
+		displayName = "5.7x28 P90 50rnd SS192 JHP Magazine";
+		descriptionShort = "Caliber: 5.7x28mm<br />Bullet: SS192<br />Capacity: 50";
+		displayNameShort = "SS192 AP";
+		ammo = "tsb_ammo_57x28_SS192";
+	};
+	class tsb_mag_57x28_50rnd_SB193_P90 : tsb_mag_57x28_50rnd_SS190_P90{
+		author = "Killa567";
+		scope = public;
+		displayName = "5.7x28 P90 50rnd SB193 Subsonic Magazine";
+		descriptionShort = "Caliber: 5.7x28mm<br />Bullet: SB193<br />Capacity: 50";
+		displayNameShort = "SB193 Subsonic";
+		ammo = "tsb_ammo_57x28_SB193";
+	};
+//////////////////////////////// 20rnd FN57 /////////////////////////////////////
+	class RH_20Rnd_57x28_FN;
+
+	class tsb_mag_57x28_20rnd_SS190_FN57 : RH_20Rnd_57x28_FN{
+		author = "Killa567";
+		scope = public;
+		displayName = "5.7x28 FN 5-7 20rnd SS190 AP Magazine";
+		descriptionShort = "Caliber: 5.7x28mm<br />Bullet: SS190<br />Capacity: 20";
+		displayNameShort = "SS190 AP";
+		ammo = "tsb_ammo_57x28_SS190";
+	};
+	class tsb_mag_57x28_20rnd_L191_FN57 : tsb_mag_57x28_20rnd_SS190_FN57{
+		displayName = "5.7x28 FN 5-7 20rnd L191 Tracer Magazine";
+		descriptionShort = "Caliber: 5.7x28mm<br />Bullet: L191<br />Capacity: 20";
+		displayNameShort = "L191 Tracer";
+		ammo = "tsb_ammo_57x28_L191";
+		tracersEvery = 1;
+	};
+	class tsb_mag_57x28_20rnd_SS192_FN57 : tsb_mag_57x28_20rnd_SS190_FN57{
+		displayName = "5.7x28 FN 5-7 20rnd SS192 JHP Magazine";
+		descriptionShort = "Caliber: 5.7x28mm<br />Bullet: SS192<br />Capacity: 20";
+		displayNameShort = "SS192 AP";
+		ammo = "tsb_ammo_57x28_SS192";
+	};
+	class tsb_mag_57x28_20rnd_SB193_FN57 : tsb_mag_57x28_20rnd_SS190_FN57{
+		displayName = "5.7x28 FN 5-7 20rnd SB193 Subsonic Magazine";
+		descriptionShort = "Caliber: 5.7x28mm<br />Bullet: SB193<br />Capacity: 20";
+		displayNameShort = "SB193 Subsonic";
+		ammo = "tsb_ammo_57x28_SB193";
+	};
 //////////////////////////////////////////////////////////  6.5 x 39 //////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////  6.8 x 43 //////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////// 7.62 x 25 //////////////////////////////////////////////////////////

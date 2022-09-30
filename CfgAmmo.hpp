@@ -383,7 +383,7 @@ class CfgAmmo {
 	class tsb_ammo_556x45_L1A1cb : tsb_ammo_556x45_M193{};
 //////////////////////////////////////////////////////////  5.7 x 28 //////////////////////////////////////////////////////////
 	class tsb_ammo_57x28_SS190 : BulletBase{
-		hit = 7;
+		hit = 8.5;
 		indirectHit = 0;
 		indirectHitRange = 0;
 		cartridge = "RHS_Cartridge_556x45_m855";
@@ -392,13 +392,13 @@ class CfgAmmo {
 		visibleFireTime = 3;
 		cost = .8;
 		airLock = true;
-		caliber = 1.1;
+		caliber = 1.3;
 		model = "\rhsusf\addons\rhsusf_weapons\tracer\tracer_orange";
 		tracerScale = 1.2;
 		tracerStartTime = 0;
-		tracerEndTime = 1.3;
+		tracerEndTime = 0.8;
 		airFriction = -0.002619;
-		typicalSpeed = 715;
+		typicalSpeed = 716;
 		suppressionRadiusBulletClose = 2;
 		suppressionRadiusHit = 4;
 		ACE_caliber = 5.7;
@@ -412,20 +412,25 @@ class CfgAmmo {
 		ACE_muzzleVelocities[] = {716, 776};
 		ACE_barrelLengths[] = {264, 407};
 		};
-    class tsb_ammo_57x28_SS191 : tsb_ammo_57x28_SS190{
-    	hit				= 7;
-		caliber 		= 1.1;
-		deflecting		= 21;
-		visibleFire		= 3;
-		audibleFire		= 7;
+    class tsb_ammo_57x28_L191 : tsb_ammo_57x28_SS190{
+    	hit	= 8.5;
+		caliber = 1.3;
+		deflecting = 21;
+		visibleFire	= 3;
+		audibleFire	= 7;
 	};
 	class tsb_ammo_57x28_SS192 : tsb_ammo_57x28_SS190{
-		hit				= 9;
-		caliber 		= .9;
-		ACE_bulletMass = 2; //Grams
+		hit	= 9;
+		caliber = 1.3;
+		ACE_bulletMass = 1.8; //Grams
 	};
 	class tsb_ammo_57x28_SB193 : tsb_ammo_57x28_SS190{
-
+		hit	= 8;
+		caliber	= .8;
+		typicalSpeed = 305;
+		ACE_bulletMass = 3.6; //Grams
+		ACE_muzzleVelocities[] = {305};
+		ACE_barrelLengths[] = {264};
 	};
 //////////////////////////////////////////////////////////  6.5 x 39 //////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////  6.8 x 43 //////////////////////////////////////////////////////////
