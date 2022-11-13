@@ -2,6 +2,7 @@ class CfgAmmo {
 	class B_556x45_Ball;
 	class B_762x51_Ball;
 	class BulletBase;
+	class B_127x108_Ball;    // External class reference
 //////////////////////////////////////////////////////////  4.6 x 30 //////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////// 5.45 x 39 //////////////////////////////////////////////////////////
 	class tsb_ammo_545x39_7n6 : B_556x45_Ball{
@@ -561,10 +562,6 @@ class CfgAmmo {
         ACE_bulletLength = 28.956;
         ACE_bulletMass = 9.4608;
         ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
-        ACE_ballisticCoefficients[] = {0.2};
-        ACE_velocityBoundaries[] = {};
-        ACE_standardAtmosphere = "ICAO";
-        ACE_dragModel = 7;
         ACE_muzzleVelocities[] = {700, 800, 820, 833, 845};
         ACE_barrelLengths[] = {254.0, 406.4, 508.0, 609.6, 660.4};
 	};
@@ -577,10 +574,6 @@ class CfgAmmo {
         ACE_bulletLength = 28.956;
         ACE_bulletMass = 9.4608;
         ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
-        ACE_ballisticCoefficients[] = {0.2};
-        ACE_velocityBoundaries[] = {};
-        ACE_standardAtmosphere = "ICAO";
-        ACE_dragModel = 7;
         ACE_muzzleVelocities[] = {700, 800, 820, 833, 845};
         ACE_barrelLengths[] = {254.0, 406.4, 508.0, 609.6, 660.4};
 	};
@@ -609,10 +602,6 @@ class CfgAmmo {
         ACE_bulletLength = 28.956;
         ACE_bulletMass = 9.4608;
         ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
-        ACE_ballisticCoefficients[] = {0.2};
-        ACE_velocityBoundaries[] = {};
-        ACE_standardAtmosphere = "ICAO";
-        ACE_dragModel = 7;
         ACE_muzzleVelocities[] = {700, 800, 820, 833, 845};
         ACE_barrelLengths[] = {254.0, 406.4, 508.0, 609.6, 660.4};
 	};
@@ -639,17 +628,29 @@ class CfgAmmo {
 		airFriction = -0.0006814;
 		typicalSpeed = 838;
         nvgOnly = 1;
+        ACE_caliber = 7.823;
+        ACE_bulletLength = 28.956;
+        ACE_bulletMass = 9.4608;
+        ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
+        ACE_muzzleVelocities[] = {700, 800, 820, 833, 845};
+        ACE_barrelLengths[] = {254.0, 406.4, 508.0, 609.6, 660.4};
 	};
 	class tsb_ammo_762x51_m948 : tsb_ammo_762x51_m59{
 		hit = 13;
 		caliber = 2.1;
 		airFriction = -0.0016814;
-		typicalSpeed = 1270;
+		typicalSpeed = 1340;
 		visibleFire = 33;
 		audibleFire = 27;
 		visibleFireTime = 4.5;
 		tracerEndTime = 0.8;
 		tracerScale = 0.7;
+		ACE_caliber = 5.69;
+        ACE_bulletLength = 28.956;
+        ACE_bulletMass = 4.2;
+        ACE_ammoTempMuzzleVelocityShifts[] = {-13, -12, -11, -10, -8, -6, -3.8, -.75, 3, 8.5, 13};
+        ACE_muzzleVelocities[] = {1340};
+        ACE_barrelLengths[] = {650.0};
 	};
 	class tsb_ammo_762x51_m959 : tsb_ammo_762x51_m59{
 		hit = 13;
@@ -661,6 +662,12 @@ class CfgAmmo {
 		visibleFireTime = 4.5;
 		tracerEndTime = 0.8;
 		tracerScale = 0.7;
+		ACE_caliber = 5.69;
+        ACE_bulletLength = 28.956;
+        ACE_bulletMass = 4.2;
+        ACE_ammoTempMuzzleVelocityShifts[] = {-13, -12, -11, -10, -8, -6, -3.8, -.75, 3, 8.5, 13};
+        ACE_muzzleVelocities[] = {1340};
+        ACE_barrelLengths[] = {650.0};
 	};
 	class tsb_ammo_762x51_m993 : tsb_ammo_762x51_m59{
 		hit = 15; //new
@@ -671,10 +678,6 @@ class CfgAmmo {
         ACE_bulletLength = 31.496;
         ACE_bulletMass = 8.22946157;
         ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
-        ACE_ballisticCoefficients[] = {0.359};
-        ACE_velocityBoundaries[] = {};
-        ACE_standardAtmosphere = "ICAO";
-        ACE_dragModel = 1;
         ACE_muzzleVelocities[] = {875, 910, 930, 945};
         ACE_barrelLengths[] = {330.2, 406.4, 508.0, 609.6};
 	};
@@ -701,6 +704,12 @@ class CfgAmmo {
 		airFriction = -0.0007114;
 		typicalSpeed = 803;
 		nvgOnly = 1;
+		ACE_caliber = 7.823;
+        ACE_bulletLength = 28.956;
+        ACE_bulletMass = 9.4608;
+        ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
+        ACE_muzzleVelocities[] = {700, 800, 820, 833, 845};
+        ACE_barrelLengths[] = {254.0, 406.4, 508.0, 609.6, 660.4};
 	};
 	class tsb_ammo_762x51_m993ir : tsb_ammo_762x51_m59{
 		hit = 15; //new
@@ -730,6 +739,13 @@ class CfgAmmo {
 		tracerEndTime = 0.8;
 		tracerScale = 0.7;
 		nvgOnly = 1;
+		ACE_caliber = 5.69;
+        ACE_bulletLength = 28.956;
+        ACE_bulletMass = 4.2;
+        ACE_ammoTempMuzzleVelocityShifts[] = {-13, -12, -11, -10, -8, -6, -3.8, -.75, 3, 8.5, 13};
+        ACE_muzzleVelocities[] = {1340};
+        ACE_barrelLengths[] = {650.0};
+
 	};
 
 	// class tsb_ammo_762x51_ss771 : tsb_ammo_762x51_m59{};
@@ -949,6 +965,121 @@ class CfgAmmo {
 		tracerStartTime	= 0.073;
 		tracerEndTime	= 1;
 	};
+////////////////////////////////////////////////////////// 12.7x108  //////////////////////////////////////////////////////////
+    class MMM_ammo_127x108_57B542 : B_127x108_Ball {                //B-30 / 57-B
+        allowAgainstInfantry = 1;
+        aiAmmoUsageFlags = 64 + 128 + 512;
+        audiblefire = 25;
+        cost = 1;
+        deflecting = 20;
+        hit = 25;
+        caliber = 1.26984127;    //16mm
+        typicalSpeed = 840;
+        indirecthit = 0;
+        indirecthitrange = 0;
+        model = "mmm_static\tracer\mmm_tracer_red.p3d";
+        tracerScale = 1;
+        tracerStartTime = 0.001;
+        tracerEndTime = 3.075;
+        nvgOnly = 0;
+        muzzleEffect = "BIS_Effects_Rifle";
+        timeToLive = 30;
+        dangerRadiusBulletClose = 1;
+        dangerRadiusHit = -1;
+        suppressionRadiusBulletClose = 7;
+        suppressionRadiusHit = 11;
+        // submunitionAmmo[] = {"rhs_ammo_127x108mm_notracer", 0.85, "rhs_ammo_127x108mm", 0.15};
+        // submunitionConeType[] = {"randomcenter", 5};
+        class CamShakeExplode {
+            power = (13^0.5);
+            duration = "((round (13^0.5))*0.2 max 0.2)";
+            frequency = 20;
+            distance = ((13^0.5)*3);
+        };
+        class CamShakeHit {
+            power = 5;
+            duration = "((round (13^0.25))*0.2 max 0.2)";
+            frequency = 20;
+            distance = 1;
+        };
+        ACE_caliber = 12.98;
+        ACE_bulletLength = 64.3;
+        ACE_bulletMass = 48.3;    //48.3 standard - 55.3 API - 59.2 Sniper
+        ACE_muzzleVelocityVariationSD = 0.5;
+        ACE_ammoTempMuzzleVelocityShifts[]={-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
+        ACE_ballisticCoefficients[]={0.63};
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = ASM;
+        ACE_dragModel = 1;
+        ACE_muzzleVelocities[] = {785,860};
+        ACE_barrelLengths[] = {1000,1070};
+        ace_vehicle_damage_incendiary = 0.0;    //1.0 heat - 0.1 ap - 0.3 he - 0.7 inc (not exact) My personal: 0.2 tracer - 0.0 standard - 0.85 pure inc
+    };
+    class MMM_ammo_127x108_57T542 : MMM_ammo_127x108_57B542 {        //T-38 / 57-T-542
+        caliber = 0.95238095;    //12mm
+        ace_vehicle_damage_incendiary = 0.2;    //1.0 heat - 0.1 ap - 0.3 he - 0.7 inc (not exact) My personal: 0.2 tracer - 0.0 standard - 0.85 pure inc 
+    };
+    class MMM_ammo_127x108_57BZ542 : MMM_ammo_127x108_57B542 {        //B-32 / 57-BZ-542
+        hit = 27.5;
+        caliber = 1.56862745;    //20mm
+        typicalSpeed = 850;
+        indirecthit = 1.8;
+        indirecthitrange = 0.01;
+        explosioneffects = "IncendiaryAmmoExplosion";
+        cratereffects = "ExploAmmoCrater";
+        ACE_bulletMass = 55.3;    //48.3 standard - 55.3 API - 59.2 Sniper
+        ace_vehicle_damage_incendiary = 0.7;    //1.0 heat - 0.1 ap - 0.3 he - 0.7 inc (not exact) My personal: 0.2 tracer - 0.0 standard  - 0.85 pure inc
+    };
+    class MMM_ammo_127x108_57BZT542 : MMM_ammo_127x108_57BZ542 {    //BZT-44 / 57-BZT-542
+        caliber = 1.56862745;    //20mm
+        explosioneffects = "IncendiaryTracedRedAmmoExplosion";
+        ACE_bulletMass = 55.3;    //48.3 standard - 55.3 API - 59.2 Sniper
+        ace_vehicle_damage_incendiary = 0.5;    //1.0 heat - 0.1 ap - 0.3 he - 0.7 inc (not exact) My personal: 0.2 tracer - 0.0 standard  - 0.85 pure inc
+    };
+    class MMM_ammo_127x108_57BZTM542 : MMM_ammo_127x108_57BZ542 {    //BZT-44M / 57-BZTM-542
+        caliber = 1.56862745;    //20mm
+        tracerStartTime = 0.235294118;    //200m
+        explosioneffects = "IncendiaryTracedRedAmmoExplosion";
+        ACE_bulletMass = 55.3;    //48.3 standard - 55.3 API - 59.2 Sniper
+        ace_vehicle_damage_incendiary = 0.5;    //1.0 heat - 0.1 ap - 0.3 he - 0.7 inc (not exact) My personal: 0.2 tracer - 0.0 standard  - 0.85 pure inc
+    };
+    class MMM_ammo_127x108_7BZ1 : MMM_ammo_127x108_57BZ542 {        //BS / 7BZ1
+        hit = 30;
+        typicalSpeed = 820;
+        caliber = 2.43902439;    //30mm
+        ACE_bulletMass = 55.3;    //48.3 standard - 55.3 API - 59.2 Sniper
+        ace_vehicle_damage_incendiary = 0.4;    //1.0 heat - 0.1 ap - 0.3 he - 0.7 inc (not exact) My personal: 0.2 tracer - 0.0 standard  - 0.85 pure inc
+    };
+    class MMM_ammo_127x108_7Z2 : MMM_ammo_127x108_57BZ542 {            //MDZ / 7Z2
+        hit = 30;
+        caliber = 0.406504065;    //5mm
+        typicalSpeed = 820;
+        indirecthit = 3;
+        indirecthitrange = 0.01;
+        explosioneffects = "IncendiaryAmmoExplosion";
+        ACE_bulletMass = 48.3;    //48.3 standard - 55.3 API - 59.2 Sniper
+        ace_vehicle_damage_incendiary = 0.9;    //1.0 heat - 0.1 ap - 0.3 he - 0.7 inc (not exact) My personal: 0.2 tracer - 0.0 standard  - 0.9 pure inc
+    };
+    class MMM_ammo_127x108_7N34 : MMM_ammo_127x108_57B542 {            //SP / 7N34        //ONLY SNIPER!!!
+        hit = 30;
+        caliber = 0.724637681;
+        typicalSpeed = 920;
+        ACE_bulletMass = 59.2;    //48.3 standard - 55.3 API - 59.2 Sniper
+        ace_vehicle_damage_incendiary = 0.1;    //1.0 heat - 0.1 ap - 0.3 he - 0.7 inc (not exact) My personal: 0.2 tracer - 0.0 standard  - 0.85 pure inc
+    };
+    class MMM_ammo_127x108_V166 : MMM_ammo_127x108_57B542 {            //V-166
+        hit = 15;
+        caliber = 0.2;    //1.95mm
+        typicalSpeed = 650;
+        deflecting = 5;
+        indirectHit = 15;
+        indirectHitRange = 1;
+        explosioneffects = "ExploAmmoExplosion";
+        cratereffects = "ExploAmmoCrater";
+        ACE_bulletMass = 65;    //48.3 standard - 55.3 API - 59.2 Sniper - (made up) 65
+        ACE_bulletLength = 55; //made up
+        ace_vehicle_damage_incendiary = 1.0;    //1.0 heat - 0.1 ap - 0.3 he - 0.7 inc (not exact) My personal: 0.2 tracer - 0.0 standard  - 0.85 pure inc
+    };
 ////////////////////////////////////////////////////////// 12 gauge Shotgun ///////////////////////////////////////////////////
 	class rhs_ammo_12g_HE;
 	class rhs_ammo_12g_FRAG;
@@ -966,7 +1097,7 @@ class CfgAmmo {
 		hit = .5;
 		caliber = .12;
 		explosive = 1;
-		ExplosionEffects = "TSB_flashbang_1";
+		ExplosionEffects = "TSB_flashbang_1e";
 		
 	};
 	class tsb_ammo_12ga_ap_slug : tsb_ammo_12ga_slug {
@@ -975,7 +1106,7 @@ class CfgAmmo {
 		typicalSpeed = 490;
 	};
 	class tsb_ammo_12ga_flechette : tsb_ammo_12ga_slug {
-		caliber = 0.45;
+		caliber = 0.6;
         hit = 5;
         triggerTime = 0.008;
         submunitionAmmo = "tsb_ammo_flechette";
@@ -989,7 +1120,7 @@ class CfgAmmo {
 		airFriction = -0.000643;
 	};
 	class tsb_ammo_12ga_00_buck : tsb_ammo_12ga_slug {
-		caliber = 0.45;
+		caliber = 0.6;
         hit = 5;
         triggerTime = 0.008;
         submunitionAmmo = "tsb_ammo_00_buck";
@@ -1000,7 +1131,7 @@ class CfgAmmo {
 	class tsb_ammo_00_buck : BulletBase {
 		caliber = .525;
 		hit = 2.55;
-		airFriction = -0.03;
+		airFriction = -0.003;
 	};
 	class tsb_ammo_12ga_No3_Bird : tsb_ammo_12ga_slug {
 		caliber = 0.2;
@@ -1020,5 +1151,72 @@ class CfgAmmo {
 	};
 	class tsb_ammo_12ga_FRAG : rhs_ammo_12g_FRAG {
 	};
+////////////////////////////////////////////////////////// 81mm Mortar ////////////////////////////////////////////////////////
+	class Sh_82mm_AMOS;
+	class Flare_82mm_AMOS_White;
+	class rhs_ammo_d832du;
+	class ACE_G_Handflare_White;
 
+	class TSB_CSW_Sh_81mm_AMOS : Sh_82mm_AMOS {
+		hit = 165;
+		indirectHit = 66;  // 40%, previous 52
+		indirectHitRange = 18;
+		fuseDistance = 50;
+		suppressionRadiusHit = 48;
+		ace_frag_enabled = 1;
+		ace_frag_force = 1;
+		ace_rearm_caliber = 81;
+		ace_frag_classes[] = { "ace_frag_medium", "ace_frag_medium_HD" };
+		airFriction = 0;
+	};
+	class TSB_CSW_Flare_81mm_AMOS_White : Flare_82mm_AMOS_White {
+		ace_rearm_caliber = 81;
+		fuseDistance = 50;
+		timeToLive = 6-;
+	};
+	class TSB_CSW_IRFlare_81mm_AMOS_White: Flare_82mm_AMOS_White {
+		timeToLive = 60;
+		coefGravity = 0.4;
+		intensity = 250000;
+		brightness = 1000000;
+		nvgOnly = 1;
+		ace_rearm_caliber = 81;
+		fuseDistance = 50;
+	};
+	class TSB_CSW_Smoke_81mm_AMOS : rhs_ammo_d832du {
+	};
+	class TSB_CSW_SmokeRed_81mm_AMOS : rhs_ammo_d832du {
+	};		
+	class TSB_CSW_WPSmoke_81mm_AMOS : rhs_ammo_d832du {
+	};		
+	class TSB_CSW_Sh_81mm_AMOS_AB : TSB_CSW_Sh_81mm_AMOS {
+		submunitionAmmo = "TSB_CSW_Sh_81mm_AMOS_AB_helper";
+        caliber = 0.1;
+        submunitionDirectionType = "SubmunitionModelDirection";
+        submunitionInitialOffset[] = {0,0,-5};
+        submunitionParentSpeedCoef = 1;
+        submunitionInitSpeed = 0;
+        triggerOnimpact = 1;
+        deleteParentWhenTriggered = 1;
+	};
+	class TSB_CSW_Sh_81mm_AMOS_AB_helper : Sh_82mm_AMOS {
+		ace_frag_enabled = 1;
+		ace_frag_force = 1;
+		ace_rearm_caliber = 81;
+		ace_frag_classes[] = { "ace_frag_medium", "ace_frag_medium_HD" };
+		airFriction = 1000;
+		explosionTime = .00000000000000000000001;
+		fuseDistance = 0;
+		ExplosionEffects = "GrenadeExplosion";
+	};
+	class TSB_ammo_81mm_GB_Illum : Flare_82mm_AMOS_White {
+		aimAboveDefault = 1;
+		aimAboveTarget[] = {5,10,15,20,25,30,35};
+		timeToLive = 60;
+		coefGravity = 0.4;
+		intensity = 250000;
+		brightness = 1000000;
+		ace_rearm_caliber = 81;
+		fuseDistance = 50;
+    };
 };

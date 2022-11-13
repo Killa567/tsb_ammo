@@ -109,6 +109,8 @@ By Killa567
 	  + Frag
 	+ ACE Balistics Data for various 556 and 762 rounds
 
+	- M21 Mags (moved to new PBO)
+
 	* Adjusted the values of the following Ammo
 	  * M995 AP
 	  * M948 SLAP

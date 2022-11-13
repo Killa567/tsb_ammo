@@ -1169,25 +1169,6 @@ class CfgMagazineWells {
 		"tsb_mag_556x45_100rnd_XM996_SoftpackC"
 		};
  	};
-///M21///
- 	class CBA_556x45_M21{
- 		TSB_Magazines[] = { 
-		"tsb_mag_556x45_30rnd_M193_M21",
-		"tsb_mag_556x45_30rnd_M196_M21",
-		"tsb_mag_556x45_30rnd_M855_M21",
-		"tsb_mag_556x45_30rnd_M855LF_M21",
-		"tsb_mag_556x45_30rnd_M855A1_M21",
-		"tsb_mag_556x45_30rnd_M856_M21",
-		"tsb_mag_556x45_30rnd_M856A1_M21",
-		"tsb_mag_556x45_30rnd_M995_M21",
-		"tsb_mag_556x45_30rnd_XM996_M21",
-		"tsb_mag_556x45_30rnd_MLU26P_M21",
-		"tsb_mag_556x45_30rnd_Mk262mod1_M21",
-		"tsb_mag_556x45_30rnd_Mk318mod0_M21",
-		"tsb_mag_556x45_30rnd_SS_M21",
-		"tsb_mag_556x45_30rnd_SS109_M21"
-		};
- 	};
 ///VHS2 & G36///
  	class CBA_556x45_G36{
  		TSB_Magazines[] = { 
@@ -1908,6 +1889,19 @@ class CfgMagazineWells {
 		"tsb_mag_57x28_20rnd_L191_FN57",
 		"tsb_mag_57x28_20rnd_SS192_FN57",
 		"tsb_mag_57x28_20rnd_SB193_FN57"
+		};
+	};
+///////////81mm//////////////////
+	class CBA_82mm {
+		TSB_Magazines[] ={
+		"TSB_CSW_1Rnd_81mm_Mo_Shells",
+		"TSB_CSW_1Rnd_81mm_Mo_AB_Shells",
+		"TSB_CSW_1Rnd_81mm_Mo_Flare_White",
+		"TSB_CSW_1Rnd_81mm_Mo_IRFlare_White",
+		"TSB_CSW_1Rnd_81mm_Mo_Smoke_White",
+		"TSB_CSW_1Rnd_81mm_Mo_Smoke_Red",
+		"TSB_CSW_1Rnd_81mm_Mo_WPSmoke_White",
+		"TSB_CSW_1Rnd_81mm_Mo_GB_Flare"
 		};
 	};
 }

@@ -26,4 +26,5 @@ class CfgCloudlets
 		rotationVelocityVar=0;
 		sizeVar=0;
 	};
-}
+
+};

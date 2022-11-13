@@ -9,12 +9,14 @@
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWell.hpp"
 #include "CfgCloudlets.hpp"
+#include "ACE_CSW_Groups.hpp"
 
 class Rifle_Base_F;
 class uk3cb_stgw57_5104;
+class mortar_82mm;
 
 ///Effects///
-class TSB_flashbang_1{
+class TSB_flashbang_1e{
 	class Smoke1
 	{
 		position[]={0,0,0};
@@ -135,6 +137,12 @@ class cfgWeapons {
 	class uk3cb_stgw57_amt : uk3cb_stgw57_5104 {
 		magazineWell[] = {"CBA_762x51_SIGAMT"};
 	};
+	class ACE_mortar_82mm : mortar_82mm {
+		magazines[] = { "TSB_CSW_1Rnd_81mm_Mo_Shells","TSB_CSW_1Rnd_81mm_Mo_AB_Shells","TSB_CSW_1Rnd_81mm_Mo_Flare_White","TSB_CSW_1Rnd_81mm_Mo_IRFlare_White","TSB_CSW_1Rnd_81mm_Mo_Smoke_White","TSB_CSW_1Rnd_81mm_Mo_Smoke_Red","TSB_CSW_1Rnd_81mm_Mo_WPSmoke_White","TSB_CSW_1Rnd_81mm_Mo_GB_Flare"};
+	};
+	class rhs_mortar_81mm : mortar_82mm {
+	magazines[] = {"rhs_1Rnd_m821_HE","rhs_12Rnd_m821_HE","8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_Flare_white","8Rnd_82mm_Mo_Smoke_white","8Rnd_82mm_Mo_guided","8Rnd_82mm_Mo_LG", "TSB_CSW_1Rnd_81mm_Mo_Shells","TSB_CSW_1Rnd_81mm_Mo_AB_Shells","TSB_CSW_1Rnd_81mm_Mo_Flare_White","TSB_CSW_1Rnd_81mm_Mo_IRFlare_White","TSB_CSW_1Rnd_81mm_Mo_Smoke_White","TSB_CSW_1Rnd_81mm_Mo_Smoke_Red","TSB_CSW_1Rnd_81mm_Mo_WPSmoke_White","TSB_CSW_1Rnd_81mm_Mo_GB_Flare"};
+	};
 };
 
 class ACE_ATragMX_Presets {
@@ -153,4 +161,4 @@ class ACE_ATragMX_Presets {
 	class RHSM14_M118SBLR_ATRAG {
 		preset[] = {"RHS M14 M118", 777, 100, 0.0679, -0.0010350, 6.86, 0, 2, 10, 120, 0, 0, 11.3, 7.82, 30.48, 0.483, 1, "ICAO", {{-15,758},{0,765},{10,772},{15,777},{25,791},{30,800},{35,816}}, {{0,0},{0,0},{0,0},{0,0},{0,0},{0,0},{0,0}}};
 	};
-}
+};
