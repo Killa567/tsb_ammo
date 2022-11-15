@@ -1172,10 +1172,10 @@ class CfgAmmo {
 	class TSB_CSW_Flare_81mm_AMOS_White : Flare_82mm_AMOS_White {
 		ace_rearm_caliber = 81;
 		fuseDistance = 50;
-		timeToLive = 6-;
+		timeToLive = 75;
 	};
 	class TSB_CSW_IRFlare_81mm_AMOS_White: Flare_82mm_AMOS_White {
-		timeToLive = 60;
+		timeToLive = 75;
 		coefGravity = 0.4;
 		intensity = 250000;
 		brightness = 1000000;
@@ -1191,13 +1191,13 @@ class CfgAmmo {
 	};		
 	class TSB_CSW_Sh_81mm_AMOS_AB : TSB_CSW_Sh_81mm_AMOS {
 		submunitionAmmo = "TSB_CSW_Sh_81mm_AMOS_AB_helper";
-        caliber = 0.1;
-        submunitionDirectionType = "SubmunitionModelDirection";
-        submunitionInitialOffset[] = {0,0,-5};
-        submunitionParentSpeedCoef = 1;
-        submunitionInitSpeed = 0;
-        triggerOnimpact = 1;
-        deleteParentWhenTriggered = 1;
+		caliber = 0.1;
+		submunitionDirectionType = "SubmunitionModelDirection";
+		submunitionInitialOffset[] = {0,0,-5};
+		submunitionParentSpeedCoef = 1;
+		submunitionInitSpeed = 0;
+		triggerOnimpact = 1;
+		deleteParentWhenTriggered = 1;
 	};
 	class TSB_CSW_Sh_81mm_AMOS_AB_helper : Sh_82mm_AMOS {
 		ace_frag_enabled = 1;
@@ -1218,5 +1218,5 @@ class CfgAmmo {
 		brightness = 1000000;
 		ace_rearm_caliber = 81;
 		fuseDistance = 50;
-    };
+	};
 };
