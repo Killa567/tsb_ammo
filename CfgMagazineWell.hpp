@@ -1457,6 +1457,25 @@ class CfgMagazineWells {
 		"tsb_mag_556x45_30rnd_SS109_Hk33"
 		};
 	};
+///M21///
+	class CBA_556x45_M21 {
+		TSB_Magazines[] = {
+		"tsb_mag_556x45_30rnd_M193_M21",
+		"tsb_mag_556x45_30rnd_M196_M21",
+		"tsb_mag_556x45_30rnd_M855_M21",
+		"tsb_mag_556x45_30rnd_M855LF_M21",
+		"tsb_mag_556x45_30rnd_M855A1_M21",
+		"tsb_mag_556x45_30rnd_M856_M21",
+		"tsb_mag_556x45_30rnd_M856A1_M21",
+		"tsb_mag_556x45_30rnd_M995_M21",
+		"tsb_mag_556x45_30rnd_XM996_M21",
+		"tsb_mag_556x45_30rnd_MLU26P_M21",
+		"tsb_mag_556x45_30rnd_Mk262mod1_M21",
+		"tsb_mag_556x45_30rnd_Mk318mod0_M21",
+		"tsb_mag_556x45_30rnd_SS_M21",
+		"tsb_mag_556x45_30rnd_SS109_M21"
+		};
+	};
 ////////////////////////////////////////////////////762x51///////////////////
 ///M14///
 	class M14_762x51 {

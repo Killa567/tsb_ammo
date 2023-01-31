@@ -12,9 +12,6 @@
 #include "ACE_CSW_Groups.hpp"
 #include "cfgWeapons.hpp"
 
-class Rifle_Base_F;
-class uk3cb_stgw57_5104;
-class mortar_82mm;
 
 ///Effects///
 class TSB_flashbang_1e{

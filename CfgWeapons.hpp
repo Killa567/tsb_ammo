@@ -1,3 +1,7 @@
+class Rifle_Base_F;
+class uk3cb_stgw57_5104;
+class mortar_82mm;
+
 class cfgWeapons {
 	class uk3cb_aug_base : Rifle_Base_F {
 		magazineWell[] = {"CBA_556x45_STEYR"};

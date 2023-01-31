@@ -4617,6 +4617,101 @@ class CfgMagazines {
 		displayNameShort = "SS109 Ball";
 		ammo = "tsb_ammo_556x45_SS109";
 	};
+//////////////////////////////// 30rnd M21 /////////////////////////////////////
+	class rhsgref_30rnd_556x45_m21;
+
+    class tsb_mag_556x45_30rnd_M193_M21 : rhsgref_30rnd_556x45_m21{
+        author = "Killa567";
+        scope = public;
+        displayName = "5.56x45 M21 30rnd M193 Ball Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30<br />Type: Ball";
+        displayNameShort = "M193 Ball";
+        ammo = "tsb_ammo_556x45_M193";
+        tracersEvery = 0;
+        lastRoundsTracer = 0;
+    };
+    class tsb_mag_556x45_30rnd_M196_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd M196 Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30<br />Type: Tracer";
+        displayNameShort = "M196 Tracer";
+        ammo = "tsb_ammo_556x45_M196";
+        tracersEvery = 1;
+    };
+    class tsb_mag_556x45_30rnd_M855_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd M855 Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30<br />Type: Ball";
+        displayNameShort = "M855 Ball";
+        ammo = "tsb_ammo_556x45_M855";
+    };
+    class tsb_mag_556x45_30rnd_M855LF_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd M855LF Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30<br />Type: Ball";
+        displayNameShort = "M855LF Ball";
+        ammo = "tsb_ammo_556x45_M855LF";
+    };
+    class tsb_mag_556x45_30rnd_M855A1_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd M855A1 Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30<br />Type: EPR";
+        displayNameShort = "M855A1 EPR";
+        ammo = "tsb_ammo_556x45_M855A1";
+    };
+    class tsb_mag_556x45_30rnd_M856_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd M856 Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30<br />Type: Tracer";
+        displayNameShort = "M856 Tracer";
+        ammo = "tsb_ammo_556x45_M856";
+        tracersEvery = 1;
+    };
+    class tsb_mag_556x45_30rnd_M856A1_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd M856A1 Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30<br />Type: Improved Tracer";
+        displayNameShort = "M856A1 Tracer";
+        ammo = "tsb_ammo_556x45_M856A1";
+        tracersEvery = 1;
+    };
+    class tsb_mag_556x45_30rnd_M995_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd M995 Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30<br />Type: AP";
+        displayNameShort = "M995 AP";
+        ammo = "tsb_ammo_556x45_M995";
+    };
+    class tsb_mag_556x45_30rnd_XM996_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd XM996 Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: M193<br />Capacity: 30<br />Type: IR Tracer";
+        displayNameShort = "XM996 IR Tracer";
+        ammo = "tsb_ammo_556x45_XM996";
+        tracersEvery = 1;
+    };
+    class tsb_mag_556x45_30rnd_MLU26P_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd MLU26P Ball Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: MLU26P<br />Capacity: 30<br />Type: Ball";
+        displayNameShort = "MLU26P Ball";
+        ammo = "tsb_ammo_556x45_MLU26P";
+    };
+    class tsb_mag_556x45_30rnd_Mk262mod1_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd Mk262mod1 SBLR Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk262mod1<br />Capacity: 30<br />Type: Special Ball Long Range";
+        displayNameShort = "Mk262 SBLR";
+        ammo = "tsb_ammo_556x45_Mk262mod1";
+    };
+	class tsb_mag_556x45_30rnd_Mk318mod0_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd Mk318mod0 Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Mk318mod0<br />Capacity: 30<br />Type: Open Tip Match";
+        displayNameShort = "Mk318 OTM";
+        ammo = "tsb_ammo_556x45_Mk318mod0";
+    };
+    class tsb_mag_556x45_30rnd_SS_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd Subsonic Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: Atomic Tactical 5.56<br />Capacity: 30<br />Type: Ball";
+        displayNameShort = "Subsonic";
+        ammo = "tsb_ammo_556x45_SS";
+    };
+    class tsb_mag_556x45_30rnd_SS109_M21 : tsb_mag_556x45_30rnd_M193_M21{
+        displayName = "5.56x45 M21 30rnd SS109 Magazine";
+        descriptionShort = "Caliber: 5.56x45mm<br />Bullet: SS109<br />Capacity: 30<br />Type: Ball";
+        displayNameShort = "SS109 Ball";
+        ammo = "tsb_ammo_556x45_SS109";
+    };
 //////////////////////////////////////////////////////////  5.7 x 28 //////////////////////////////////////////////////////////
 //////////////////////////////// 50rnd P90 /////////////////////////////////////
 	class 50Rnd_570x28_SMG_03;
@@ -4654,7 +4749,7 @@ class CfgMagazines {
 		displayNameShort = "SB193 Subsonic";
 		ammo = "tsb_ammo_57x28_SB193";
 	};
-//////////////////////////////// 20rnd FN57 /////////////////////////////////////
+//////////////////////////////// 20rnd FN57 ////////////////////////////////////
 	class RH_20Rnd_57x28_FN;
 
 	class tsb_mag_57x28_20rnd_SS190_FN57 : RH_20Rnd_57x28_FN{
@@ -4714,7 +4809,7 @@ class CfgMagazines {
 //////////////////////////////// 30rnd Metal Old ///////////////////////////////
 	class tsb_mag_762x39_30rnd_57n231_metalold : tsb_mag_762x39_10rnd_fmj_civ{
 		displayName = "7.62x39 Metal (old) 30rnd 57-N-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";
 		displayNameShort = "57-N-231 Standard";
 		modelSpecial = "rhssaf\addons\rhssaf_m_weapon_m70\mag_proxies\rhs_mag_762x39_zastava_steel_30rnd";
 		model = "\rhssaf\addons\rhssaf_m_weapon_m70\magazines\rhs_762x39_zastava_mag";
@@ -4725,52 +4820,52 @@ class CfgMagazines {
 	};
 	class tsb_mag_762x39_30rnd_57n23189_metalold : tsb_mag_762x39_30rnd_57n231_metalold{
 		displayName = "7.62x39 Metal (old) 30rnd 57-N-231(89) Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 30<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 30<br />Type: Standard";
 		displayNameShort = "57-N-231(89) Standard";
 		ammo = "tsb_ammo_762x39_57n23189";
 	};
 	class tsb_mag_762x39_30rnd_7n23_metalold : tsb_mag_762x39_30rnd_57n231_metalold{
 		displayName = "7.62x39 Metal (old) 30rnd 7N23 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 30<br />Type: Armor Piercing Special";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 30<br />Type: Armor Piercing Special";
 		displayNameShort = "7N23 AP Special";
 		ammo = "tsb_ammo_762x39_7n23";
 	};
 	class tsb_mag_762x39_30rnd_57z231_metalold : tsb_mag_762x39_30rnd_57n231_metalold{
 		displayName = "7.62x39 Metal (old) 30rnd 57-Z-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 30<br />Type: Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 30<br />Type: Incendiary";
 		displayNameShort = "57-Z-231 Incendiary";
 		ammo = "tsb_ammo_762x39_57z231";
 	};
 	class tsb_mag_762x39_30rnd_57bz231_metalold : tsb_mag_762x39_30rnd_57n231_metalold{
 		displayName = "7.62x39 Metal (old) 30rnd 57-BZ-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 30<br />Type: Armor Piercing Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 30<br />Type: Armor Piercing Incendiary";
 		displayNameShort = "57-BZ-231 AP-I";
 		ammo = "tsb_ammo_762x39_57bz231";
 	};
 	class tsb_mag_762x39_30rnd_57t231p_metalold : tsb_mag_762x39_30rnd_57n231_metalold{
 		displayName = "7.62x39 Metal (old) 30rnd 57-T-231P Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 30<br />Type: Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 30<br />Type: Tracer";
 		displayNameShort = "57-T-231P Tracer";
 		ammo = "tsb_ammo_762x39_57t231p";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_30rnd_57t231pm1_metalold : tsb_mag_762x39_30rnd_57n231_metalold{
 		displayName = "7.62x39 Metal (old) 30rnd 57-T-231PM1 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 30<br />Type: Delayed Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 30<br />Type: Delayed Tracer";
 		displayNameShort = "57-T-231PM1 Tracer-D";
 		ammo = "tsb_ammo_762x39_57t231pm1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_30rnd_57n231u_metalold : tsb_mag_762x39_30rnd_57n231_metalold{
 		displayName = "7.62x39 Metal (old) 30rnd 57-N-231U Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 30<br />Type: Subsonic";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 30<br />Type: Subsonic";
 		displayNameShort = "57-N-231U Subsonic";
 		ammo = "tsb_ammo_762x39_57n231u";
 	};
 //////////////////////////////// 30rnd Metal ///////////////////////////////////
 	class tsb_mag_762x39_30rnd_57n231_metal : tsb_mag_762x39_30rnd_57n231_metalold{
 		displayName = "7.62x39 Metal 30rnd 57-N-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";
 		displayNameShort = "57-N-231 Standard";
 		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_762x39mm_tracer_ca.paa";
 		modelSpecial = "rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_762x39_steel_30rnd";
@@ -4779,52 +4874,52 @@ class CfgMagazines {
 	};
 	class tsb_mag_762x39_30rnd_57n23189_metal : tsb_mag_762x39_30rnd_57n231_metal{
 		displayName = "7.62x39 Metal 30rnd 57-N-231(89) Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 30<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 30<br />Type: Standard";
 		displayNameShort = "57-N-231(89) Standard";
 		ammo = "tsb_ammo_762x39_57n23189";
 	};
 	class tsb_mag_762x39_30rnd_7n23_metal : tsb_mag_762x39_30rnd_57n231_metal{
 		displayName = "7.62x39 Metal 30rnd 7N23 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 30<br />Type: Armor Piercing Special";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 30<br />Type: Armor Piercing Special";
 		displayNameShort = "7N23 AP Special";
 		ammo = "tsb_ammo_762x39_7n23";
 	};
 	class tsb_mag_762x39_30rnd_57z231_metal : tsb_mag_762x39_30rnd_57n231_metal{
 		displayName = "7.62x39 Metal 30rnd 57-Z-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 30<br />Type: Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 30<br />Type: Incendiary";
 		displayNameShort = "57-Z-231 Incendiary";
 		ammo = "tsb_ammo_762x39_57z231";
 	};
 	class tsb_mag_762x39_30rnd_57bz231_metal : tsb_mag_762x39_30rnd_57n231_metal{
 		displayName = "7.62x39 Metal 30rnd 57-BZ-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 30<br />Type: Armor Piercing Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 30<br />Type: Armor Piercing Incendiary";
 		displayNameShort = "57-BZ-231 AP-I";
 		ammo = "tsb_ammo_762x39_57bz231";
 	};
 	class tsb_mag_762x39_30rnd_57t231p_metal : tsb_mag_762x39_30rnd_57n231_metal{
 		displayName = "7.62x39 Metal 30rnd 57-T-231P Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 30<br />Type: Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 30<br />Type: Tracer";
 		displayNameShort = "57-T-231P Tracer";
 		ammo = "tsb_ammo_762x39_57t231p";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_30rnd_57t231pm1_metal : tsb_mag_762x39_30rnd_57n231_metal{
 		displayName = "7.62x39 Metal 30rnd 57-T-231PM1 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 30<br />Type: Delayed Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 30<br />Type: Delayed Tracer";
 		displayNameShort = "57-T-231PM1 Tracer-D";
 		ammo = "tsb_ammo_762x39_57t231pm1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_30rnd_57n231u_metal : tsb_mag_762x39_30rnd_57n231_metal{
 		displayName = "7.62x39 Metal 30rnd 57-N-231U Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 30<br />Type: Subsonic";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 30<br />Type: Subsonic";
 		displayNameShort = "57-N-231U Subsonic";
 		ammo = "tsb_ammo_762x39_57n231u";
 	};
 //////////////////////////////// 30rnd Plastic /////////////////////////////////
 	class tsb_mag_762x39_30rnd_57n231_Plastic : tsb_mag_762x39_30rnd_57n231_metalold{
 		displayName = "7.62x39 Plastic 30rnd 57-N-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";
 		displayNameShort = "57-N-231 Standard";
 		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_762x39mm_89_ca.paa";
 		modelSpecial = "rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_762x39_steelnew_30rnd";
@@ -4835,52 +4930,52 @@ class CfgMagazines {
 	};
 	class tsb_mag_762x39_30rnd_57n23189_Plastic : tsb_mag_762x39_30rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 30rnd 57-N-231(89) Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 30<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 30<br />Type: Standard";
 		displayNameShort = "57-N-231(89) Standard";
 		ammo = "tsb_ammo_762x39_57n23189";
 	};
 	class tsb_mag_762x39_30rnd_7n23_Plastic : tsb_mag_762x39_30rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 30rnd 7N23 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 30<br />Type: Armor Piercing Special";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 30<br />Type: Armor Piercing Special";
 		displayNameShort = "7N23 AP Special";
 		ammo = "tsb_ammo_762x39_7n23";
 	};
 	class tsb_mag_762x39_30rnd_57z231_Plastic : tsb_mag_762x39_30rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 30rnd 57-Z-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 30<br />Type: Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 30<br />Type: Incendiary";
 		displayNameShort = "57-Z-231 Incendiary";
 		ammo = "tsb_ammo_762x39_57z231";
 	};
 	class tsb_mag_762x39_30rnd_57bz231_Plastic : tsb_mag_762x39_30rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 30rnd 57-BZ-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 30<br />Type: Armor Piercing Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 30<br />Type: Armor Piercing Incendiary";
 		displayNameShort = "57-BZ-231 AP-I";
 		ammo = "tsb_ammo_762x39_57bz231";
 	};
 	class tsb_mag_762x39_30rnd_57t231p_Plastic : tsb_mag_762x39_30rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 30rnd 57-T-231P Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 30<br />Type: Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 30<br />Type: Tracer";
 		displayNameShort = "57-T-231P Tracer";
 		ammo = "tsb_ammo_762x39_57t231p";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_30rnd_57t231pm1_Plastic : tsb_mag_762x39_30rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 30rnd 57-T-231PM1 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 30<br />Type: Delayed Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 30<br />Type: Delayed Tracer";
 		displayNameShort = "57-T-231PM1 Tracer-D";
 		ammo = "tsb_ammo_762x39_57t231pm1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_30rnd_57n231u_Plastic : tsb_mag_762x39_30rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 30rnd 57-N-231U Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 30<br />Type: Subsonic";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 30<br />Type: Subsonic";
 		displayNameShort = "57-N-231U Subsonic";
 		ammo = "tsb_ammo_762x39_57n231u";
 	};
 //////////////////////////////// 30rnd Bakelite ////////////////////////////////
 	class tsb_mag_762x39_30rnd_57n231_Bakelite : tsb_mag_762x39_30rnd_57n231_metalold{
 		displayName = "7.62x39 Bakelite 30rnd 57-N-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";
 		displayNameShort = "57-N-231 Standard";
 		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_30Rnd_762x39mm_ca.paa";
 		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak762_bklt_mag";
@@ -4889,45 +4984,45 @@ class CfgMagazines {
 	};
 	class tsb_mag_762x39_30rnd_57n23189_Bakelite : tsb_mag_762x39_30rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 30rnd 57-N-231(89) Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 30<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 30<br />Type: Standard";
 		displayNameShort = "57-N-231(89) Standard";
 		ammo = "tsb_ammo_762x39_57n23189";
 	};
 	class tsb_mag_762x39_30rnd_7n23_Bakelite : tsb_mag_762x39_30rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 30rnd 7N23 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 30<br />Type: Armor Piercing Special";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 30<br />Type: Armor Piercing Special";
 		displayNameShort = "7N23 AP Special";
 		ammo = "tsb_ammo_762x39_7n23";
 	};
 	class tsb_mag_762x39_30rnd_57z231_Bakelite : tsb_mag_762x39_30rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 30rnd 57-Z-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 30<br />Type: Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 30<br />Type: Incendiary";
 		displayNameShort = "57-Z-231 Incendiary";
 		ammo = "tsb_ammo_762x39_57z231";
 	};
 	class tsb_mag_762x39_30rnd_57bz231_Bakelite : tsb_mag_762x39_30rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 30rnd 57-BZ-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 30<br />Type: Armor Piercing Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 30<br />Type: Armor Piercing Incendiary";
 		displayNameShort = "57-BZ-231 AP-I";
 		ammo = "tsb_ammo_762x39_57bz231";
 	};
 	class tsb_mag_762x39_30rnd_57t231p_Bakelite : tsb_mag_762x39_30rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 30rnd 57-T-231P Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 30<br />Type: Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 30<br />Type: Tracer";
 		displayNameShort = "57-T-231P Tracer";
 		ammo = "tsb_ammo_762x39_57t231p";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_30rnd_57t231pm1_Bakelite : tsb_mag_762x39_30rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 30rnd 57-T-231PM1 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 30<br />Type: Delayed Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 30<br />Type: Delayed Tracer";
 		displayNameShort = "57-T-231PM1 Tracer-D";
 		ammo = "tsb_ammo_762x39_57t231pm1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_30rnd_57n231u_Bakelite : tsb_mag_762x39_30rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 30rnd 57-N-231U Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 30<br />Type: Subsonic";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 30<br />Type: Subsonic";
 		displayNameShort = "57-N-231U Subsonic";
 		ammo = "tsb_ammo_762x39_57n231u";
 	};
@@ -4937,7 +5032,7 @@ class CfgMagazines {
 		scope = public;
 		author = "Makarov Ivan Andreyavich";
 		displayName = "7.62x39 PMAG 30rnd 57-N-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";
 		displayNameShort = "57-N-231 Standard";
 		// modelSpecial = "rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_762x39_steelnew_30rnd";
 		// model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak762_103_mag";
@@ -4951,45 +5046,45 @@ class CfgMagazines {
 	};
 	class tsb_mag_762x39_30rnd_57n23189_PMAG : tsb_mag_762x39_30rnd_57n231_PMAG{
 		displayName = "7.62x39 PMAG 30rnd 57-N-231(89) Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 30<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 30<br />Type: Standard";
 		displayNameShort = "57-N-231(89) Standard";
 		ammo = "tsb_ammo_762x39_57n23189";
 	};
 	class tsb_mag_762x39_30rnd_7n23_PMAG : tsb_mag_762x39_30rnd_57n231_PMAG{
 		displayName = "7.62x39 PMAG 30rnd 7N23 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 30<br />Type: Armor Piercing Special";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 30<br />Type: Armor Piercing Special";
 		displayNameShort = "7N23 AP Special";
 		ammo = "tsb_ammo_762x39_7n23";
 	};
 	class tsb_mag_762x39_30rnd_57z231_PMAG : tsb_mag_762x39_30rnd_57n231_PMAG{
 		displayName = "7.62x39 PMAG 30rnd 57-Z-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 30<br />Type: Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 30<br />Type: Incendiary";
 		displayNameShort = "57-Z-231 Incendiary";
 		ammo = "tsb_ammo_762x39_57z231";
 	};
 	class tsb_mag_762x39_30rnd_57bz231_PMAG : tsb_mag_762x39_30rnd_57n231_PMAG{
 		displayName = "7.62x39 PMAG 30rnd 57-BZ-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 30<br />Type: Armor Piercing Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 30<br />Type: Armor Piercing Incendiary";
 		displayNameShort = "57-BZ-231 AP-I";
 		ammo = "tsb_ammo_762x39_57bz231";
 	};
 	class tsb_mag_762x39_30rnd_57t231p_PMAG : tsb_mag_762x39_30rnd_57n231_PMAG{
 		displayName = "7.62x39 PMAG 30rnd 57-T-231P Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 30<br />Type: Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 30<br />Type: Tracer";
 		displayNameShort = "57-T-231P Tracer";
 		ammo = "tsb_ammo_762x39_57t231p";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_30rnd_57t231pm1_PMAG : tsb_mag_762x39_30rnd_57n231_PMAG{
 		displayName = "7.62x39 PMAG 30rnd 57-T-231PM1 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 30<br />Type: Delayed Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 30<br />Type: Delayed Tracer";
 		displayNameShort = "57-T-231PM1 Tracer-D";
 		ammo = "tsb_ammo_762x39_57t231pm1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_30rnd_57n231u_PMAG : tsb_mag_762x39_30rnd_57n231_PMAG{
 		displayName = "7.62x39 PMAG 30rnd 57-N-231U Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 30<br />Type: Subsonic";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 30<br />Type: Subsonic";
 		displayNameShort = "57-N-231U Subsonic";
 		ammo = "tsb_ammo_762x39_57n231u";
 	};
@@ -5001,7 +5096,7 @@ class CfgMagazines {
 		scopeArsenal = 2;
 		author = "Killa567";
 		displayName = "7.62x39 VZ58 30rnd 57-N-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";
 		displayNameShort = "57-N-231 Standard";
 		// modelSpecial = "rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_762x39_steelnew_30rnd";
 		// model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak762_103_mag";
@@ -5015,45 +5110,45 @@ class CfgMagazines {
 	};
 	class tsb_mag_762x39_30rnd_57n23189_VZ58 : tsb_mag_762x39_30rnd_57n231_VZ58{
 		displayName = "7.62x39 VZ58 30rnd 57-N-231(89) Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 30<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 30<br />Type: Standard";
 		displayNameShort = "57-N-231(89) Standard";
 		ammo = "tsb_ammo_762x39_57n23189";
 	};
 	class tsb_mag_762x39_30rnd_7n23_VZ58 : tsb_mag_762x39_30rnd_57n231_VZ58{
 		displayName = "7.62x39 VZ58 30rnd 7N23 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 30<br />Type: Armor Piercing Special";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 30<br />Type: Armor Piercing Special";
 		displayNameShort = "7N23 AP Special";
 		ammo = "tsb_ammo_762x39_7n23";
 	};
 	class tsb_mag_762x39_30rnd_57z231_VZ58 : tsb_mag_762x39_30rnd_57n231_VZ58{
 		displayName = "7.62x39 VZ58 30rnd 57-Z-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 30<br />Type: Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 30<br />Type: Incendiary";
 		displayNameShort = "57-Z-231 Incendiary";
 		ammo = "tsb_ammo_762x39_57z231";
 	};
 	class tsb_mag_762x39_30rnd_57bz231_VZ58 : tsb_mag_762x39_30rnd_57n231_VZ58{
 		displayName = "7.62x39 VZ58 30rnd 57-BZ-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 30<br />Type: Armor Piercing Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 30<br />Type: Armor Piercing Incendiary";
 		displayNameShort = "57-BZ-231 AP-I";
 		ammo = "tsb_ammo_762x39_57bz231";
 	};
 	class tsb_mag_762x39_30rnd_57t231p_VZ58 : tsb_mag_762x39_30rnd_57n231_VZ58{
 		displayName = "7.62x39 VZ58 30rnd 57-T-231P Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 30<br />Type: Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 30<br />Type: Tracer";
 		displayNameShort = "57-T-231P Tracer";
 		ammo = "tsb_ammo_762x39_57t231p";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_30rnd_57t231pm1_VZ58 : tsb_mag_762x39_30rnd_57n231_VZ58{
 		displayName = "7.62x39 VZ58 30rnd 57-T-231PM1 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 30<br />Type: Delayed Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 30<br />Type: Delayed Tracer";
 		displayNameShort = "57-T-231PM1 Tracer-D";
 		ammo = "tsb_ammo_762x39_57t231pm1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_30rnd_57n231u_VZ58 : tsb_mag_762x39_30rnd_57n231_VZ58{
 		displayName = "7.62x39 VZ58 30rnd 57-N-231U Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 30<br />Type: Subsonic";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 30<br />Type: Subsonic";
 		displayNameShort = "57-N-231U Subsonic";
 		ammo = "tsb_ammo_762x39_57n231u";
 	};
@@ -5063,7 +5158,7 @@ class CfgMagazines {
 		scope = public;
 		author = "Makarov Ivan Andreyavich";
 		displayName = "7.62x39 Bakelite 40rnd 57-N-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 40<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 40<br />Type: Standard";
 		displayNameShort = "57-N-231 Standard";
 		// modelSpecial = "rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_762x39_steelnew_40rnd";
 		// model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak762_103_mag";
@@ -5077,45 +5172,45 @@ class CfgMagazines {
 	};
 	class tsb_mag_762x39_40rnd_57n23189_Bakelite : tsb_mag_762x39_40rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 40rnd 57-N-231(89) Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 40<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 40<br />Type: Standard";
 		displayNameShort = "57-N-231(89) Standard";
 		ammo = "tsb_ammo_762x39_57n23189";
 	};
 	class tsb_mag_762x39_40rnd_7n23_Bakelite : tsb_mag_762x39_40rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 40rnd 7N23 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 40<br />Type: Armor Piercing Special";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 40<br />Type: Armor Piercing Special";
 		displayNameShort = "7N23 AP Special";
 		ammo = "tsb_ammo_762x39_7n23";
 	};
 	class tsb_mag_762x39_40rnd_57z231_Bakelite : tsb_mag_762x39_40rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 40rnd 57-Z-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 40<br />Type: Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 40<br />Type: Incendiary";
 		displayNameShort = "57-Z-231 Incendiary";
 		ammo = "tsb_ammo_762x39_57z231";
 	};
 	class tsb_mag_762x39_40rnd_57bz231_Bakelite : tsb_mag_762x39_40rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 40rnd 57-BZ-231 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 40<br />Type: Armor Piercing Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 40<br />Type: Armor Piercing Incendiary";
 		displayNameShort = "57-BZ-231 AP-I";
 		ammo = "tsb_ammo_762x39_57bz231";
 	};
 	class tsb_mag_762x39_40rnd_57t231p_Bakelite : tsb_mag_762x39_40rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 40rnd 57-T-231P Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 40<br />Type: Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 40<br />Type: Tracer";
 		displayNameShort = "57-T-231P Tracer";
 		ammo = "tsb_ammo_762x39_57t231p";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_40rnd_57t231pm1_Bakelite : tsb_mag_762x39_40rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 40rnd 57-T-231PM1 Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 40<br />Type: Delayed Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 40<br />Type: Delayed Tracer";
 		displayNameShort = "57-T-231PM1 Tracer-D";
 		ammo = "tsb_ammo_762x39_57t231pm1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_40rnd_57n231u_Bakelite : tsb_mag_762x39_40rnd_57n231_Bakelite{
 		displayName = "7.62x39 Bakelite 40rnd 57-N-231U Magazine";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 40<br />Type: Subsonic";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 40<br />Type: Subsonic";
 		displayNameShort = "57-N-231U Subsonic";
 		ammo = "tsb_ammo_762x39_57n231u";
 	};
@@ -5125,7 +5220,7 @@ class CfgMagazines {
 		scope = public;
 		author = "Makarov Ivan Andreyavich";
 		displayName = "7.62x39 Metal 75rnd 57-N-231 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 75<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 75<br />Type: Standard";
 		displayNameShort = "57-N-231 Standard";
 		// modelSpecial = "rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_762x39_steelnew_75rnd";
 		// model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak762_103_mag";
@@ -5139,52 +5234,52 @@ class CfgMagazines {
 	};
 	class tsb_mag_762x39_75rnd_57n23189_Metal : tsb_mag_762x39_75rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 75rnd 57-N-231(89) Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 75<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 75<br />Type: Standard";
 		displayNameShort = "57-N-231(89) Standard";
 		ammo = "tsb_ammo_762x39_57n23189";
 	};
 	class tsb_mag_762x39_75rnd_7n23_Metal : tsb_mag_762x39_75rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 75rnd 7N23 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 75<br />Type: Armor Piercing Special";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 75<br />Type: Armor Piercing Special";
 		displayNameShort = "7N23 AP Special";
 		ammo = "tsb_ammo_762x39_7n23";
 	};
 	class tsb_mag_762x39_75rnd_57z231_Metal : tsb_mag_762x39_75rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 75rnd 57-Z-231 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 75<br />Type: Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 75<br />Type: Incendiary";
 		displayNameShort = "57-Z-231 Incendiary";
 		ammo = "tsb_ammo_762x39_57z231";
 	};
 	class tsb_mag_762x39_75rnd_57bz231_Metal : tsb_mag_762x39_75rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 75rnd 57-BZ-231 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 75<br />Type: Armor Piercing Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 75<br />Type: Armor Piercing Incendiary";
 		displayNameShort = "57-BZ-231 AP-I";
 		ammo = "tsb_ammo_762x39_57bz231";
 	};
 	class tsb_mag_762x39_75rnd_57t231p_Metal : tsb_mag_762x39_75rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 75rnd 57-T-231P Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 75<br />Type: Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 75<br />Type: Tracer";
 		displayNameShort = "57-T-231P Tracer";
 		ammo = "tsb_ammo_762x39_57t231p";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_75rnd_57t231pm1_Metal : tsb_mag_762x39_75rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 75rnd 57-T-231PM1 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 75<br />Type: Delayed Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 75<br />Type: Delayed Tracer";
 		displayNameShort = "57-T-231PM1 Tracer-D";
 		ammo = "tsb_ammo_762x39_57t231pm1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_75rnd_57n231u_Metal : tsb_mag_762x39_75rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 75rnd 57-N-231U Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 75<br />Type: Subsonic";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 75<br />Type: Subsonic";
 		displayNameShort = "57-N-231U Subsonic";
 		ammo = "tsb_ammo_762x39_57n231u";
 	};
 //////////////////////////////// 75rnd Plastic /////////////////////////////////
 	class tsb_mag_762x39_75rnd_57n231_Plastic : tsb_mag_762x39_30rnd_57n231_metalold{
 		displayName = "7.62x39 Plastic 75rnd 57-N-231 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 75<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 75<br />Type: Standard";
 		displayNameShort = "57-N-231 Standard";
 		picture = "\rhsafrf\addons\rhs_inventoryicons\data\magazines\rhs_75Rnd_762x39mm_ca.paa";
 		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak762_steel75_mag";
@@ -5195,45 +5290,45 @@ class CfgMagazines {
 	};
 	class tsb_mag_762x39_75rnd_57n23189_Plastic : tsb_mag_762x39_75rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 75rnd 57-N-231(89) Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 75<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 75<br />Type: Standard";
 		displayNameShort = "57-N-231(89) Standard";
 		ammo = "tsb_ammo_762x39_57n23189";
 	};
 	class tsb_mag_762x39_75rnd_7n23_Plastic : tsb_mag_762x39_75rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 75rnd 7N23 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 75<br />Type: Armor Piercing Special";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 75<br />Type: Armor Piercing Special";
 		displayNameShort = "7N23 AP Special";
 		ammo = "tsb_ammo_762x39_7n23";
 	};
 	class tsb_mag_762x39_75rnd_57z231_Plastic : tsb_mag_762x39_75rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 75rnd 57-Z-231 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 75<br />Type: Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 75<br />Type: Incendiary";
 		displayNameShort = "57-Z-231 Incendiary";
 		ammo = "tsb_ammo_762x39_57z231";
 	};
 	class tsb_mag_762x39_75rnd_57bz231_Plastic : tsb_mag_762x39_75rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 75rnd 57-BZ-231 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 75<br />Type: Armor Piercing Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 75<br />Type: Armor Piercing Incendiary";
 		displayNameShort = "57-BZ-231 AP-I";
 		ammo = "tsb_ammo_762x39_57bz231";
 	};
 	class tsb_mag_762x39_75rnd_57t231p_Plastic : tsb_mag_762x39_75rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 75rnd 57-T-231P Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 75<br />Type: Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 75<br />Type: Tracer";
 		displayNameShort = "57-T-231P Tracer";
 		ammo = "tsb_ammo_762x39_57t231p";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_75rnd_57t231pm1_Plastic : tsb_mag_762x39_75rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 75rnd 57-T-231PM1 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 75<br />Type: Delayed Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 75<br />Type: Delayed Tracer";
 		displayNameShort = "57-T-231PM1 Tracer-D";
 		ammo = "tsb_ammo_762x39_57t231pm1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_75rnd_57n231u_Plastic : tsb_mag_762x39_75rnd_57n231_Plastic{
 		displayName = "7.62x39 Plastic 75rnd 57-N-231U Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 75<br />Type: Subsonic";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 75<br />Type: Subsonic";
 		displayNameShort = "57-N-231U Subsonic";
 		ammo = "tsb_ammo_762x39_57n231u";
 	};
@@ -5243,7 +5338,7 @@ class CfgMagazines {
 		scope = public;
 		author = "Makarov Ivan Andreyavich";
 		displayName = "7.62x39 Metal 100rnd 57-N-231 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 100<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 100<br />Type: Standard";
 		displayNameShort = "57-N-231 Standard";
 		// modelSpecial = "rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_762x39_steelnew_100rnd";
 		// model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak762_103_mag";
@@ -5257,45 +5352,45 @@ class CfgMagazines {
 	};
 	class tsb_mag_762x39_100rnd_57n23189_Metal : tsb_mag_762x39_100rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 100rnd 57-N-231(89) Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 100<br />Type: Standard";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 100<br />Type: Standard";
 		displayNameShort = "57-N-231(89) Standard";
 		ammo = "tsb_ammo_762x39_57n23189";
 	};
 	class tsb_mag_762x39_100rnd_7n23_Metal : tsb_mag_762x39_100rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 100rnd 7N23 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 100<br />Type: Armor Piercing Special";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 100<br />Type: Armor Piercing Special";
 		displayNameShort = "7N23 AP Special";
 		ammo = "tsb_ammo_762x39_7n23";
 	};
 	class tsb_mag_762x39_100rnd_57z231_Metal : tsb_mag_762x39_100rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 100rnd 57-Z-231 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 100<br />Type: Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 100<br />Type: Incendiary";
 		displayNameShort = "57-Z-231 Incendiary";
 		ammo = "tsb_ammo_762x39_57z231";
 	};
 	class tsb_mag_762x39_100rnd_57bz231_Metal : tsb_mag_762x39_100rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 100rnd 57-BZ-231 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 100<br />Type: Armor Piercing Incendiary";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 100<br />Type: Armor Piercing Incendiary";
 		displayNameShort = "57-BZ-231 AP-I";
 		ammo = "tsb_ammo_762x39_57bz231";
 	};
 	class tsb_mag_762x39_100rnd_57t231p_Metal : tsb_mag_762x39_100rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 100rnd 57-T-231P Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 100<br />Type: Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 100<br />Type: Tracer";
 		displayNameShort = "57-T-231P Tracer";
 		ammo = "tsb_ammo_762x39_57t231p";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_100rnd_57t231pm1_Metal : tsb_mag_762x39_100rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 100rnd 57-T-231PM1 Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 100<br />Type: Delayed Tracer";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 100<br />Type: Delayed Tracer";
 		displayNameShort = "57-T-231PM1 Tracer-D";
 		ammo = "tsb_ammo_762x39_57t231pm1";
 		tracersEvery = 1;
 	};
 	class tsb_mag_762x39_100rnd_57n231u_Metal : tsb_mag_762x39_100rnd_57n231_Metal{
 		displayName = "7.62x39 Metal 100rnd 57-N-231U Drum";
-		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 100<br />Type: Subsonic";;
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 100<br />Type: Subsonic";
 		displayNameShort = "57-N-231U Subsonic";
 		ammo = "tsb_ammo_762x39_57n231u";
 	};
@@ -7095,6 +7190,55 @@ class CfgMagazines {
 ////////////////////////////////////////////////////////// 8.60 x 70 (338 Lapua) //////////////////////////////////////////////
 //////////////////////////////////////////////////////////    9 x 18 //////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////    9 x 19 //////////////////////////////////////////////////////////
+//////////////////////////////// 30rnd STANAG //////////////////////////////////
+	class rhsusf_mag_17Rnd_9x19_FMJ;
+
+	class tsb_mag_9x19_17rnd_FMJ_Glock : rhsusf_mag_17Rnd_9x19_FMJ{
+		author = "Killa567";
+		scope = public;
+		displayName = "9x19 Glock 17rnd FMJ Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Winchester FMJ<br />Capacity: 17<br />Type: Full Metal Jacket";
+		displayNameShort = "FMJ";
+		ammo = "tsb_ammo_9x19_Ball";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_9x19_17rnd_JHP_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
+		displayName = "9x19 Glock 17rnd JHP Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Speer Gold Dot<br />Capacity: 17<br />Type: Jacketed Hollow Point";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_JHP";
+	};
+	class tsb_mag_9x19_17rnd_M882_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
+		displayName = "9x19 Glock 17rnd M882 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: M882<br />Capacity: 17<br />Type: Over Preasured";
+		displayNameShort = "M882 +P";
+		ammo = "tsb_ammo_9x19_M882";
+	};
+	class tsb_mag_9x19_17rnd_Hydra_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
+		displayName = "9x19 Glock 17rnd HydraShok Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Federal HydraShok<br />Capacity: 17<br />Type: Over Preasured Jacketed Hollow Point";
+		displayNameShort = "JHP+P";
+		ammo = "tsb_ammo_9x19_Hydra";
+	};
+	class tsb_mag_9x19_17rnd_P_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
+		displayName = "9x19 Glock 17rnd +P Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Cor-Bon<br />Capacity: 17<br />Type: Over Preasured";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_P";
+	};
+	class tsb_mag_9x19_17rnd_JHP_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
+		displayName = "9x19 Glock 17rnd 7N21 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N21<br />Capacity: 17<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N21";
+	};
+	class tsb_mag_9x19_17rnd_JHP_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
+		displayName = "9x19 Glock 17rnd 7N31 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N31<br />Capacity: 17<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N31";
+	};
 //////////////////////////////////////////////////////////    9 x 21 //////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////    9 x 39 //////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////// 11.4 x 23 (.45 ACP) ////////////////////////////////////////////////
