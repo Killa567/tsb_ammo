@@ -1,24 +1,9 @@
 class CfgMagazineWells {
-	// class CBA_9x18_PM {
-		// RHS_Magazines[] = {"rhs_mag_9x18_8_57N181S"};
-	// };
-	
-	// class CBA_9x18_PMM {
-		// RHS_Magazines[] = {"rhs_mag_9x18_12_57N181S"};
-	// };
-	
-	// class CBA_9x19_MP443 {
-		// RHS_Magazines[] = {"rhs_mag_9x19_17"};
-	// };
-	
-	// class CBA_9x21_SR1M {
-		// RHS_Magazines[] = {"rhs_18rnd_9x21mm_7N28", "rhs_18rnd_9x21mm_7N29", "rhs_18rnd_9x21mm_7BT3"};
-	// };
-	
-	// class CBA_9x19_PP2000 {
-		// RHS_Magazines[] = {"rhs_mag_9x19mm_7n21_20", "rhs_mag_9x19mm_7n31_20", "rhs_mag_9x19mm_7n21_44", "rhs_mag_9x19mm_7n31_44"};
-	// };
-///545AK///
+
+
+//////////////////////////////////////////////////////////  4.6 x 30 //////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////// 5.45 x 39 //////////////////////////////////////////////////////////
+//////////////////////////////// AK ////////////////////////////////////////////
 	class AK_545x39 {
 		TSB_Magazines[] = {
 			"tsb_mag_545x39_30rnd_7n6_bakelite",
@@ -366,332 +351,506 @@ class CfgMagazineWells {
 			"tsb_mag_545x39_30rnd_7n40_award"
 		};
 	};
-///7.62x39 AK///
-	class AK_762x39 {
+////////////////////////////////////////////////////////// 5.56 x 45 //////////////////////////////////////////////////////////
+//////////////////////////////// M21 ///////////////////////////////////////////
+	class CBA_556x45_M21 {
 		TSB_Magazines[] = {
-			"tsb_mag_762x39_10rnd_fmj_civ",
-			"tsb_mag_762x39_10rnd_hp_civ",
-
-			"tsb_mag_762x39_30rnd_57n231_metalold",
-			"tsb_mag_762x39_30rnd_57n23189_metalold",
-			"tsb_mag_762x39_30rnd_7n23_metalold",
-			"tsb_mag_762x39_30rnd_57z231_metalold",
-			"tsb_mag_762x39_30rnd_57bz231_metalold",
-			"tsb_mag_762x39_30rnd_57t231p_metalold",
-			"tsb_mag_762x39_30rnd_57t231pm1_metalold",
-			"tsb_mag_762x39_30rnd_57n231u_metalold",
-
-			"tsb_mag_762x39_30rnd_57n231_metal",
-			"tsb_mag_762x39_30rnd_57n23189_metal",
-			"tsb_mag_762x39_30rnd_7n23_metal",
-			"tsb_mag_762x39_30rnd_57z231_metal",
-			"tsb_mag_762x39_30rnd_57bz231_metal",
-			"tsb_mag_762x39_30rnd_57t231p_metal",
-			"tsb_mag_762x39_30rnd_57t231pm1_metal",
-			"tsb_mag_762x39_30rnd_57n231u_metal",
-
-			"tsb_mag_762x39_30rnd_57n231_plastic",
-			"tsb_mag_762x39_30rnd_57n23189_plastic",
-			"tsb_mag_762x39_30rnd_7n23_plastic",
-			"tsb_mag_762x39_30rnd_57z231_plastic",
-			"tsb_mag_762x39_30rnd_57bz231_plastic",
-			"tsb_mag_762x39_30rnd_57t231p_plastic",
-			"tsb_mag_762x39_30rnd_57t231pm1_plastic",
-			"tsb_mag_762x39_30rnd_57n231u_plastic",
-
-			"tsb_mag_762x39_30rnd_57n231_bakelite",
-			"tsb_mag_762x39_30rnd_57n23189_bakelite",
-			"tsb_mag_762x39_30rnd_7n23_bakelite",
-			"tsb_mag_762x39_30rnd_57z231_bakelite",
-			"tsb_mag_762x39_30rnd_57bz231_bakelite",
-			"tsb_mag_762x39_30rnd_57t231p_bakelite",
-			"tsb_mag_762x39_30rnd_57t231pm1_bakelite",
-			"tsb_mag_762x39_30rnd_57n231u_bakelite",
-
-			"tsb_mag_762x39_30rnd_57n231_pmag",
-			"tsb_mag_762x39_30rnd_57n23189_pmag",
-			"tsb_mag_762x39_30rnd_7n23_pmag",
-			"tsb_mag_762x39_30rnd_57z231_pmag",
-			"tsb_mag_762x39_30rnd_57bz231_pmag",
-			"tsb_mag_762x39_30rnd_57t231p_pmag",
-			"tsb_mag_762x39_30rnd_57t231pm1_pmag",
-			"tsb_mag_762x39_30rnd_57n231u_pmag",
-
-			"tsb_mag_762x39_40rnd_57n231_bakelite",
-			"tsb_mag_762x39_40rnd_57n23189_bakelite",
-			"tsb_mag_762x39_40rnd_7n23_bakelite",
-			"tsb_mag_762x39_40rnd_57z231_bakelite",
-			"tsb_mag_762x39_40rnd_57bz231_bakelite",
-			"tsb_mag_762x39_40rnd_57t231p_bakelite",
-			"tsb_mag_762x39_40rnd_57t231pm1_bakelite",
-			"tsb_mag_762x39_40rnd_57n231u_bakelite",
-
-			"tsb_mag_762x39_75rnd_57n231_metal",
-			"tsb_mag_762x39_75rnd_57n23189_metal",
-			"tsb_mag_762x39_75rnd_7n23_metal",
-			"tsb_mag_762x39_75rnd_57z231_metal",
-			"tsb_mag_762x39_75rnd_57bz231_metal",
-			"tsb_mag_762x39_75rnd_57t231p_metal",
-			"tsb_mag_762x39_75rnd_57t231pm1_metal",
-			"tsb_mag_762x39_75rnd_57n231u_metal",
-
-			"tsb_mag_762x39_75rnd_57n231_plastic",
-			"tsb_mag_762x39_75rnd_57n23189_plastic",
-			"tsb_mag_762x39_75rnd_7n23_plastic",
-			"tsb_mag_762x39_75rnd_57z231_plastic",
-			"tsb_mag_762x39_75rnd_57bz231_plastic",
-			"tsb_mag_762x39_75rnd_57t231p_plastic",
-			"tsb_mag_762x39_75rnd_57t231pm1_plastic",
-			"tsb_mag_762x39_75rnd_57n231u_plastic",
-
-			"tsb_mag_762x39_100rnd_57n231_metal",
-			"tsb_mag_762x39_100rnd_57n23189_metal",
-			"tsb_mag_762x39_100rnd_7n23_metal",
-			"tsb_mag_762x39_100rnd_57z231_metal",
-			"tsb_mag_762x39_100rnd_57bz231_metal",
-			"tsb_mag_762x39_100rnd_57t231p_metal",
-			"tsb_mag_762x39_100rnd_57t231pm1_metal",
-			"tsb_mag_762x39_100rnd_57n231u_metal"
+		"tsb_mag_556x45_30rnd_M193_M21",
+		"tsb_mag_556x45_30rnd_M196_M21",
+		"tsb_mag_556x45_30rnd_M855_M21",
+		"tsb_mag_556x45_30rnd_M855LF_M21",
+		"tsb_mag_556x45_30rnd_M855A1_M21",
+		"tsb_mag_556x45_30rnd_M856_M21",
+		"tsb_mag_556x45_30rnd_M856A1_M21",
+		"tsb_mag_556x45_30rnd_M995_M21",
+		"tsb_mag_556x45_30rnd_XM996_M21",
+		"tsb_mag_556x45_30rnd_MLU26P_M21",
+		"tsb_mag_556x45_30rnd_Mk262mod1_M21",
+		"tsb_mag_556x45_30rnd_Mk318mod0_M21",
+		"tsb_mag_556x45_30rnd_SS_M21",
+		"tsb_mag_556x45_30rnd_SS109_M21"
 		};
 	};
-	class CBA_762x39_VZ58 {
-		TSB_Magazines[] = {
-			"tsb_mag_762x39_30rnd_57n231_VZ58",
-			"tsb_mag_762x39_30rnd_57n23189_VZ58",
-			"tsb_mag_762x39_30rnd_7n23_VZ58",
-			"tsb_mag_762x39_30rnd_57z231_VZ58",
-			"tsb_mag_762x39_30rnd_57bz231_VZ58",
-			"tsb_mag_762x39_30rnd_57t231p_VZ58",
-			"tsb_mag_762x39_30rnd_57t231pm1_VZ58",
-			"tsb_mag_762x39_30rnd_57n231u_VZ58"
+//////////////////////////////// HK33 //////////////////////////////////////////
+	class CBA_556x45_HK33 {
+ 		TSB_Magazines[] = { 
+		"tsb_mag_556x45_30rnd_M193_Hk33",
+		"tsb_mag_556x45_30rnd_M196_Hk33",
+		"tsb_mag_556x45_30rnd_M855_Hk33",
+		"tsb_mag_556x45_30rnd_M855LF_Hk33",
+		"tsb_mag_556x45_30rnd_M855A1_Hk33",
+		"tsb_mag_556x45_30rnd_M856_Hk33",
+		"tsb_mag_556x45_30rnd_M856A1_Hk33",
+		"tsb_mag_556x45_30rnd_M995_Hk33",
+		"tsb_mag_556x45_30rnd_XM996_Hk33",
+		"tsb_mag_556x45_30rnd_MLU26P_Hk33",
+		"tsb_mag_556x45_30rnd_Mk262mod1_Hk33",
+		"tsb_mag_556x45_30rnd_Mk318mod0_Hk33",
+		"tsb_mag_556x45_30rnd_SS_Hk33",
+		"tsb_mag_556x45_30rnd_SS109_Hk33"
 		};
 	};
-	
-	// class TSB_762x39_rpd{};
-	// class TSB_762x39_sks{};
-
-	class CBA_762x39_AK {
-		TSB_Magazines[] = {
-			"tsb_mag_762x39_10rnd_fmj_civ",
-			"tsb_mag_762x39_10rnd_hp_civ",
-
-			"tsb_mag_762x39_30rnd_57n231_metalold",
-			"tsb_mag_762x39_30rnd_57n23189_metalold",
-			"tsb_mag_762x39_30rnd_7n23_metalold",
-			"tsb_mag_762x39_30rnd_57z231_metalold",
-			"tsb_mag_762x39_30rnd_57bz231_metalold",
-			"tsb_mag_762x39_30rnd_57t231p_metalold",
-			"tsb_mag_762x39_30rnd_57t231pm1_metalold",
-			"tsb_mag_762x39_30rnd_57n231u_metalold",
-
-			"tsb_mag_762x39_30rnd_57n231_metal",
-			"tsb_mag_762x39_30rnd_57n23189_metal",
-			"tsb_mag_762x39_30rnd_7n23_metal",
-			"tsb_mag_762x39_30rnd_57z231_metal",
-			"tsb_mag_762x39_30rnd_57bz231_metal",
-			"tsb_mag_762x39_30rnd_57t231p_metal",
-			"tsb_mag_762x39_30rnd_57t231pm1_metal",
-			"tsb_mag_762x39_30rnd_57n231u_metal",
-
-			"tsb_mag_762x39_30rnd_57n231_plastic",
-			"tsb_mag_762x39_30rnd_57n23189_plastic",
-			"tsb_mag_762x39_30rnd_7n23_plastic",
-			"tsb_mag_762x39_30rnd_57z231_plastic",
-			"tsb_mag_762x39_30rnd_57bz231_plastic",
-			"tsb_mag_762x39_30rnd_57t231p_plastic",
-			"tsb_mag_762x39_30rnd_57t231pm1_plastic",
-			"tsb_mag_762x39_30rnd_57n231u_plastic",
-
-			"tsb_mag_762x39_30rnd_57n231_bakelite",
-			"tsb_mag_762x39_30rnd_57n23189_bakelite",
-			"tsb_mag_762x39_30rnd_7n23_bakelite",
-			"tsb_mag_762x39_30rnd_57z231_bakelite",
-			"tsb_mag_762x39_30rnd_57bz231_bakelite",
-			"tsb_mag_762x39_30rnd_57t231p_bakelite",
-			"tsb_mag_762x39_30rnd_57t231pm1_bakelite",
-			"tsb_mag_762x39_30rnd_57n231u_bakelite",
-
-			"tsb_mag_762x39_30rnd_57n231_pmag",
-			"tsb_mag_762x39_30rnd_57n23189_pmag",
-			"tsb_mag_762x39_30rnd_7n23_pmag",
-			"tsb_mag_762x39_30rnd_57z231_pmag",
-			"tsb_mag_762x39_30rnd_57bz231_pmag",
-			"tsb_mag_762x39_30rnd_57t231p_pmag",
-			"tsb_mag_762x39_30rnd_57t231pm1_pmag",
-			"tsb_mag_762x39_30rnd_57n231u_pmag"
+//////////////////////////////// AUG ///////////////////////////////////////////
+	class CBA_556x45_STEYR {
+ 		TSB_Magazines[] = { 
+		"tsb_mag_556x45_30rnd_M193_AUG",
+		"tsb_mag_556x45_30rnd_M196_AUG",
+		"tsb_mag_556x45_30rnd_M855_AUG",
+		"tsb_mag_556x45_30rnd_M855LF_AUG",
+		"tsb_mag_556x45_30rnd_M855A1_AUG",
+		"tsb_mag_556x45_30rnd_M856_AUG",
+		"tsb_mag_556x45_30rnd_M856A1_AUG",
+		"tsb_mag_556x45_30rnd_M995_AUG",
+		"tsb_mag_556x45_30rnd_XM996_AUG",
+		"tsb_mag_556x45_30rnd_MLU26P_AUG",
+		"tsb_mag_556x45_30rnd_Mk262mod1_AUG",
+		"tsb_mag_556x45_30rnd_Mk318mod0_AUG",
+		"tsb_mag_556x45_30rnd_SS_AUG",
+		"tsb_mag_556x45_30rnd_SS109_AUG",
+		"tsb_mag_556x45_42rnd_M193_AUG",
+		"tsb_mag_556x45_42rnd_M196_AUG",
+		"tsb_mag_556x45_42rnd_M855_AUG",
+		"tsb_mag_556x45_42rnd_M855LF_AUG",
+		"tsb_mag_556x45_42rnd_M855A1_AUG",
+		"tsb_mag_556x45_42rnd_M856_AUG",
+		"tsb_mag_556x45_42rnd_M856A1_AUG",
+		"tsb_mag_556x45_42rnd_M995_AUG",
+		"tsb_mag_556x45_42rnd_XM996_AUG",
+		"tsb_mag_556x45_42rnd_MLU26P_AUG",
+		"tsb_mag_556x45_42rnd_Mk262mod1_AUG",
+		"tsb_mag_556x45_42rnd_Mk318mod0_AUG",
+		"tsb_mag_556x45_42rnd_SS_AUG",
+		"tsb_mag_556x45_42rnd_SS109_AUG" 
 		};
 	};
-	
-	class CBA_762x39_RPK {
-		TSB_Magazines[] = {
-			"tsb_mag_762x39_40rnd_57n231_bakelite",
-			"tsb_mag_762x39_40rnd_57n23189_bakelite",
-			"tsb_mag_762x39_40rnd_7n23_bakelite",
-			"tsb_mag_762x39_40rnd_57z231_bakelite",
-			"tsb_mag_762x39_40rnd_57bz231_bakelite",
-			"tsb_mag_762x39_40rnd_57t231p_bakelite",
-			"tsb_mag_762x39_40rnd_57t231pm1_bakelite",
-			"tsb_mag_762x39_40rnd_57n231u_bakelite",
-
-			"tsb_mag_762x39_75rnd_57n231_metal",
-			"tsb_mag_762x39_75rnd_57n23189_metal",
-			"tsb_mag_762x39_75rnd_7n23_metal",
-			"tsb_mag_762x39_75rnd_57z231_metal",
-			"tsb_mag_762x39_75rnd_57bz231_metal",
-			"tsb_mag_762x39_75rnd_57t231p_metal",
-			"tsb_mag_762x39_75rnd_57t231pm1_metal",
-			"tsb_mag_762x39_75rnd_57n231u_metal",
-
-			"tsb_mag_762x39_75rnd_57n231_plastic",
-			"tsb_mag_762x39_75rnd_57n23189_plastic",
-			"tsb_mag_762x39_75rnd_7n23_plastic",
-			"tsb_mag_762x39_75rnd_57z231_plastic",
-			"tsb_mag_762x39_75rnd_57bz231_plastic",
-			"tsb_mag_762x39_75rnd_57t231p_plastic",
-			"tsb_mag_762x39_75rnd_57t231pm1_plastic",
-			"tsb_mag_762x39_75rnd_57n231u_plastic",
-
-			"tsb_mag_762x39_100rnd_57n231_metal",
-			"tsb_mag_762x39_100rnd_57n23189_metal",
-			"tsb_mag_762x39_100rnd_7n23_metal",
-			"tsb_mag_762x39_100rnd_57z231_metal",
-			"tsb_mag_762x39_100rnd_57bz231_metal",
-			"tsb_mag_762x39_100rnd_57t231p_metal",
-			"tsb_mag_762x39_100rnd_57t231pm1_metal",
-			"tsb_mag_762x39_100rnd_57n231u_metal"
+//////////////////////////////// AK's //////////////////////////////////////////
+	class CBA_556x45_AK {
+ 		TSB_Magazines[] = { 
+		"tsb_mag_556x45_30rnd_M193_bakelite",
+		"tsb_mag_556x45_30rnd_M196_bakelite",
+		"tsb_mag_556x45_30rnd_M855_bakelite",
+		"tsb_mag_556x45_30rnd_M855LF_bakelite",
+		"tsb_mag_556x45_30rnd_M855A1_bakelite",
+		"tsb_mag_556x45_30rnd_M856_bakelite",
+		"tsb_mag_556x45_30rnd_M856A1_bakelite",
+		"tsb_mag_556x45_30rnd_M995_bakelite",
+		"tsb_mag_556x45_30rnd_XM996_bakelite",
+		"tsb_mag_556x45_30rnd_MLU26P_bakelite",
+		"tsb_mag_556x45_30rnd_Mk262mod1_bakelite",
+		"tsb_mag_556x45_30rnd_Mk318mod0_bakelite",
+		"tsb_mag_556x45_30rnd_SS_bakelite",
+		"tsb_mag_556x45_30rnd_SS109_bakelite",
+		///Plum///
+		"tsb_mag_556x45_30rnd_M193_Plum",
+		"tsb_mag_556x45_30rnd_M196_Plum",
+		"tsb_mag_556x45_30rnd_M855_Plum",
+		"tsb_mag_556x45_30rnd_M855LF_Plum",
+		"tsb_mag_556x45_30rnd_M855A1_Plum",
+		"tsb_mag_556x45_30rnd_M856_Plum",
+		"tsb_mag_556x45_30rnd_M856A1_Plum",
+		"tsb_mag_556x45_30rnd_M995_Plum",
+		"tsb_mag_556x45_30rnd_XM996_Plum",
+		"tsb_mag_556x45_30rnd_MLU26P_Plum",
+		"tsb_mag_556x45_30rnd_Mk262mod1_Plum",
+		"tsb_mag_556x45_30rnd_Mk318mod0_Plum",
+		"tsb_mag_556x45_30rnd_SS_Plum",
+		"tsb_mag_556x45_30rnd_SS109_Plum",
+		///Plastic///
+		"tsb_mag_556x45_30rnd_M193_Plastic",
+		"tsb_mag_556x45_30rnd_M196_Plastic",
+		"tsb_mag_556x45_30rnd_M855_Plastic",
+		"tsb_mag_556x45_30rnd_M855LF_Plastic",
+		"tsb_mag_556x45_30rnd_M855A1_Plastic",
+		"tsb_mag_556x45_30rnd_M856_Plastic",
+		"tsb_mag_556x45_30rnd_M856A1_Plastic",
+		"tsb_mag_556x45_30rnd_M995_Plastic",
+		"tsb_mag_556x45_30rnd_XM996_Plastic",
+		"tsb_mag_556x45_30rnd_MLU26P_Plastic",
+		"tsb_mag_556x45_30rnd_Mk262mod1_Plastic",
+		"tsb_mag_556x45_30rnd_Mk318mod0_Plastic",
+		"tsb_mag_556x45_30rnd_SS_Plastic",
+		"tsb_mag_556x45_30rnd_SS109_Plastic",
+		///Forest///
+		"tsb_mag_556x45_30rnd_M193_Forest",
+		"tsb_mag_556x45_30rnd_M196_Forest",
+		"tsb_mag_556x45_30rnd_M855_Forest",
+		"tsb_mag_556x45_30rnd_M855LF_Forest",
+		"tsb_mag_556x45_30rnd_M855A1_Forest",
+		"tsb_mag_556x45_30rnd_M856_Forest",
+		"tsb_mag_556x45_30rnd_M856A1_Forest",
+		"tsb_mag_556x45_30rnd_M995_Forest",
+		"tsb_mag_556x45_30rnd_XM996_Forest",
+		"tsb_mag_556x45_30rnd_MLU26P_Forest",
+		"tsb_mag_556x45_30rnd_Mk262mod1_Forest",
+		"tsb_mag_556x45_30rnd_Mk318mod0_Forest",
+		"tsb_mag_556x45_30rnd_SS_Forest",
+		"tsb_mag_556x45_30rnd_SS109_Forest",
+		///Desert///
+		"tsb_mag_556x45_30rnd_M193_Desert",
+		"tsb_mag_556x45_30rnd_M196_Desert",
+		"tsb_mag_556x45_30rnd_M855_Desert",
+		"tsb_mag_556x45_30rnd_M855LF_Desert",
+		"tsb_mag_556x45_30rnd_M855A1_Desert",
+		"tsb_mag_556x45_30rnd_M856_Desert",
+		"tsb_mag_556x45_30rnd_M856A1_Desert",
+		"tsb_mag_556x45_30rnd_M995_Desert",
+		"tsb_mag_556x45_30rnd_XM996_Desert",
+		"tsb_mag_556x45_30rnd_MLU26P_Desert",
+		"tsb_mag_556x45_30rnd_Mk262mod1_Desert",
+		"tsb_mag_556x45_30rnd_Mk318mod0_Desert",
+		"tsb_mag_556x45_30rnd_SS_Desert",
+		"tsb_mag_556x45_30rnd_SS109_Desert",
+		///Plum Double///
+		"tsb_mag_556x45_30rnd_M193_Plum_Double",
+		"tsb_mag_556x45_30rnd_M196_Plum_Double",
+		"tsb_mag_556x45_30rnd_M855_Plum_Double",
+		"tsb_mag_556x45_30rnd_M855LF_Plum_Double",
+		"tsb_mag_556x45_30rnd_M855A1_Plum_Double",
+		"tsb_mag_556x45_30rnd_M856_Plum_Double",
+		"tsb_mag_556x45_30rnd_M856A1_Plum_Double",
+		"tsb_mag_556x45_30rnd_M995_Plum_Double",
+		"tsb_mag_556x45_30rnd_XM996_Plum_Double",
+		"tsb_mag_556x45_30rnd_MLU26P_Plum_Double",
+		"tsb_mag_556x45_30rnd_Mk262mod1_Plum_Double",
+		"tsb_mag_556x45_30rnd_Mk318mod0_Plum_Double",
+		"tsb_mag_556x45_30rnd_SS_Plum_Double",
+		"tsb_mag_556x45_30rnd_SS109_Plum_Double",
+		///Plastic Double///
+		"tsb_mag_556x45_30rnd_M193_Plastic_Double",
+		"tsb_mag_556x45_30rnd_M196_Plastic_Double",
+		"tsb_mag_556x45_30rnd_M855_Plastic_Double",
+		"tsb_mag_556x45_30rnd_M855LF_Plastic_Double",
+		"tsb_mag_556x45_30rnd_M855A1_Plastic_Double",
+		"tsb_mag_556x45_30rnd_M856_Plastic_Double",
+		"tsb_mag_556x45_30rnd_M856A1_Plastic_Double",
+		"tsb_mag_556x45_30rnd_M995_Plastic_Double",
+		"tsb_mag_556x45_30rnd_XM996_Plastic_Double",
+		"tsb_mag_556x45_30rnd_MLU26P_Plastic_Double",
+		"tsb_mag_556x45_30rnd_Mk262mod1_Plastic_Double",
+		"tsb_mag_556x45_30rnd_Mk318mod0_Plastic_Double",
+		"tsb_mag_556x45_30rnd_SS_Plastic_Double",
+		"tsb_mag_556x45_30rnd_SS109_Plastic_Double",
+		///Forest Double///
+		"tsb_mag_556x45_30rnd_M193_Forest_Double",
+		"tsb_mag_556x45_30rnd_M196_Forest_Double",
+		"tsb_mag_556x45_30rnd_M855_Forest_Double",
+		"tsb_mag_556x45_30rnd_M855LF_Forest_Double",
+		"tsb_mag_556x45_30rnd_M855A1_Forest_Double",
+		"tsb_mag_556x45_30rnd_M856_Forest_Double",
+		"tsb_mag_556x45_30rnd_M856A1_Forest_Double",
+		"tsb_mag_556x45_30rnd_M995_Forest_Double",
+		"tsb_mag_556x45_30rnd_XM996_Forest_Double",
+		"tsb_mag_556x45_30rnd_MLU26P_Forest_Double",
+		"tsb_mag_556x45_30rnd_Mk262mod1_Forest_Double",
+		"tsb_mag_556x45_30rnd_Mk318mod0_Forest_Double",
+		"tsb_mag_556x45_30rnd_SS_Forest_Double",
+		"tsb_mag_556x45_30rnd_SS109_Forest_Double",
+		///Desert Double///
+		"tsb_mag_556x45_30rnd_M193_Desert_Double",
+		"tsb_mag_556x45_30rnd_M196_Desert_Double",
+		"tsb_mag_556x45_30rnd_M855_Desert_Double",
+		"tsb_mag_556x45_30rnd_M855LF_Desert_Double",
+		"tsb_mag_556x45_30rnd_M855A1_Desert_Double",
+		"tsb_mag_556x45_30rnd_M856_Desert_Double",
+		"tsb_mag_556x45_30rnd_M856A1_Desert_Double",
+		"tsb_mag_556x45_30rnd_M995_Desert_Double",
+		"tsb_mag_556x45_30rnd_XM996_Desert_Double",
+		"tsb_mag_556x45_30rnd_MLU26P_Desert_Double",
+		"tsb_mag_556x45_30rnd_Mk262mod1_Desert_Double",
+		"tsb_mag_556x45_30rnd_Mk318mod0_Desert_Double",
+		"tsb_mag_556x45_30rnd_SS_Desert_Double",
+		"tsb_mag_556x45_30rnd_SS109_Desert_Double",
+		///45 Rnd Beakalite///
+		"tsb_mag_556x45_45rnd_M193_Bakelite",
+		"tsb_mag_556x45_45rnd_M196_Bakelite",
+		"tsb_mag_556x45_45rnd_M855_Bakelite",
+		"tsb_mag_556x45_45rnd_M855LF_Bakelite",
+		"tsb_mag_556x45_45rnd_M855A1_Bakelite",
+		"tsb_mag_556x45_45rnd_M856_Bakelite",
+		"tsb_mag_556x45_45rnd_M856A1_Bakelite",
+		"tsb_mag_556x45_45rnd_M995_Bakelite",
+		"tsb_mag_556x45_45rnd_XM996_Bakelite",
+		"tsb_mag_556x45_45rnd_MLU26P_Bakelite",
+		"tsb_mag_556x45_45rnd_Mk262mod1_Bakelite",
+		"tsb_mag_556x45_45rnd_Mk318mod0_Bakelite",
+		"tsb_mag_556x45_45rnd_SS_Bakelite",
+		"tsb_mag_556x45_45rnd_SS109_Bakelite",
+		///45 Rnd Plastic///
+		"tsb_mag_556x45_45rnd_M193_Plastic",
+		"tsb_mag_556x45_45rnd_M196_Plastic",
+		"tsb_mag_556x45_45rnd_M855_Plastic",
+		"tsb_mag_556x45_45rnd_M855LF_Plastic",
+		"tsb_mag_556x45_45rnd_M855A1_Plastic",
+		"tsb_mag_556x45_45rnd_M856_Plastic",
+		"tsb_mag_556x45_45rnd_M856A1_Plastic",
+		"tsb_mag_556x45_45rnd_M995_Plastic",
+		"tsb_mag_556x45_45rnd_XM996_Plastic",
+		"tsb_mag_556x45_45rnd_MLU26P_Plastic",
+		"tsb_mag_556x45_45rnd_Mk262mod1_Plastic",
+		"tsb_mag_556x45_45rnd_Mk318mod0_Plastic",
+		"tsb_mag_556x45_45rnd_SS_Plastic",
+		"tsb_mag_556x45_45rnd_SS109_Plastic",
+		///60 Rnd Plastic///
+		"tsb_mag_556x45_60rnd_M193_Plastic",
+		"tsb_mag_556x45_60rnd_M196_Plastic",
+		"tsb_mag_556x45_60rnd_M855_Plastic",
+		"tsb_mag_556x45_60rnd_M855LF_Plastic",
+		"tsb_mag_556x45_60rnd_M855A1_Plastic",
+		"tsb_mag_556x45_60rnd_M856_Plastic",
+		"tsb_mag_556x45_60rnd_M856A1_Plastic",
+		"tsb_mag_556x45_60rnd_M995_Plastic",
+		"tsb_mag_556x45_60rnd_XM996_Plastic",
+		"tsb_mag_556x45_60rnd_MLU26P_Plastic",
+		"tsb_mag_556x45_60rnd_Mk262mod1_Plastic",
+		"tsb_mag_556x45_60rnd_Mk318mod0_Plastic",
+		"tsb_mag_556x45_60rnd_SS_Plastic",
+		"tsb_mag_556x45_60rnd_SS109_Plastic"
+		};
+	};	
+//////////////////////////////// SG550 /////////////////////////////////////////
+	class CBA_556x45_SG550 {
+ 		TSB_Magazines[] = { 
+		"tsb_mag_556x45_30rnd_M193_SIG",
+		"tsb_mag_556x45_30rnd_M196_SIG",
+		"tsb_mag_556x45_30rnd_M855_SIG",
+		"tsb_mag_556x45_30rnd_M855LF_SIG",
+		"tsb_mag_556x45_30rnd_M855A1_SIG",
+		"tsb_mag_556x45_30rnd_M856_SIG",
+		"tsb_mag_556x45_30rnd_M856A1_SIG",
+		"tsb_mag_556x45_30rnd_M995_SIG",
+		"tsb_mag_556x45_30rnd_XM996_SIG",
+		"tsb_mag_556x45_30rnd_MLU26P_SIG",
+		"tsb_mag_556x45_30rnd_Mk262mod1_SIG",
+		"tsb_mag_556x45_30rnd_Mk318mod0_SIG",
+		"tsb_mag_556x45_30rnd_SS_SIG",
+		"tsb_mag_556x45_30rnd_SS109_SIG"
 		};
 	};
-///7.62x54///
-	class PK_762x54R {
-		TSB_Magazines[] = {
-			"tsb_mag_762x54_100rnd_57n323s",
-			"tsb_mag_762x54_100rnd_7n13",
-			"tsb_mag_762x54_100rnd_7n26",
-			"tsb_mag_762x54_100rnd_7bz3",
-			"tsb_mag_762x54_100rnd_7bt1",
-			"tsb_mag_762x54_100rnd_7t2",
-			"tsb_mag_762x54_100rnd_7t2m",
-
-			"tsb_mag_762x54_200rnd_57n323s",
-			"tsb_mag_762x54_200rnd_7n13",
-			"tsb_mag_762x54_200rnd_7n26",
-			"tsb_mag_762x54_200rnd_7bz3",
-			"tsb_mag_762x54_200rnd_7bt1",
-			"tsb_mag_762x54_200rnd_7t2",
-			"tsb_mag_762x54_200rnd_7t2m",
-
-			"tsb_mag_762x54_250rnd_57n323s",
-			"tsb_mag_762x54_250rnd_7n13",
-			"tsb_mag_762x54_250rnd_7n26",
-			"tsb_mag_762x54_250rnd_7bz3",
-			"tsb_mag_762x54_250rnd_7bt1",
-			"tsb_mag_762x54_250rnd_7t2",
-			"tsb_mag_762x54_250rnd_7t2m"
+//////////////////////////////// G36 & VHS /////////////////////////////////////
+	class CBA_556x45_G36{
+ 		TSB_Magazines[] = { 
+		"tsb_mag_556x45_30rnd_M193_VHS2",
+		"tsb_mag_556x45_30rnd_M196_VHS2",
+		"tsb_mag_556x45_30rnd_M855_VHS2",
+		"tsb_mag_556x45_30rnd_M855LF_VHS2",
+		"tsb_mag_556x45_30rnd_M855A1_VHS2",
+		"tsb_mag_556x45_30rnd_M856_VHS2",
+		"tsb_mag_556x45_30rnd_M856A1_VHS2",
+		"tsb_mag_556x45_30rnd_M995_VHS2",
+		"tsb_mag_556x45_30rnd_XM996_VHS2",
+		"tsb_mag_556x45_30rnd_MLU26P_VHS2",
+		"tsb_mag_556x45_30rnd_Mk262mod1_VHS2",
+		"tsb_mag_556x45_30rnd_Mk318mod0_VHS2",
+		"tsb_mag_556x45_30rnd_SS_VHS2",
+		"tsb_mag_556x45_30rnd_SS109_VHS2",
+		"tsb_mag_556x45_30rnd_M193_G36",
+		"tsb_mag_556x45_30rnd_M196_G36",
+		"tsb_mag_556x45_30rnd_M855_G36",
+		"tsb_mag_556x45_30rnd_M855LF_G36",
+		"tsb_mag_556x45_30rnd_M855A1_G36",
+		"tsb_mag_556x45_30rnd_M856_G36",
+		"tsb_mag_556x45_30rnd_M856A1_G36",
+		"tsb_mag_556x45_30rnd_M995_G36",
+		"tsb_mag_556x45_30rnd_XM996_G36",
+		"tsb_mag_556x45_30rnd_MLU26P_G36",
+		"tsb_mag_556x45_30rnd_Mk262mod1_G36",
+		"tsb_mag_556x45_30rnd_Mk318mod0_G36",
+		"tsb_mag_556x45_30rnd_SS_G36",
+		"tsb_mag_556x45_30rnd_SS109_G36"
 		};
-	};
-	
-	class CBA_762x54R_SVD {
-		TSB_Magazines[] = {
-			// "tsb_mag_762x54_old_10rnd_7n1",
-			// "tsb_mag_762x54_old_10rnd_7n13",
-			// "tsb_mag_762x54_old_10rnd_7n14",
-			// "tsb_mag_762x54_old_10rnd_7n26",
-			// "tsb_mag_762x54_old_10rnd_7n37",
-			// "tsb_mag_762x54_old_10rnd_7bz3",
-			// "tsb_mag_762x54_old_10rnd_7bt1",
-			// "tsb_mag_762x54_old_10rnd_7t2",
-			// "tsb_mag_762x54_old_10rnd_7t2m",
-
-			"tsb_mag_762x54_5rnd_7n1",
-			"tsb_mag_762x54_5rnd_7n13",
-			"tsb_mag_762x54_5rnd_7n14",
-			"tsb_mag_762x54_5rnd_7n26",
-			"tsb_mag_762x54_5rnd_7n37",
-			"tsb_mag_762x54_5rnd_7bz3",
-			"tsb_mag_762x54_5rnd_7bt1",
-			"tsb_mag_762x54_5rnd_7t2",
-			"tsb_mag_762x54_5rnd_7t2m",
-
-			"tsb_mag_762x54_10rnd_7n1",
-			"tsb_mag_762x54_10rnd_7n13",
-			"tsb_mag_762x54_10rnd_7n14",
-			"tsb_mag_762x54_10rnd_7n26",
-			"tsb_mag_762x54_10rnd_7n37",
-			"tsb_mag_762x54_10rnd_7bz3",
-			"tsb_mag_762x54_10rnd_7bt1",
-			"tsb_mag_762x54_10rnd_7t2",
-			"tsb_mag_762x54_10rnd_7t2m",
-
-			"tsb_mag_762x54_20rnd_7n1",
-			"tsb_mag_762x54_20rnd_7n13",
-			"tsb_mag_762x54_20rnd_7n14",
-			"tsb_mag_762x54_20rnd_7n26",
-			"tsb_mag_762x54_20rnd_7n37",
-			"tsb_mag_762x54_20rnd_7bz3",
-			"tsb_mag_762x54_20rnd_7bt1",
-			"tsb_mag_762x54_20rnd_7t2",
-			"tsb_mag_762x54_20rnd_7t2m"
+ 	};
+//////////////////////////////// M249 //////////////////////////////////////////
+	class M249_556x45 {
+ 		TSB_Magazines[] = { 
+		"tsb_mag_556x45_200rnd_M193_Softpack",
+		"tsb_mag_556x45_200rnd_M855_Softpack",
+		"tsb_mag_556x45_200rnd_M855ir_Softpack",
+		"tsb_mag_556x45_200rnd_M855nt_Softpack",
+		"tsb_mag_556x45_200rnd_M855A1_Softpack",
+		"tsb_mag_556x45_200rnd_M855A1ir_Softpack",
+		"tsb_mag_556x45_200rnd_M855A1nt_Softpack",
+		"tsb_mag_556x45_200rnd_M856_Softpack",
+		"tsb_mag_556x45_200rnd_M856A1_Softpack",
+		"tsb_mag_556x45_200rnd_M995_Softpack",
+		"tsb_mag_556x45_200rnd_M995ir_Softpack",
+		"tsb_mag_556x45_200rnd_M995nt_Softpack",
+		"tsb_mag_556x45_200rnd_XM996_Softpack",
+		"tsb_mag_556x45_100rnd_M193_Softpack",
+		"tsb_mag_556x45_100rnd_M855_Softpack",
+		"tsb_mag_556x45_100rnd_M855ir_Softpack",
+		"tsb_mag_556x45_100rnd_M855nt_Softpack",
+		"tsb_mag_556x45_100rnd_M855A1_Softpack",
+		"tsb_mag_556x45_100rnd_M855A1ir_Softpack",
+		"tsb_mag_556x45_100rnd_M855A1nt_Softpack",
+		"tsb_mag_556x45_100rnd_M856_Softpack",
+		"tsb_mag_556x45_100rnd_M856A1_Softpack",
+		"tsb_mag_556x45_100rnd_M995_Softpack",
+		"tsb_mag_556x45_100rnd_M995ir_Softpack",
+		"tsb_mag_556x45_100rnd_M995nt_Softpack",
+		"tsb_mag_556x45_100rnd_XM996_Softpack",
+		"tsb_mag_556x45_200rnd_M193_Box",
+		"tsb_mag_556x45_200rnd_M855_Box",
+		"tsb_mag_556x45_200rnd_M855ir_Box",
+		"tsb_mag_556x45_200rnd_M855nt_Box",
+		"tsb_mag_556x45_200rnd_M855A1_Box",
+		"tsb_mag_556x45_200rnd_M855A1ir_Box",
+		"tsb_mag_556x45_200rnd_M855A1nt_Box",
+		"tsb_mag_556x45_200rnd_M856_Box",
+		"tsb_mag_556x45_200rnd_M856A1_Box",
+		"tsb_mag_556x45_200rnd_M995_Box",
+		"tsb_mag_556x45_200rnd_M995ir_Box",
+		"tsb_mag_556x45_200rnd_M995nt_Box",
+		"tsb_mag_556x45_200rnd_XM996_Box",
+		"tsb_mag_556x45_200rnd_M193_SoftpackC",
+		"tsb_mag_556x45_200rnd_M855_SoftpackC",
+		"tsb_mag_556x45_200rnd_M855ir_SoftpackC",
+		"tsb_mag_556x45_200rnd_M855nt_SoftpackC",
+		"tsb_mag_556x45_200rnd_M855A1_SoftpackC",
+		"tsb_mag_556x45_200rnd_M855A1ir_SoftpackC",
+		"tsb_mag_556x45_200rnd_M855A1nt_SoftpackC",
+		"tsb_mag_556x45_200rnd_M856_SoftpackC",
+		"tsb_mag_556x45_200rnd_M856A1_SoftpackC",
+		"tsb_mag_556x45_200rnd_M995_SoftpackC",
+		"tsb_mag_556x45_200rnd_M995ir_SoftpackC",
+		"tsb_mag_556x45_200rnd_M995nt_SoftpackC",
+		"tsb_mag_556x45_200rnd_XM996_SoftpackC",
+		"tsb_mag_556x45_200rnd_M193_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M855_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M855ir_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M855nt_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M855A1_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M855A1ir_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M855A1nt_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M856_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M856A1_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M995_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M995ir_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M995nt_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_XM996_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M193_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M855_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M855ir_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M855nt_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M855A1_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M855A1ir_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M855A1nt_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M856_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M856A1_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M995_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M995ir_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M995nt_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_XM996_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M193_SoftpackC",
+		"tsb_mag_556x45_100rnd_M855_SoftpackC",
+		"tsb_mag_556x45_100rnd_M855ir_SoftpackC",
+		"tsb_mag_556x45_100rnd_M855nt_SoftpackC",
+		"tsb_mag_556x45_100rnd_M855A1_SoftpackC",
+		"tsb_mag_556x45_100rnd_M855A1ir_SoftpackC",
+		"tsb_mag_556x45_100rnd_M855A1nt_SoftpackC",
+		"tsb_mag_556x45_100rnd_M856_SoftpackC",
+		"tsb_mag_556x45_100rnd_M856A1_SoftpackC",
+		"tsb_mag_556x45_100rnd_M995_SoftpackC",
+		"tsb_mag_556x45_100rnd_M995ir_SoftpackC",
+		"tsb_mag_556x45_100rnd_M995nt_SoftpackC",
+		"tsb_mag_556x45_100rnd_XM996_SoftpackC"
 		};
-	};
-	
-	class CBA_762x54R_Mosin {
-		TSB_Magazines[] = {
-			"tsb_mag_762x54_5rnd_mosin_57n323s",
-			"tsb_mag_762x54_5rnd_mosin_57bz323",
-			"tsb_mag_762x54_5rnd_mosin_57bt322",
-			"tsb_mag_762x54_5rnd_mosin_57t323"
+ 	};
+ 	 class CBA_556x45_MINIMI {
+ 		TSB_Magazines[] = { 
+		"tsb_mag_556x45_200rnd_M193_Softpack",
+		"tsb_mag_556x45_200rnd_M855_Softpack",
+		"tsb_mag_556x45_200rnd_M855ir_Softpack",
+		"tsb_mag_556x45_200rnd_M855nt_Softpack",
+		"tsb_mag_556x45_200rnd_M855A1_Softpack",
+		"tsb_mag_556x45_200rnd_M855A1ir_Softpack",
+		"tsb_mag_556x45_200rnd_M855A1nt_Softpack",
+		"tsb_mag_556x45_200rnd_M856_Softpack",
+		"tsb_mag_556x45_200rnd_M856A1_Softpack",
+		"tsb_mag_556x45_200rnd_M995_Softpack",
+		"tsb_mag_556x45_200rnd_M995ir_Softpack",
+		"tsb_mag_556x45_200rnd_M995nt_Softpack",
+		"tsb_mag_556x45_200rnd_XM996_Softpack",
+		"tsb_mag_556x45_100rnd_M193_Softpack",
+		"tsb_mag_556x45_100rnd_M855_Softpack",
+		"tsb_mag_556x45_100rnd_M855ir_Softpack",
+		"tsb_mag_556x45_100rnd_M855nt_Softpack",
+		"tsb_mag_556x45_100rnd_M855A1_Softpack",
+		"tsb_mag_556x45_100rnd_M855A1ir_Softpack",
+		"tsb_mag_556x45_100rnd_M855A1nt_Softpack",
+		"tsb_mag_556x45_100rnd_M856_Softpack",
+		"tsb_mag_556x45_100rnd_M856A1_Softpack",
+		"tsb_mag_556x45_100rnd_M995_Softpack",
+		"tsb_mag_556x45_100rnd_M995ir_Softpack",
+		"tsb_mag_556x45_100rnd_M995nt_Softpack",
+		"tsb_mag_556x45_100rnd_XM996_Softpack",
+		"tsb_mag_556x45_200rnd_M193_Box",
+		"tsb_mag_556x45_200rnd_M855_Box",
+		"tsb_mag_556x45_200rnd_M855ir_Box",
+		"tsb_mag_556x45_200rnd_M855nt_Box",
+		"tsb_mag_556x45_200rnd_M855A1_Box",
+		"tsb_mag_556x45_200rnd_M855A1ir_Box",
+		"tsb_mag_556x45_200rnd_M855A1nt_Box",
+		"tsb_mag_556x45_200rnd_M856_Box",
+		"tsb_mag_556x45_200rnd_M856A1_Box",
+		"tsb_mag_556x45_200rnd_M995_Box",
+		"tsb_mag_556x45_200rnd_M995ir_Box",
+		"tsb_mag_556x45_200rnd_M995nt_Box",
+		"tsb_mag_556x45_200rnd_XM996_Box",
+		"tsb_mag_556x45_200rnd_M193_SoftpackC",
+		"tsb_mag_556x45_200rnd_M855_SoftpackC",
+		"tsb_mag_556x45_200rnd_M855ir_SoftpackC",
+		"tsb_mag_556x45_200rnd_M855nt_SoftpackC",
+		"tsb_mag_556x45_200rnd_M855A1_SoftpackC",
+		"tsb_mag_556x45_200rnd_M855A1ir_SoftpackC",
+		"tsb_mag_556x45_200rnd_M855A1nt_SoftpackC",
+		"tsb_mag_556x45_200rnd_M856_SoftpackC",
+		"tsb_mag_556x45_200rnd_M856A1_SoftpackC",
+		"tsb_mag_556x45_200rnd_M995_SoftpackC",
+		"tsb_mag_556x45_200rnd_M995ir_SoftpackC",
+		"tsb_mag_556x45_200rnd_M995nt_SoftpackC",
+		"tsb_mag_556x45_200rnd_XM996_SoftpackC",
+		"tsb_mag_556x45_200rnd_M193_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M855_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M855ir_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M855nt_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M855A1_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M855A1ir_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M855A1nt_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M856_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M856A1_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M995_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M995ir_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_M995nt_SoftpackUCP",
+		"tsb_mag_556x45_200rnd_XM996_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M193_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M855_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M855ir_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M855nt_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M855A1_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M855A1ir_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M855A1nt_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M856_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M856A1_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M995_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M995ir_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M995nt_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_XM996_SoftpackUCP",
+		"tsb_mag_556x45_100rnd_M193_SoftpackC",
+		"tsb_mag_556x45_100rnd_M855_SoftpackC",
+		"tsb_mag_556x45_100rnd_M855ir_SoftpackC",
+		"tsb_mag_556x45_100rnd_M855nt_SoftpackC",
+		"tsb_mag_556x45_100rnd_M855A1_SoftpackC",
+		"tsb_mag_556x45_100rnd_M855A1ir_SoftpackC",
+		"tsb_mag_556x45_100rnd_M855A1nt_SoftpackC",
+		"tsb_mag_556x45_100rnd_M856_SoftpackC",
+		"tsb_mag_556x45_100rnd_M856A1_SoftpackC",
+		"tsb_mag_556x45_100rnd_M995_SoftpackC",
+		"tsb_mag_556x45_100rnd_M995ir_SoftpackC",
+		"tsb_mag_556x45_100rnd_M995nt_SoftpackC",
+		"tsb_mag_556x45_100rnd_XM996_SoftpackC"
 		};
-	};
-	
-	class TSB_762x54R_dp {
-		TSB_Magazines[] = {
-			"tsb_mag_762x54_47rnd_dp_57n323s",
-			"tsb_mag_762x54_47rnd_dp_57bz323",
-			"tsb_mag_762x54_47rnd_dp_57bt322",
-			"tsb_mag_762x54_47rnd_dp_57t323"
-		};
-	};
-
-	class TSB_762x54R_svt {
-		TSB_Magazines[] = {
-			"tsb_mag_762x54_10rnd_svt_57n323s",
-			"tsb_mag_762x54_10rnd_svt_57bz323",
-			"tsb_mag_762x54_10rnd_svt_57bt322",
-			"tsb_mag_762x54_10rnd_svt_57t323"
-		};
-	};
-
-	class TSB_762x54R_sv98 {
-		TSB_Magazines[] = {
-			"tsb_mag_762x54_10rnd_sv98_7n1",
-			"tsb_mag_762x54_10rnd_sv98_7n13",
-			"tsb_mag_762x54_10rnd_sv98_7n14",
-			"tsb_mag_762x54_10rnd_sv98_7n26",
-			"tsb_mag_762x54_10rnd_sv98_7n37",
-			"tsb_mag_762x54_10rnd_sv98_7bz3",
-			"tsb_mag_762x54_10rnd_sv98_7bt1",
-			"tsb_mag_762x54_10rnd_sv98_7t2",
-			"tsb_mag_762x54_10rnd_sv98_7t2m"
-		};
-	};
-
-	// class CBA_338LM_T5000 {
-	// };
-	
-	// class CBA_9x39_VSS {
-	// };
-	
-	// class VOG_40mm {
-	// };
-	
-	// class CBA_40mm_GP {};
-	
-	// class RPG7 {
-	// };
-	
-	// class CBA_RPG7 {};
-///////////////////////////////////////////////////////////556 Mags//////////////////////////////////////////
-///STANAG///
+ 	};
+//////////////////////////////// STANAG ////////////////////////////////////////
  	class STANAG_556x45 {
  		TSB_Magazines[] = { 
 		"tsb_mag_556x45_30rnd_M193_STANAG",
@@ -908,7 +1067,7 @@ class CfgMagazineWells {
 		"tsb_mag_556x45_40rnd_SS109_Double"
 		};
  	};
-///Large STANAG's///
+//////////////////////////////// Large STANAG //////////////////////////////////
  	class STANAG_556x45_Large{
  		TSB_Magazines[] = { 
 		"tsb_mag_556x45_100rnd_M193_CMAG",
@@ -978,506 +1137,240 @@ class CfgMagazineWells {
 		"tsb_mag_556x45_60rnd_SS109_STANAG"
  		};
  	};
-///249 Softpack///
- 	class M249_556x45 {
- 		TSB_Magazines[] = { 
-		"tsb_mag_556x45_200rnd_M193_Softpack",
-		"tsb_mag_556x45_200rnd_M855_Softpack",
-		"tsb_mag_556x45_200rnd_M855ir_Softpack",
-		"tsb_mag_556x45_200rnd_M855nt_Softpack",
-		"tsb_mag_556x45_200rnd_M855A1_Softpack",
-		"tsb_mag_556x45_200rnd_M855A1ir_Softpack",
-		"tsb_mag_556x45_200rnd_M855A1nt_Softpack",
-		"tsb_mag_556x45_200rnd_M856_Softpack",
-		"tsb_mag_556x45_200rnd_M856A1_Softpack",
-		"tsb_mag_556x45_200rnd_M995_Softpack",
-		"tsb_mag_556x45_200rnd_M995ir_Softpack",
-		"tsb_mag_556x45_200rnd_M995nt_Softpack",
-		"tsb_mag_556x45_200rnd_XM996_Softpack",
-		"tsb_mag_556x45_100rnd_M193_Softpack",
-		"tsb_mag_556x45_100rnd_M855_Softpack",
-		"tsb_mag_556x45_100rnd_M855ir_Softpack",
-		"tsb_mag_556x45_100rnd_M855nt_Softpack",
-		"tsb_mag_556x45_100rnd_M855A1_Softpack",
-		"tsb_mag_556x45_100rnd_M855A1ir_Softpack",
-		"tsb_mag_556x45_100rnd_M855A1nt_Softpack",
-		"tsb_mag_556x45_100rnd_M856_Softpack",
-		"tsb_mag_556x45_100rnd_M856A1_Softpack",
-		"tsb_mag_556x45_100rnd_M995_Softpack",
-		"tsb_mag_556x45_100rnd_M995ir_Softpack",
-		"tsb_mag_556x45_100rnd_M995nt_Softpack",
-		"tsb_mag_556x45_100rnd_XM996_Softpack",
-		"tsb_mag_556x45_200rnd_M193_Box",
-		"tsb_mag_556x45_200rnd_M855_Box",
-		"tsb_mag_556x45_200rnd_M855ir_Box",
-		"tsb_mag_556x45_200rnd_M855nt_Box",
-		"tsb_mag_556x45_200rnd_M855A1_Box",
-		"tsb_mag_556x45_200rnd_M855A1ir_Box",
-		"tsb_mag_556x45_200rnd_M855A1nt_Box",
-		"tsb_mag_556x45_200rnd_M856_Box",
-		"tsb_mag_556x45_200rnd_M856A1_Box",
-		"tsb_mag_556x45_200rnd_M995_Box",
-		"tsb_mag_556x45_200rnd_M995ir_Box",
-		"tsb_mag_556x45_200rnd_M995nt_Box",
-		"tsb_mag_556x45_200rnd_XM996_Box",
-		"tsb_mag_556x45_200rnd_M193_SoftpackC",
-		"tsb_mag_556x45_200rnd_M855_SoftpackC",
-		"tsb_mag_556x45_200rnd_M855ir_SoftpackC",
-		"tsb_mag_556x45_200rnd_M855nt_SoftpackC",
-		"tsb_mag_556x45_200rnd_M855A1_SoftpackC",
-		"tsb_mag_556x45_200rnd_M855A1ir_SoftpackC",
-		"tsb_mag_556x45_200rnd_M855A1nt_SoftpackC",
-		"tsb_mag_556x45_200rnd_M856_SoftpackC",
-		"tsb_mag_556x45_200rnd_M856A1_SoftpackC",
-		"tsb_mag_556x45_200rnd_M995_SoftpackC",
-		"tsb_mag_556x45_200rnd_M995ir_SoftpackC",
-		"tsb_mag_556x45_200rnd_M995nt_SoftpackC",
-		"tsb_mag_556x45_200rnd_XM996_SoftpackC",
-		"tsb_mag_556x45_200rnd_M193_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M855_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M855ir_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M855nt_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M855A1_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M855A1ir_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M855A1nt_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M856_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M856A1_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M995_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M995ir_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M995nt_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_XM996_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M193_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M855_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M855ir_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M855nt_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M855A1_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M855A1ir_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M855A1nt_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M856_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M856A1_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M995_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M995ir_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M995nt_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_XM996_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M193_SoftpackC",
-		"tsb_mag_556x45_100rnd_M855_SoftpackC",
-		"tsb_mag_556x45_100rnd_M855ir_SoftpackC",
-		"tsb_mag_556x45_100rnd_M855nt_SoftpackC",
-		"tsb_mag_556x45_100rnd_M855A1_SoftpackC",
-		"tsb_mag_556x45_100rnd_M855A1ir_SoftpackC",
-		"tsb_mag_556x45_100rnd_M855A1nt_SoftpackC",
-		"tsb_mag_556x45_100rnd_M856_SoftpackC",
-		"tsb_mag_556x45_100rnd_M856A1_SoftpackC",
-		"tsb_mag_556x45_100rnd_M995_SoftpackC",
-		"tsb_mag_556x45_100rnd_M995ir_SoftpackC",
-		"tsb_mag_556x45_100rnd_M995nt_SoftpackC",
-		"tsb_mag_556x45_100rnd_XM996_SoftpackC"
-		};
- 	};
- 	 class CBA_556x45_MINIMI {
- 		TSB_Magazines[] = { 
-		"tsb_mag_556x45_200rnd_M193_Softpack",
-		"tsb_mag_556x45_200rnd_M855_Softpack",
-		"tsb_mag_556x45_200rnd_M855ir_Softpack",
-		"tsb_mag_556x45_200rnd_M855nt_Softpack",
-		"tsb_mag_556x45_200rnd_M855A1_Softpack",
-		"tsb_mag_556x45_200rnd_M855A1ir_Softpack",
-		"tsb_mag_556x45_200rnd_M855A1nt_Softpack",
-		"tsb_mag_556x45_200rnd_M856_Softpack",
-		"tsb_mag_556x45_200rnd_M856A1_Softpack",
-		"tsb_mag_556x45_200rnd_M995_Softpack",
-		"tsb_mag_556x45_200rnd_M995ir_Softpack",
-		"tsb_mag_556x45_200rnd_M995nt_Softpack",
-		"tsb_mag_556x45_200rnd_XM996_Softpack",
-		"tsb_mag_556x45_100rnd_M193_Softpack",
-		"tsb_mag_556x45_100rnd_M855_Softpack",
-		"tsb_mag_556x45_100rnd_M855ir_Softpack",
-		"tsb_mag_556x45_100rnd_M855nt_Softpack",
-		"tsb_mag_556x45_100rnd_M855A1_Softpack",
-		"tsb_mag_556x45_100rnd_M855A1ir_Softpack",
-		"tsb_mag_556x45_100rnd_M855A1nt_Softpack",
-		"tsb_mag_556x45_100rnd_M856_Softpack",
-		"tsb_mag_556x45_100rnd_M856A1_Softpack",
-		"tsb_mag_556x45_100rnd_M995_Softpack",
-		"tsb_mag_556x45_100rnd_M995ir_Softpack",
-		"tsb_mag_556x45_100rnd_M995nt_Softpack",
-		"tsb_mag_556x45_100rnd_XM996_Softpack",
-		"tsb_mag_556x45_200rnd_M193_Box",
-		"tsb_mag_556x45_200rnd_M855_Box",
-		"tsb_mag_556x45_200rnd_M855ir_Box",
-		"tsb_mag_556x45_200rnd_M855nt_Box",
-		"tsb_mag_556x45_200rnd_M855A1_Box",
-		"tsb_mag_556x45_200rnd_M855A1ir_Box",
-		"tsb_mag_556x45_200rnd_M855A1nt_Box",
-		"tsb_mag_556x45_200rnd_M856_Box",
-		"tsb_mag_556x45_200rnd_M856A1_Box",
-		"tsb_mag_556x45_200rnd_M995_Box",
-		"tsb_mag_556x45_200rnd_M995ir_Box",
-		"tsb_mag_556x45_200rnd_M995nt_Box",
-		"tsb_mag_556x45_200rnd_XM996_Box",
-		"tsb_mag_556x45_200rnd_M193_SoftpackC",
-		"tsb_mag_556x45_200rnd_M855_SoftpackC",
-		"tsb_mag_556x45_200rnd_M855ir_SoftpackC",
-		"tsb_mag_556x45_200rnd_M855nt_SoftpackC",
-		"tsb_mag_556x45_200rnd_M855A1_SoftpackC",
-		"tsb_mag_556x45_200rnd_M855A1ir_SoftpackC",
-		"tsb_mag_556x45_200rnd_M855A1nt_SoftpackC",
-		"tsb_mag_556x45_200rnd_M856_SoftpackC",
-		"tsb_mag_556x45_200rnd_M856A1_SoftpackC",
-		"tsb_mag_556x45_200rnd_M995_SoftpackC",
-		"tsb_mag_556x45_200rnd_M995ir_SoftpackC",
-		"tsb_mag_556x45_200rnd_M995nt_SoftpackC",
-		"tsb_mag_556x45_200rnd_XM996_SoftpackC",
-		"tsb_mag_556x45_200rnd_M193_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M855_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M855ir_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M855nt_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M855A1_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M855A1ir_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M855A1nt_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M856_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M856A1_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M995_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M995ir_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_M995nt_SoftpackUCP",
-		"tsb_mag_556x45_200rnd_XM996_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M193_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M855_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M855ir_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M855nt_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M855A1_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M855A1ir_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M855A1nt_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M856_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M856A1_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M995_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M995ir_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M995nt_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_XM996_SoftpackUCP",
-		"tsb_mag_556x45_100rnd_M193_SoftpackC",
-		"tsb_mag_556x45_100rnd_M855_SoftpackC",
-		"tsb_mag_556x45_100rnd_M855ir_SoftpackC",
-		"tsb_mag_556x45_100rnd_M855nt_SoftpackC",
-		"tsb_mag_556x45_100rnd_M855A1_SoftpackC",
-		"tsb_mag_556x45_100rnd_M855A1ir_SoftpackC",
-		"tsb_mag_556x45_100rnd_M855A1nt_SoftpackC",
-		"tsb_mag_556x45_100rnd_M856_SoftpackC",
-		"tsb_mag_556x45_100rnd_M856A1_SoftpackC",
-		"tsb_mag_556x45_100rnd_M995_SoftpackC",
-		"tsb_mag_556x45_100rnd_M995ir_SoftpackC",
-		"tsb_mag_556x45_100rnd_M995nt_SoftpackC",
-		"tsb_mag_556x45_100rnd_XM996_SoftpackC"
-		};
- 	};
-///VHS2 & G36///
- 	class CBA_556x45_G36{
- 		TSB_Magazines[] = { 
-		"tsb_mag_556x45_30rnd_M193_VHS2",
-		"tsb_mag_556x45_30rnd_M196_VHS2",
-		"tsb_mag_556x45_30rnd_M855_VHS2",
-		"tsb_mag_556x45_30rnd_M855LF_VHS2",
-		"tsb_mag_556x45_30rnd_M855A1_VHS2",
-		"tsb_mag_556x45_30rnd_M856_VHS2",
-		"tsb_mag_556x45_30rnd_M856A1_VHS2",
-		"tsb_mag_556x45_30rnd_M995_VHS2",
-		"tsb_mag_556x45_30rnd_XM996_VHS2",
-		"tsb_mag_556x45_30rnd_MLU26P_VHS2",
-		"tsb_mag_556x45_30rnd_Mk262mod1_VHS2",
-		"tsb_mag_556x45_30rnd_Mk318mod0_VHS2",
-		"tsb_mag_556x45_30rnd_SS_VHS2",
-		"tsb_mag_556x45_30rnd_SS109_VHS2",
-		"tsb_mag_556x45_30rnd_M193_G36",
-		"tsb_mag_556x45_30rnd_M196_G36",
-		"tsb_mag_556x45_30rnd_M855_G36",
-		"tsb_mag_556x45_30rnd_M855LF_G36",
-		"tsb_mag_556x45_30rnd_M855A1_G36",
-		"tsb_mag_556x45_30rnd_M856_G36",
-		"tsb_mag_556x45_30rnd_M856A1_G36",
-		"tsb_mag_556x45_30rnd_M995_G36",
-		"tsb_mag_556x45_30rnd_XM996_G36",
-		"tsb_mag_556x45_30rnd_MLU26P_G36",
-		"tsb_mag_556x45_30rnd_Mk262mod1_G36",
-		"tsb_mag_556x45_30rnd_Mk318mod0_G36",
-		"tsb_mag_556x45_30rnd_SS_G36",
-		"tsb_mag_556x45_30rnd_SS109_G36"
-		};
- 	};
-///SG550///
- 	class CBA_556x45_SG550 {
- 		TSB_Magazines[] = { 
-		"tsb_mag_556x45_30rnd_M193_SIG",
-		"tsb_mag_556x45_30rnd_M196_SIG",
-		"tsb_mag_556x45_30rnd_M855_SIG",
-		"tsb_mag_556x45_30rnd_M855LF_SIG",
-		"tsb_mag_556x45_30rnd_M855A1_SIG",
-		"tsb_mag_556x45_30rnd_M856_SIG",
-		"tsb_mag_556x45_30rnd_M856A1_SIG",
-		"tsb_mag_556x45_30rnd_M995_SIG",
-		"tsb_mag_556x45_30rnd_XM996_SIG",
-		"tsb_mag_556x45_30rnd_MLU26P_SIG",
-		"tsb_mag_556x45_30rnd_Mk262mod1_SIG",
-		"tsb_mag_556x45_30rnd_Mk318mod0_SIG",
-		"tsb_mag_556x45_30rnd_SS_SIG",
-		"tsb_mag_556x45_30rnd_SS109_SIG"
+//////////////////////////////////////////////////////////  5.7 x 28 //////////////////////////////////////////////////////////
+//////////////////////////////// P90 ///////////////////////////////////////////
+	class CBA_57x28_P90 {
+		TSB_Magazines[] ={
+		"tsb_mag_57x28_50rnd_SS190_P90",
+		"tsb_mag_57x28_50rnd_L191_P90",
+		"tsb_mag_57x28_50rnd_SS192_P90",
+		"tsb_mag_57x28_50rnd_SB193_P90"
 		};
 	};
-///AUG///
-	class CBA_556x45_STEYR {
- 		TSB_Magazines[] = { 
-		"tsb_mag_556x45_30rnd_M193_AUG",
-		"tsb_mag_556x45_30rnd_M196_AUG",
-		"tsb_mag_556x45_30rnd_M855_AUG",
-		"tsb_mag_556x45_30rnd_M855LF_AUG",
-		"tsb_mag_556x45_30rnd_M855A1_AUG",
-		"tsb_mag_556x45_30rnd_M856_AUG",
-		"tsb_mag_556x45_30rnd_M856A1_AUG",
-		"tsb_mag_556x45_30rnd_M995_AUG",
-		"tsb_mag_556x45_30rnd_XM996_AUG",
-		"tsb_mag_556x45_30rnd_MLU26P_AUG",
-		"tsb_mag_556x45_30rnd_Mk262mod1_AUG",
-		"tsb_mag_556x45_30rnd_Mk318mod0_AUG",
-		"tsb_mag_556x45_30rnd_SS_AUG",
-		"tsb_mag_556x45_30rnd_SS109_AUG",
-		"tsb_mag_556x45_42rnd_M193_AUG",
-		"tsb_mag_556x45_42rnd_M196_AUG",
-		"tsb_mag_556x45_42rnd_M855_AUG",
-		"tsb_mag_556x45_42rnd_M855LF_AUG",
-		"tsb_mag_556x45_42rnd_M855A1_AUG",
-		"tsb_mag_556x45_42rnd_M856_AUG",
-		"tsb_mag_556x45_42rnd_M856A1_AUG",
-		"tsb_mag_556x45_42rnd_M995_AUG",
-		"tsb_mag_556x45_42rnd_XM996_AUG",
-		"tsb_mag_556x45_42rnd_MLU26P_AUG",
-		"tsb_mag_556x45_42rnd_Mk262mod1_AUG",
-		"tsb_mag_556x45_42rnd_Mk318mod0_AUG",
-		"tsb_mag_556x45_42rnd_SS_AUG",
-		"tsb_mag_556x45_42rnd_SS109_AUG" 
+//////////////////////////////// FN57 //////////////////////////////////////////
+	class CBA_57x28_FN57 {
+		TSB_Magazines[] ={
+		"tsb_mag_57x28_20rnd_SS190_FN57",
+		"tsb_mag_57x28_20rnd_L191_FN57",
+		"tsb_mag_57x28_20rnd_SS192_FN57",
+		"tsb_mag_57x28_20rnd_SB193_FN57"
 		};
-	};
-///AK///
- 	class CBA_556x45_AK {
- 		TSB_Magazines[] = { 
-		"tsb_mag_556x45_30rnd_M193_bakelite",
-		"tsb_mag_556x45_30rnd_M196_bakelite",
-		"tsb_mag_556x45_30rnd_M855_bakelite",
-		"tsb_mag_556x45_30rnd_M855LF_bakelite",
-		"tsb_mag_556x45_30rnd_M855A1_bakelite",
-		"tsb_mag_556x45_30rnd_M856_bakelite",
-		"tsb_mag_556x45_30rnd_M856A1_bakelite",
-		"tsb_mag_556x45_30rnd_M995_bakelite",
-		"tsb_mag_556x45_30rnd_XM996_bakelite",
-		"tsb_mag_556x45_30rnd_MLU26P_bakelite",
-		"tsb_mag_556x45_30rnd_Mk262mod1_bakelite",
-		"tsb_mag_556x45_30rnd_Mk318mod0_bakelite",
-		"tsb_mag_556x45_30rnd_SS_bakelite",
-		"tsb_mag_556x45_30rnd_SS109_bakelite",
-		///Plum///
-		"tsb_mag_556x45_30rnd_M193_Plum",
-		"tsb_mag_556x45_30rnd_M196_Plum",
-		"tsb_mag_556x45_30rnd_M855_Plum",
-		"tsb_mag_556x45_30rnd_M855LF_Plum",
-		"tsb_mag_556x45_30rnd_M855A1_Plum",
-		"tsb_mag_556x45_30rnd_M856_Plum",
-		"tsb_mag_556x45_30rnd_M856A1_Plum",
-		"tsb_mag_556x45_30rnd_M995_Plum",
-		"tsb_mag_556x45_30rnd_XM996_Plum",
-		"tsb_mag_556x45_30rnd_MLU26P_Plum",
-		"tsb_mag_556x45_30rnd_Mk262mod1_Plum",
-		"tsb_mag_556x45_30rnd_Mk318mod0_Plum",
-		"tsb_mag_556x45_30rnd_SS_Plum",
-		"tsb_mag_556x45_30rnd_SS109_Plum",
-		///Plastic///
-		"tsb_mag_556x45_30rnd_M193_Plastic",
-		"tsb_mag_556x45_30rnd_M196_Plastic",
-		"tsb_mag_556x45_30rnd_M855_Plastic",
-		"tsb_mag_556x45_30rnd_M855LF_Plastic",
-		"tsb_mag_556x45_30rnd_M855A1_Plastic",
-		"tsb_mag_556x45_30rnd_M856_Plastic",
-		"tsb_mag_556x45_30rnd_M856A1_Plastic",
-		"tsb_mag_556x45_30rnd_M995_Plastic",
-		"tsb_mag_556x45_30rnd_XM996_Plastic",
-		"tsb_mag_556x45_30rnd_MLU26P_Plastic",
-		"tsb_mag_556x45_30rnd_Mk262mod1_Plastic",
-		"tsb_mag_556x45_30rnd_Mk318mod0_Plastic",
-		"tsb_mag_556x45_30rnd_SS_Plastic",
-		"tsb_mag_556x45_30rnd_SS109_Plastic",
-		///Forest///
-		"tsb_mag_556x45_30rnd_M193_Forest",
-		"tsb_mag_556x45_30rnd_M196_Forest",
-		"tsb_mag_556x45_30rnd_M855_Forest",
-		"tsb_mag_556x45_30rnd_M855LF_Forest",
-		"tsb_mag_556x45_30rnd_M855A1_Forest",
-		"tsb_mag_556x45_30rnd_M856_Forest",
-		"tsb_mag_556x45_30rnd_M856A1_Forest",
-		"tsb_mag_556x45_30rnd_M995_Forest",
-		"tsb_mag_556x45_30rnd_XM996_Forest",
-		"tsb_mag_556x45_30rnd_MLU26P_Forest",
-		"tsb_mag_556x45_30rnd_Mk262mod1_Forest",
-		"tsb_mag_556x45_30rnd_Mk318mod0_Forest",
-		"tsb_mag_556x45_30rnd_SS_Forest",
-		"tsb_mag_556x45_30rnd_SS109_Forest",
-		///Desert///
-		"tsb_mag_556x45_30rnd_M193_Desert",
-		"tsb_mag_556x45_30rnd_M196_Desert",
-		"tsb_mag_556x45_30rnd_M855_Desert",
-		"tsb_mag_556x45_30rnd_M855LF_Desert",
-		"tsb_mag_556x45_30rnd_M855A1_Desert",
-		"tsb_mag_556x45_30rnd_M856_Desert",
-		"tsb_mag_556x45_30rnd_M856A1_Desert",
-		"tsb_mag_556x45_30rnd_M995_Desert",
-		"tsb_mag_556x45_30rnd_XM996_Desert",
-		"tsb_mag_556x45_30rnd_MLU26P_Desert",
-		"tsb_mag_556x45_30rnd_Mk262mod1_Desert",
-		"tsb_mag_556x45_30rnd_Mk318mod0_Desert",
-		"tsb_mag_556x45_30rnd_SS_Desert",
-		"tsb_mag_556x45_30rnd_SS109_Desert",
-		///Plum Double///
-		"tsb_mag_556x45_30rnd_M193_Plum_Double",
-		"tsb_mag_556x45_30rnd_M196_Plum_Double",
-		"tsb_mag_556x45_30rnd_M855_Plum_Double",
-		"tsb_mag_556x45_30rnd_M855LF_Plum_Double",
-		"tsb_mag_556x45_30rnd_M855A1_Plum_Double",
-		"tsb_mag_556x45_30rnd_M856_Plum_Double",
-		"tsb_mag_556x45_30rnd_M856A1_Plum_Double",
-		"tsb_mag_556x45_30rnd_M995_Plum_Double",
-		"tsb_mag_556x45_30rnd_XM996_Plum_Double",
-		"tsb_mag_556x45_30rnd_MLU26P_Plum_Double",
-		"tsb_mag_556x45_30rnd_Mk262mod1_Plum_Double",
-		"tsb_mag_556x45_30rnd_Mk318mod0_Plum_Double",
-		"tsb_mag_556x45_30rnd_SS_Plum_Double",
-		"tsb_mag_556x45_30rnd_SS109_Plum_Double",
-		///Plastic Double///
-		"tsb_mag_556x45_30rnd_M193_Plastic_Double",
-		"tsb_mag_556x45_30rnd_M196_Plastic_Double",
-		"tsb_mag_556x45_30rnd_M855_Plastic_Double",
-		"tsb_mag_556x45_30rnd_M855LF_Plastic_Double",
-		"tsb_mag_556x45_30rnd_M855A1_Plastic_Double",
-		"tsb_mag_556x45_30rnd_M856_Plastic_Double",
-		"tsb_mag_556x45_30rnd_M856A1_Plastic_Double",
-		"tsb_mag_556x45_30rnd_M995_Plastic_Double",
-		"tsb_mag_556x45_30rnd_XM996_Plastic_Double",
-		"tsb_mag_556x45_30rnd_MLU26P_Plastic_Double",
-		"tsb_mag_556x45_30rnd_Mk262mod1_Plastic_Double",
-		"tsb_mag_556x45_30rnd_Mk318mod0_Plastic_Double",
-		"tsb_mag_556x45_30rnd_SS_Plastic_Double",
-		"tsb_mag_556x45_30rnd_SS109_Plastic_Double",
-		///Forest Double///
-		"tsb_mag_556x45_30rnd_M193_Forest_Double",
-		"tsb_mag_556x45_30rnd_M196_Forest_Double",
-		"tsb_mag_556x45_30rnd_M855_Forest_Double",
-		"tsb_mag_556x45_30rnd_M855LF_Forest_Double",
-		"tsb_mag_556x45_30rnd_M855A1_Forest_Double",
-		"tsb_mag_556x45_30rnd_M856_Forest_Double",
-		"tsb_mag_556x45_30rnd_M856A1_Forest_Double",
-		"tsb_mag_556x45_30rnd_M995_Forest_Double",
-		"tsb_mag_556x45_30rnd_XM996_Forest_Double",
-		"tsb_mag_556x45_30rnd_MLU26P_Forest_Double",
-		"tsb_mag_556x45_30rnd_Mk262mod1_Forest_Double",
-		"tsb_mag_556x45_30rnd_Mk318mod0_Forest_Double",
-		"tsb_mag_556x45_30rnd_SS_Forest_Double",
-		"tsb_mag_556x45_30rnd_SS109_Forest_Double",
-		///Desert Double///
-		"tsb_mag_556x45_30rnd_M193_Desert_Double",
-		"tsb_mag_556x45_30rnd_M196_Desert_Double",
-		"tsb_mag_556x45_30rnd_M855_Desert_Double",
-		"tsb_mag_556x45_30rnd_M855LF_Desert_Double",
-		"tsb_mag_556x45_30rnd_M855A1_Desert_Double",
-		"tsb_mag_556x45_30rnd_M856_Desert_Double",
-		"tsb_mag_556x45_30rnd_M856A1_Desert_Double",
-		"tsb_mag_556x45_30rnd_M995_Desert_Double",
-		"tsb_mag_556x45_30rnd_XM996_Desert_Double",
-		"tsb_mag_556x45_30rnd_MLU26P_Desert_Double",
-		"tsb_mag_556x45_30rnd_Mk262mod1_Desert_Double",
-		"tsb_mag_556x45_30rnd_Mk318mod0_Desert_Double",
-		"tsb_mag_556x45_30rnd_SS_Desert_Double",
-		"tsb_mag_556x45_30rnd_SS109_Desert_Double",
-		///45 Rnd Beakalite///
-		"tsb_mag_556x45_45rnd_M193_Bakelite",
-		"tsb_mag_556x45_45rnd_M196_Bakelite",
-		"tsb_mag_556x45_45rnd_M855_Bakelite",
-		"tsb_mag_556x45_45rnd_M855LF_Bakelite",
-		"tsb_mag_556x45_45rnd_M855A1_Bakelite",
-		"tsb_mag_556x45_45rnd_M856_Bakelite",
-		"tsb_mag_556x45_45rnd_M856A1_Bakelite",
-		"tsb_mag_556x45_45rnd_M995_Bakelite",
-		"tsb_mag_556x45_45rnd_XM996_Bakelite",
-		"tsb_mag_556x45_45rnd_MLU26P_Bakelite",
-		"tsb_mag_556x45_45rnd_Mk262mod1_Bakelite",
-		"tsb_mag_556x45_45rnd_Mk318mod0_Bakelite",
-		"tsb_mag_556x45_45rnd_SS_Bakelite",
-		"tsb_mag_556x45_45rnd_SS109_Bakelite",
-		///45 Rnd Plastic///
-		"tsb_mag_556x45_45rnd_M193_Plastic",
-		"tsb_mag_556x45_45rnd_M196_Plastic",
-		"tsb_mag_556x45_45rnd_M855_Plastic",
-		"tsb_mag_556x45_45rnd_M855LF_Plastic",
-		"tsb_mag_556x45_45rnd_M855A1_Plastic",
-		"tsb_mag_556x45_45rnd_M856_Plastic",
-		"tsb_mag_556x45_45rnd_M856A1_Plastic",
-		"tsb_mag_556x45_45rnd_M995_Plastic",
-		"tsb_mag_556x45_45rnd_XM996_Plastic",
-		"tsb_mag_556x45_45rnd_MLU26P_Plastic",
-		"tsb_mag_556x45_45rnd_Mk262mod1_Plastic",
-		"tsb_mag_556x45_45rnd_Mk318mod0_Plastic",
-		"tsb_mag_556x45_45rnd_SS_Plastic",
-		"tsb_mag_556x45_45rnd_SS109_Plastic",
-		///60 Rnd Plastic///
-		"tsb_mag_556x45_60rnd_M193_Plastic",
-		"tsb_mag_556x45_60rnd_M196_Plastic",
-		"tsb_mag_556x45_60rnd_M855_Plastic",
-		"tsb_mag_556x45_60rnd_M855LF_Plastic",
-		"tsb_mag_556x45_60rnd_M855A1_Plastic",
-		"tsb_mag_556x45_60rnd_M856_Plastic",
-		"tsb_mag_556x45_60rnd_M856A1_Plastic",
-		"tsb_mag_556x45_60rnd_M995_Plastic",
-		"tsb_mag_556x45_60rnd_XM996_Plastic",
-		"tsb_mag_556x45_60rnd_MLU26P_Plastic",
-		"tsb_mag_556x45_60rnd_Mk262mod1_Plastic",
-		"tsb_mag_556x45_60rnd_Mk318mod0_Plastic",
-		"tsb_mag_556x45_60rnd_SS_Plastic",
-		"tsb_mag_556x45_60rnd_SS109_Plastic"
-		};
-	};
-///Hk33///
-	class CBA_556x45_HK33 {
- 		TSB_Magazines[] = { 
-		"tsb_mag_556x45_30rnd_M193_Hk33",
-		"tsb_mag_556x45_30rnd_M196_Hk33",
-		"tsb_mag_556x45_30rnd_M855_Hk33",
-		"tsb_mag_556x45_30rnd_M855LF_Hk33",
-		"tsb_mag_556x45_30rnd_M855A1_Hk33",
-		"tsb_mag_556x45_30rnd_M856_Hk33",
-		"tsb_mag_556x45_30rnd_M856A1_Hk33",
-		"tsb_mag_556x45_30rnd_M995_Hk33",
-		"tsb_mag_556x45_30rnd_XM996_Hk33",
-		"tsb_mag_556x45_30rnd_MLU26P_Hk33",
-		"tsb_mag_556x45_30rnd_Mk262mod1_Hk33",
-		"tsb_mag_556x45_30rnd_Mk318mod0_Hk33",
-		"tsb_mag_556x45_30rnd_SS_Hk33",
-		"tsb_mag_556x45_30rnd_SS109_Hk33"
-		};
-	};
-///M21///
-	class CBA_556x45_M21 {
+	};	
+//////////////////////////////////////////////////////////  6.5 x 39 //////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////  6.8 x 43 //////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////// 7.62 x 25 //////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////// 7.62 x 39 //////////////////////////////////////////////////////////
+//////////////////////////////// AKM ///////////////////////////////////////////
+	class CBA_762x39_AK {
 		TSB_Magazines[] = {
-		"tsb_mag_556x45_30rnd_M193_M21",
-		"tsb_mag_556x45_30rnd_M196_M21",
-		"tsb_mag_556x45_30rnd_M855_M21",
-		"tsb_mag_556x45_30rnd_M855LF_M21",
-		"tsb_mag_556x45_30rnd_M855A1_M21",
-		"tsb_mag_556x45_30rnd_M856_M21",
-		"tsb_mag_556x45_30rnd_M856A1_M21",
-		"tsb_mag_556x45_30rnd_M995_M21",
-		"tsb_mag_556x45_30rnd_XM996_M21",
-		"tsb_mag_556x45_30rnd_MLU26P_M21",
-		"tsb_mag_556x45_30rnd_Mk262mod1_M21",
-		"tsb_mag_556x45_30rnd_Mk318mod0_M21",
-		"tsb_mag_556x45_30rnd_SS_M21",
-		"tsb_mag_556x45_30rnd_SS109_M21"
+			"tsb_mag_762x39_10rnd_fmj_civ",
+			"tsb_mag_762x39_10rnd_hp_civ",
+
+			"tsb_mag_762x39_30rnd_57n231_metalold",
+			"tsb_mag_762x39_30rnd_57n23189_metalold",
+			"tsb_mag_762x39_30rnd_7n23_metalold",
+			"tsb_mag_762x39_30rnd_57z231_metalold",
+			"tsb_mag_762x39_30rnd_57bz231_metalold",
+			"tsb_mag_762x39_30rnd_57t231p_metalold",
+			"tsb_mag_762x39_30rnd_57t231pm1_metalold",
+			"tsb_mag_762x39_30rnd_57n231u_metalold",
+
+			"tsb_mag_762x39_30rnd_57n231_metal",
+			"tsb_mag_762x39_30rnd_57n23189_metal",
+			"tsb_mag_762x39_30rnd_7n23_metal",
+			"tsb_mag_762x39_30rnd_57z231_metal",
+			"tsb_mag_762x39_30rnd_57bz231_metal",
+			"tsb_mag_762x39_30rnd_57t231p_metal",
+			"tsb_mag_762x39_30rnd_57t231pm1_metal",
+			"tsb_mag_762x39_30rnd_57n231u_metal",
+
+			"tsb_mag_762x39_30rnd_57n231_plastic",
+			"tsb_mag_762x39_30rnd_57n23189_plastic",
+			"tsb_mag_762x39_30rnd_7n23_plastic",
+			"tsb_mag_762x39_30rnd_57z231_plastic",
+			"tsb_mag_762x39_30rnd_57bz231_plastic",
+			"tsb_mag_762x39_30rnd_57t231p_plastic",
+			"tsb_mag_762x39_30rnd_57t231pm1_plastic",
+			"tsb_mag_762x39_30rnd_57n231u_plastic",
+
+			"tsb_mag_762x39_30rnd_57n231_bakelite",
+			"tsb_mag_762x39_30rnd_57n23189_bakelite",
+			"tsb_mag_762x39_30rnd_7n23_bakelite",
+			"tsb_mag_762x39_30rnd_57z231_bakelite",
+			"tsb_mag_762x39_30rnd_57bz231_bakelite",
+			"tsb_mag_762x39_30rnd_57t231p_bakelite",
+			"tsb_mag_762x39_30rnd_57t231pm1_bakelite",
+			"tsb_mag_762x39_30rnd_57n231u_bakelite",
+
+			"tsb_mag_762x39_30rnd_57n231_pmag",
+			"tsb_mag_762x39_30rnd_57n23189_pmag",
+			"tsb_mag_762x39_30rnd_7n23_pmag",
+			"tsb_mag_762x39_30rnd_57z231_pmag",
+			"tsb_mag_762x39_30rnd_57bz231_pmag",
+			"tsb_mag_762x39_30rnd_57t231p_pmag",
+			"tsb_mag_762x39_30rnd_57t231pm1_pmag",
+			"tsb_mag_762x39_30rnd_57n231u_pmag"
 		};
 	};
-////////////////////////////////////////////////////762x51///////////////////
-///M14///
+	class AK_762x39 {
+		TSB_Magazines[] = {
+			"tsb_mag_762x39_10rnd_fmj_civ",
+			"tsb_mag_762x39_10rnd_hp_civ",
+
+			"tsb_mag_762x39_30rnd_57n231_metalold",
+			"tsb_mag_762x39_30rnd_57n23189_metalold",
+			"tsb_mag_762x39_30rnd_7n23_metalold",
+			"tsb_mag_762x39_30rnd_57z231_metalold",
+			"tsb_mag_762x39_30rnd_57bz231_metalold",
+			"tsb_mag_762x39_30rnd_57t231p_metalold",
+			"tsb_mag_762x39_30rnd_57t231pm1_metalold",
+			"tsb_mag_762x39_30rnd_57n231u_metalold",
+
+			"tsb_mag_762x39_30rnd_57n231_metal",
+			"tsb_mag_762x39_30rnd_57n23189_metal",
+			"tsb_mag_762x39_30rnd_7n23_metal",
+			"tsb_mag_762x39_30rnd_57z231_metal",
+			"tsb_mag_762x39_30rnd_57bz231_metal",
+			"tsb_mag_762x39_30rnd_57t231p_metal",
+			"tsb_mag_762x39_30rnd_57t231pm1_metal",
+			"tsb_mag_762x39_30rnd_57n231u_metal",
+
+			"tsb_mag_762x39_30rnd_57n231_plastic",
+			"tsb_mag_762x39_30rnd_57n23189_plastic",
+			"tsb_mag_762x39_30rnd_7n23_plastic",
+			"tsb_mag_762x39_30rnd_57z231_plastic",
+			"tsb_mag_762x39_30rnd_57bz231_plastic",
+			"tsb_mag_762x39_30rnd_57t231p_plastic",
+			"tsb_mag_762x39_30rnd_57t231pm1_plastic",
+			"tsb_mag_762x39_30rnd_57n231u_plastic",
+
+			"tsb_mag_762x39_30rnd_57n231_bakelite",
+			"tsb_mag_762x39_30rnd_57n23189_bakelite",
+			"tsb_mag_762x39_30rnd_7n23_bakelite",
+			"tsb_mag_762x39_30rnd_57z231_bakelite",
+			"tsb_mag_762x39_30rnd_57bz231_bakelite",
+			"tsb_mag_762x39_30rnd_57t231p_bakelite",
+			"tsb_mag_762x39_30rnd_57t231pm1_bakelite",
+			"tsb_mag_762x39_30rnd_57n231u_bakelite",
+
+			"tsb_mag_762x39_30rnd_57n231_pmag",
+			"tsb_mag_762x39_30rnd_57n23189_pmag",
+			"tsb_mag_762x39_30rnd_7n23_pmag",
+			"tsb_mag_762x39_30rnd_57z231_pmag",
+			"tsb_mag_762x39_30rnd_57bz231_pmag",
+			"tsb_mag_762x39_30rnd_57t231p_pmag",
+			"tsb_mag_762x39_30rnd_57t231pm1_pmag",
+			"tsb_mag_762x39_30rnd_57n231u_pmag",
+
+			"tsb_mag_762x39_40rnd_57n231_bakelite",
+			"tsb_mag_762x39_40rnd_57n23189_bakelite",
+			"tsb_mag_762x39_40rnd_7n23_bakelite",
+			"tsb_mag_762x39_40rnd_57z231_bakelite",
+			"tsb_mag_762x39_40rnd_57bz231_bakelite",
+			"tsb_mag_762x39_40rnd_57t231p_bakelite",
+			"tsb_mag_762x39_40rnd_57t231pm1_bakelite",
+			"tsb_mag_762x39_40rnd_57n231u_bakelite",
+
+			"tsb_mag_762x39_75rnd_57n231_metal",
+			"tsb_mag_762x39_75rnd_57n23189_metal",
+			"tsb_mag_762x39_75rnd_7n23_metal",
+			"tsb_mag_762x39_75rnd_57z231_metal",
+			"tsb_mag_762x39_75rnd_57bz231_metal",
+			"tsb_mag_762x39_75rnd_57t231p_metal",
+			"tsb_mag_762x39_75rnd_57t231pm1_metal",
+			"tsb_mag_762x39_75rnd_57n231u_metal",
+
+			"tsb_mag_762x39_75rnd_57n231_plastic",
+			"tsb_mag_762x39_75rnd_57n23189_plastic",
+			"tsb_mag_762x39_75rnd_7n23_plastic",
+			"tsb_mag_762x39_75rnd_57z231_plastic",
+			"tsb_mag_762x39_75rnd_57bz231_plastic",
+			"tsb_mag_762x39_75rnd_57t231p_plastic",
+			"tsb_mag_762x39_75rnd_57t231pm1_plastic",
+			"tsb_mag_762x39_75rnd_57n231u_plastic",
+
+			"tsb_mag_762x39_100rnd_57n231_metal",
+			"tsb_mag_762x39_100rnd_57n23189_metal",
+			"tsb_mag_762x39_100rnd_7n23_metal",
+			"tsb_mag_762x39_100rnd_57z231_metal",
+			"tsb_mag_762x39_100rnd_57bz231_metal",
+			"tsb_mag_762x39_100rnd_57t231p_metal",
+			"tsb_mag_762x39_100rnd_57t231pm1_metal",
+			"tsb_mag_762x39_100rnd_57n231u_metal"
+		};
+	};
+//////////////////////////////// RPK ///////////////////////////////////////////
+	class CBA_762x39_RPK {
+		TSB_Magazines[] = {
+			"tsb_mag_762x39_40rnd_57n231_bakelite",
+			"tsb_mag_762x39_40rnd_57n23189_bakelite",
+			"tsb_mag_762x39_40rnd_7n23_bakelite",
+			"tsb_mag_762x39_40rnd_57z231_bakelite",
+			"tsb_mag_762x39_40rnd_57bz231_bakelite",
+			"tsb_mag_762x39_40rnd_57t231p_bakelite",
+			"tsb_mag_762x39_40rnd_57t231pm1_bakelite",
+			"tsb_mag_762x39_40rnd_57n231u_bakelite",
+
+			"tsb_mag_762x39_75rnd_57n231_metal",
+			"tsb_mag_762x39_75rnd_57n23189_metal",
+			"tsb_mag_762x39_75rnd_7n23_metal",
+			"tsb_mag_762x39_75rnd_57z231_metal",
+			"tsb_mag_762x39_75rnd_57bz231_metal",
+			"tsb_mag_762x39_75rnd_57t231p_metal",
+			"tsb_mag_762x39_75rnd_57t231pm1_metal",
+			"tsb_mag_762x39_75rnd_57n231u_metal",
+
+			"tsb_mag_762x39_75rnd_57n231_plastic",
+			"tsb_mag_762x39_75rnd_57n23189_plastic",
+			"tsb_mag_762x39_75rnd_7n23_plastic",
+			"tsb_mag_762x39_75rnd_57z231_plastic",
+			"tsb_mag_762x39_75rnd_57bz231_plastic",
+			"tsb_mag_762x39_75rnd_57t231p_plastic",
+			"tsb_mag_762x39_75rnd_57t231pm1_plastic",
+			"tsb_mag_762x39_75rnd_57n231u_plastic",
+
+			"tsb_mag_762x39_100rnd_57n231_metal",
+			"tsb_mag_762x39_100rnd_57n23189_metal",
+			"tsb_mag_762x39_100rnd_7n23_metal",
+			"tsb_mag_762x39_100rnd_57z231_metal",
+			"tsb_mag_762x39_100rnd_57bz231_metal",
+			"tsb_mag_762x39_100rnd_57t231p_metal",
+			"tsb_mag_762x39_100rnd_57t231pm1_metal",
+			"tsb_mag_762x39_100rnd_57n231u_metal"
+		};
+	};
+//////////////////////////////// VZ58 //////////////////////////////////////////
+	class CBA_762x39_VZ58 {
+		TSB_Magazines[] = {
+			"tsb_mag_762x39_30rnd_57n231_VZ58",
+			"tsb_mag_762x39_30rnd_57n23189_VZ58",
+			"tsb_mag_762x39_30rnd_7n23_VZ58",
+			"tsb_mag_762x39_30rnd_57z231_VZ58",
+			"tsb_mag_762x39_30rnd_57bz231_VZ58",
+			"tsb_mag_762x39_30rnd_57t231p_VZ58",
+			"tsb_mag_762x39_30rnd_57t231pm1_VZ58",
+			"tsb_mag_762x39_30rnd_57n231u_VZ58"
+		};
+	};
+////////////////////////////////////////////////////////// 7.62 x 51 //////////////////////////////////////////////////////////
+//////////////////////////////// FAL ///////////////////////////////////////////
+	class CBA_762x51_FAL {
+		TSB_Magazines[] = {
+		"tsb_mag_762x51_20rnd_M59_FAL",
+		"tsb_mag_762x51_20rnd_M61_FAL",
+		"tsb_mag_762x51_20rnd_M62_FAL",
+		"tsb_mag_762x51_20rnd_M80_FAL",
+		"tsb_mag_762x51_20rnd_M80a1_FAL",
+		"tsb_mag_762x51_20rnd_m118sb_FAL",
+		"tsb_mag_762x51_20rnd_m276_FAL",
+		"tsb_mag_762x51_20rnd_m948_FAL",
+		"tsb_mag_762x51_20rnd_m959_FAL",
+		"tsb_mag_762x51_20rnd_m993_FAL",
+		"tsb_mag_762x51_20rnd_mk316_FAL",
+		"tsb_mag_762x51_20rnd_mk319_FAL"
+		};
+	};
+//////////////////////////////// M14 ///////////////////////////////////////////
 	class M14_762x51 {
 		TSB_Magazines[] = {
 		"tsb_mag_762x51_20rnd_M59_M14",
@@ -1510,7 +1403,7 @@ class CfgMagazineWells {
 		"tsb_mag_762x51_20rnd_mk319_M14"
 		};
 	};
-///240///
+//////////////////////////////// M240 //////////////////////////////////////////
 	class M240_762x51 {
 		TSB_Magazines[] ={
 		"tsb_mag_762x51_100rnd_M59_Softpack",
@@ -1609,7 +1502,7 @@ class CfgMagazineWells {
 		"tsb_mag_762x51_50rnd_m993ir_Softpack"
 		};
 	};
-///SCAR///
+//////////////////////////////// SCARH /////////////////////////////////////////
 	class CBA_762x51_SCAR {
 		TSB_Magazines[] = {
 		"tsb_mag_762x51_20rnd_M59_SCAR",
@@ -1668,24 +1561,7 @@ class CfgMagazineWells {
 		"tsb_mag_762x51_20rnd_mk319_SCARB"
 		};
 	};
-///FAL///
-	class CBA_762x51_FAL {
-		TSB_Magazines[] = {
-		"tsb_mag_762x51_20rnd_M59_FAL",
-		"tsb_mag_762x51_20rnd_M61_FAL",
-		"tsb_mag_762x51_20rnd_M62_FAL",
-		"tsb_mag_762x51_20rnd_M80_FAL",
-		"tsb_mag_762x51_20rnd_M80a1_FAL",
-		"tsb_mag_762x51_20rnd_m118sb_FAL",
-		"tsb_mag_762x51_20rnd_m276_FAL",
-		"tsb_mag_762x51_20rnd_m948_FAL",
-		"tsb_mag_762x51_20rnd_m959_FAL",
-		"tsb_mag_762x51_20rnd_m993_FAL",
-		"tsb_mag_762x51_20rnd_mk316_FAL",
-		"tsb_mag_762x51_20rnd_mk319_FAL"
-		};
-	};
-///AR-10///
+//////////////////////////////// SR-25 /////////////////////////////////////////
 	class CBA_762x51_AR10 {
 		TSB_Magazines[] ={
 		"tsb_mag_762x51_20rnd_M59_SR25",
@@ -1702,24 +1578,7 @@ class CfgMagazineWells {
 		"tsb_mag_762x51_20rnd_mk319_SR25"
 		};
 	};
-///AICS///
-	class CBA_762x51_AICS {
-		TSB_Magazines[] ={
-		"tsb_mag_762x51_10rnd_M59_AICS",
-		"tsb_mag_762x51_10rnd_M61_AICS",
-		"tsb_mag_762x51_10rnd_M62_AICS",
-		"tsb_mag_762x51_10rnd_M80_AICS",
-		"tsb_mag_762x51_10rnd_M80a1_AICS",
-		"tsb_mag_762x51_10rnd_m118sb_AICS",
-		"tsb_mag_762x51_10rnd_m276_AICS",
-		"tsb_mag_762x51_10rnd_m948_AICS",
-		"tsb_mag_762x51_10rnd_m959_AICS",
-		"tsb_mag_762x51_10rnd_m993_AICS",
-		"tsb_mag_762x51_10rnd_mk316_AICS",
-		"tsb_mag_762x51_10rnd_mk319_AICS"
-		};
-	};
-///Loose///
+//////////////////////////////// Loose ammo ////////////////////////////////////
 	class CBA_762x51_5rnds{
 		TSB_Magazines[] ={
 		"tsb_mag_762x51_5rnd_M59",
@@ -1752,7 +1611,24 @@ class CfgMagazineWells {
 		"tsb_mag_762x51_1rnd_mk319"
 		};
 	};
-///SIG AMT///
+//////////////////////////////// AICS Mags /////////////////////////////////////
+	class CBA_762x51_AICS {
+		TSB_Magazines[] ={
+		"tsb_mag_762x51_10rnd_M59_AICS",
+		"tsb_mag_762x51_10rnd_M61_AICS",
+		"tsb_mag_762x51_10rnd_M62_AICS",
+		"tsb_mag_762x51_10rnd_M80_AICS",
+		"tsb_mag_762x51_10rnd_M80a1_AICS",
+		"tsb_mag_762x51_10rnd_m118sb_AICS",
+		"tsb_mag_762x51_10rnd_m276_AICS",
+		"tsb_mag_762x51_10rnd_m948_AICS",
+		"tsb_mag_762x51_10rnd_m959_AICS",
+		"tsb_mag_762x51_10rnd_m993_AICS",
+		"tsb_mag_762x51_10rnd_mk316_AICS",
+		"tsb_mag_762x51_10rnd_mk319_AICS"
+		};
+	};
+//////////////////////////////// SIG AMT ///////////////////////////////////////
 	class CBA_762x51_SIGAMT {
 		TSB_Magazines[] = {
 		"tsb_mag_762x51_20rnd_M59_AMT",
@@ -1769,14 +1645,128 @@ class CfgMagazineWells {
 		"tsb_mag_762x51_20rnd_mk319_AMT"
 		};
 	};
-///////////////////////////////////////////////////7.62x53/////////////////////
-///M1///
+////////////////////////////////////////////////////////// 7.62 x 54 //////////////////////////////////////////////////////////
+//////////////////////////////// PK ////////////////////////////////////////////
+	class PK_762x54R {
+		TSB_Magazines[] = {
+			"tsb_mag_762x54_100rnd_57n323s",
+			"tsb_mag_762x54_100rnd_7n13",
+			"tsb_mag_762x54_100rnd_7n26",
+			"tsb_mag_762x54_100rnd_7bz3",
+			"tsb_mag_762x54_100rnd_7bt1",
+			"tsb_mag_762x54_100rnd_7t2",
+			"tsb_mag_762x54_100rnd_7t2m",
+
+			"tsb_mag_762x54_200rnd_57n323s",
+			"tsb_mag_762x54_200rnd_7n13",
+			"tsb_mag_762x54_200rnd_7n26",
+			"tsb_mag_762x54_200rnd_7bz3",
+			"tsb_mag_762x54_200rnd_7bt1",
+			"tsb_mag_762x54_200rnd_7t2",
+			"tsb_mag_762x54_200rnd_7t2m",
+
+			"tsb_mag_762x54_250rnd_57n323s",
+			"tsb_mag_762x54_250rnd_7n13",
+			"tsb_mag_762x54_250rnd_7n26",
+			"tsb_mag_762x54_250rnd_7bz3",
+			"tsb_mag_762x54_250rnd_7bt1",
+			"tsb_mag_762x54_250rnd_7t2",
+			"tsb_mag_762x54_250rnd_7t2m"
+		};
+	};
+//////////////////////////////// SVD ///////////////////////////////////////////
+	class CBA_762x54R_SVD {
+		TSB_Magazines[] = {
+			// "tsb_mag_762x54_old_10rnd_7n1",
+			// "tsb_mag_762x54_old_10rnd_7n13",
+			// "tsb_mag_762x54_old_10rnd_7n14",
+			// "tsb_mag_762x54_old_10rnd_7n26",
+			// "tsb_mag_762x54_old_10rnd_7n37",
+			// "tsb_mag_762x54_old_10rnd_7bz3",
+			// "tsb_mag_762x54_old_10rnd_7bt1",
+			// "tsb_mag_762x54_old_10rnd_7t2",
+			// "tsb_mag_762x54_old_10rnd_7t2m",
+
+			"tsb_mag_762x54_5rnd_7n1",
+			"tsb_mag_762x54_5rnd_7n13",
+			"tsb_mag_762x54_5rnd_7n14",
+			"tsb_mag_762x54_5rnd_7n26",
+			"tsb_mag_762x54_5rnd_7n37",
+			"tsb_mag_762x54_5rnd_7bz3",
+			"tsb_mag_762x54_5rnd_7bt1",
+			"tsb_mag_762x54_5rnd_7t2",
+			"tsb_mag_762x54_5rnd_7t2m",
+
+			"tsb_mag_762x54_10rnd_7n1",
+			"tsb_mag_762x54_10rnd_7n13",
+			"tsb_mag_762x54_10rnd_7n14",
+			"tsb_mag_762x54_10rnd_7n26",
+			"tsb_mag_762x54_10rnd_7n37",
+			"tsb_mag_762x54_10rnd_7bz3",
+			"tsb_mag_762x54_10rnd_7bt1",
+			"tsb_mag_762x54_10rnd_7t2",
+			"tsb_mag_762x54_10rnd_7t2m",
+
+			"tsb_mag_762x54_20rnd_7n1",
+			"tsb_mag_762x54_20rnd_7n13",
+			"tsb_mag_762x54_20rnd_7n14",
+			"tsb_mag_762x54_20rnd_7n26",
+			"tsb_mag_762x54_20rnd_7n37",
+			"tsb_mag_762x54_20rnd_7bz3",
+			"tsb_mag_762x54_20rnd_7bt1",
+			"tsb_mag_762x54_20rnd_7t2",
+			"tsb_mag_762x54_20rnd_7t2m"
+		};
+	};
+//////////////////////////////// SV98 //////////////////////////////////////////
+	class TSB_762x54R_sv98 {
+		TSB_Magazines[] = {
+			"tsb_mag_762x54_10rnd_sv98_7n1",
+			"tsb_mag_762x54_10rnd_sv98_7n13",
+			"tsb_mag_762x54_10rnd_sv98_7n14",
+			"tsb_mag_762x54_10rnd_sv98_7n26",
+			"tsb_mag_762x54_10rnd_sv98_7n37",
+			"tsb_mag_762x54_10rnd_sv98_7bz3",
+			"tsb_mag_762x54_10rnd_sv98_7bt1",
+			"tsb_mag_762x54_10rnd_sv98_7t2",
+			"tsb_mag_762x54_10rnd_sv98_7t2m"
+		};
+	};
+//////////////////////////////// SVT ///////////////////////////////////////////
+	class TSB_762x54R_svt {
+		TSB_Magazines[] = {
+			"tsb_mag_762x54_10rnd_svt_57n323s",
+			"tsb_mag_762x54_10rnd_svt_57bz323",
+			"tsb_mag_762x54_10rnd_svt_57bt322",
+			"tsb_mag_762x54_10rnd_svt_57t323"
+		};
+	};
+//////////////////////////////// Mosin /////////////////////////////////////////
+	class CBA_762x54R_Mosin {
+		TSB_Magazines[] = {
+			"tsb_mag_762x54_5rnd_mosin_57n323s",
+			"tsb_mag_762x54_5rnd_mosin_57bz323",
+			"tsb_mag_762x54_5rnd_mosin_57bt322",
+			"tsb_mag_762x54_5rnd_mosin_57t323"
+		};
+	};
+//////////////////////////////// DP ////////////////////////////////////////////
+	class TSB_762x54R_dp {
+		TSB_Magazines[] = {
+			"tsb_mag_762x54_47rnd_dp_57n323s",
+			"tsb_mag_762x54_47rnd_dp_57bz323",
+			"tsb_mag_762x54_47rnd_dp_57bt322",
+			"tsb_mag_762x54_47rnd_dp_57t323"
+		};
+	};
+////////////////////////////////////////////////////////// 7.62 x 63 (.30-06) /////////////////////////////////////////////////
+//////////////////////////////// M1 Garand /////////////////////////////////////
 	class CBA_3006_Garand {
 		TSB_Magazines[] ={
 		"tsb_mag_762x53_8rnd_M2AP"
 		};
 	};
-///M1903///
+//////////////////////////////// M1903 Springfield /////////////////////////////
 	class CBA_3006_Spring {
 		TSB_Magazines[] ={
 		"tsb_mag_762x53_5rnd_M2AP",
@@ -1784,8 +1774,28 @@ class CfgMagazineWells {
 		"tsb_mag_762x53_5rnd_M1T"
 		};
 	};
-//////////////////////////////////45///////////////////////
-///1911///
+////////////////////////////////////////////////////////// 7.62 x 67 (.300 WM) ////////////////////////////////////////////////
+////////////////////////////////////////////////////////// 7.65 x 17 ///////// ////////////////////////////////////////////////
+//////////////////////////////////////////////////////////  7.9 x 57 //////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////// 8.60 x 70 (338 Lapua) //////////////////////////////////////////////
+//////////////////////////////////////////////////////////    9 x 18 //////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////    9 x 19 //////////////////////////////////////////////////////////
+//////////////////////////////// Glock /////////////////////////////////////////
+	class CBA_9x19_Glock_Full{
+		TSB_Magazines[] ={
+		"tsb_mag_9x19_17rnd_FMJ_Glock",
+		"tsb_mag_9x19_17rnd_JHP_Glock",
+		"tsb_mag_9x19_17rnd_M882_Glock",
+		"tsb_mag_9x19_17rnd_Hydra_Glock",
+		"tsb_mag_9x19_17rnd_P_Glock",
+		"tsb_mag_9x19_17rnd_JHP_Glock",
+		"tsb_mag_9x19_17rnd_JHP_Glock"
+		};
+	};
+//////////////////////////////////////////////////////////    9 x 21 //////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////    9 x 39 //////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////// 11.4 x 23 (.45 ACP) ////////////////////////////////////////////////
+//////////////////////////////// M1911 /////////////////////////////////////////
 	class CBA_45ACP_1911 {
 		TSB_Magazines[] ={
 		"tsb_mag_45_7rnd_M15",
@@ -1795,7 +1805,7 @@ class CfgMagazineWells {
 		"tsb_mag_45_7rnd_T30"
 		};
 	};
-///M3///
+//////////////////////////////// M3 ////////////////////////////////////////////
 	class CBA_45ACP_Grease{
 		TSB_Magazines[] ={
 			"tsb_mag_45_30rnd_m3_ball",
@@ -1810,7 +1820,7 @@ class CfgMagazineWells {
 			"tsb_mag_45_30rnd_m3d_M15"
 		};
 	};
-///Fx45///
+//////////////////////////////// Fx45 //////////////////////////////////////////
 	class PistolHeavy_01_45ACP {
 		TSB_Magazines[] ={
 		"tsb_mag_45_FX45_15rnd_M15",
@@ -1820,7 +1830,8 @@ class CfgMagazineWells {
 		"tsb_mag_45_FX45_15rnd_T30"
 		};
 	};
-///12GA//////////////////////////////////////////////////
+////////////////////////////////////////////////////////// 12ga Shotgun Ammo //////////////////////////////////////////////////
+//////////////////////////////// 1Rnd //////////////////////////////////////////
 	class CBA_12g_1rnd{
 		TSB_Magazines[] ={
 			"tsb_mag_12ga_1rnd_slug",
@@ -1831,18 +1842,6 @@ class CfgMagazineWells {
 			"tsb_mag_12ga_1rnd_no3_bird",
 			"tsb_mag_12ga_1rnd_FRAG",
 			"tsb_mag_12ga_1rnd_HE"
-		};
-	};
-	class CBA_12g_2rnds{
-		TSB_Magazines[] ={
-			"tsb_mag_12ga_2rnd_slug",
-			"tsb_mag_12ga_2rnd_stun",
-			"tsb_mag_12ga_2rnd_ap",
-			"tsb_mag_12ga_2rnd_flechette",
-			"tsb_mag_12ga_2rnd_00_buck",
-			"tsb_mag_12ga_2rnd_no3_bird",
-			"tsb_mag_12ga_2rnd_FRAG",
-			"tsb_mag_12ga_2rnd_HE"
 		};
 	};
 	class HunterShotgun_01_12GA{
@@ -1857,6 +1856,20 @@ class CfgMagazineWells {
 			"tsb_mag_12ga_2rnd_HE"
 		};
 	};
+//////////////////////////////// 2Rnd //////////////////////////////////////////
+	class CBA_12g_2rnds{
+		TSB_Magazines[] ={
+			"tsb_mag_12ga_2rnd_slug",
+			"tsb_mag_12ga_2rnd_stun",
+			"tsb_mag_12ga_2rnd_ap",
+			"tsb_mag_12ga_2rnd_flechette",
+			"tsb_mag_12ga_2rnd_00_buck",
+			"tsb_mag_12ga_2rnd_no3_bird",
+			"tsb_mag_12ga_2rnd_FRAG",
+			"tsb_mag_12ga_2rnd_HE"
+		};
+	};
+//////////////////////////////// 5Rnd //////////////////////////////////////////
 	class CBA_12g_5rnds{
 		TSB_Magazines[] ={
 			"tsb_mag_12ga_5rnd_slug",
@@ -1869,6 +1882,7 @@ class CfgMagazineWells {
 			"tsb_mag_12ga_5rnd_HE"
 		};
 	};
+//////////////////////////////// 6rnd //////////////////////////////////////////
 	class CBA_12g_6rnds{
 		TSB_Magazines[] ={
 			"tsb_mag_12ga_6rnd_slug",
@@ -1881,6 +1895,7 @@ class CfgMagazineWells {
 			"tsb_mag_12ga_6rnd_HE"
 		};
 	};
+//////////////////////////////// 8rnd //////////////////////////////////////////
 	class CBA_12g_8rnds{
 		TSB_Magazines[] ={
 			"tsb_mag_12ga_8rnd_slug",
@@ -1893,24 +1908,9 @@ class CfgMagazineWells {
 			"tsb_mag_12ga_8rnd_HE"
 		};
 	};
-///5.7x28//////
-	class CBA_57x28_P90 {
-		TSB_Magazines[] ={
-		"tsb_mag_57x28_50rnd_SS190_P90",
-		"tsb_mag_57x28_50rnd_L191_P90",
-		"tsb_mag_57x28_50rnd_SS192_P90",
-		"tsb_mag_57x28_50rnd_SB193_P90"
-		};
-	};
-	class CBA_57x28_FN57 {
-		TSB_Magazines[] ={
-		"tsb_mag_57x28_20rnd_SS190_FN57",
-		"tsb_mag_57x28_20rnd_L191_FN57",
-		"tsb_mag_57x28_20rnd_SS192_FN57",
-		"tsb_mag_57x28_20rnd_SB193_FN57"
-		};
-	};
-///////////81mm//////////////////
+//////////////////////////////////////////////////////////  Launcher //////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////       CSW //////////////////////////////////////////////////////////
+//////////////////////////////// 81mm //////////////////////////////////////////
 	class CBA_82mm {
 		TSB_Magazines[] ={
 		"TSB_CSW_1Rnd_81mm_Mo_Shells",
@@ -1923,4 +1923,44 @@ class CfgMagazineWells {
 		"TSB_CSW_1Rnd_81mm_Mo_GB_Flare"
 		};
 	};
+
+///////////////////////////////////////////////////////// WIP /////////////////////////////////////////////////////////////////
+		// class CBA_9x18_PM {
+		// RHS_Magazines[] = {"rhs_mag_9x18_8_57N181S"};
+	// };
+	
+	// class CBA_9x18_PMM {
+		// RHS_Magazines[] = {"rhs_mag_9x18_12_57N181S"};
+	// };
+	
+	// class CBA_9x19_MP443 {
+		// RHS_Magazines[] = {"rhs_mag_9x19_17"};
+	// };
+	
+	// class CBA_9x21_SR1M {
+		// RHS_Magazines[] = {"rhs_18rnd_9x21mm_7N28", "rhs_18rnd_9x21mm_7N29", "rhs_18rnd_9x21mm_7BT3"};
+	// };
+	
+	// class CBA_9x19_PP2000 {
+		// RHS_Magazines[] = {"rhs_mag_9x19mm_7n21_20", "rhs_mag_9x19mm_7n31_20", "rhs_mag_9x19mm_7n21_44", "rhs_mag_9x19mm_7n31_44"};
+	// };
+		// class CBA_338LM_T5000 {
+	// };
+	
+	// class CBA_9x39_VSS {
+	// };
+	
+	// class VOG_40mm {
+	// };
+	
+	// class CBA_40mm_GP {};
+	
+	// class RPG7 {
+	// };
+	
+	// class CBA_RPG7 {};
+
+	// class TSB_762x39_rpd{};
+	// class TSB_762x39_sks{};
+
 }
