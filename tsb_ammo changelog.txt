@@ -2,7 +2,9 @@
 *Changes
 -Removal
 
-V3 (2023-01-31)
+
+
+V3 (2023-07-5)
 
 By Killa567
 	+ M21 Mags
@@ -14,6 +16,14 @@ By Killa567
 	  + +P
 	  + 7N21
 	  + 7N31
+	+ G17 Mags
+	+ BHP Mags
+	+ MP5 Mags
+	+ SMAW Ammo
+	  + NE (Thermo)
+	+ Improved Smokes
+	* Changed the Hit of Buck and Flechette to hopefully actually work
+	
 			
 V2 (2022-9-30)
 

@@ -16,7 +16,9 @@ class CfgPatches {
 			"rhsusf_weapon_sounds", 
 			"rhs_c_heavyweapons",
 			"rhsusf_c_heavyweapons",
-			"rhs_inventoryicons"
+			"rhs_inventoryicons",
+			"uk3cb_factions_weapons",
+			"A3_Weapons_F_Pistols_P07"
 		};
 	};
 };

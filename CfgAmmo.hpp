@@ -1160,7 +1160,7 @@ class CfgAmmo {
 	};
 	class tsb_ammo_flechette : BulletBase {
 		caliber = .6;
-		hit = 3;
+		hit = 4.5;
 		airFriction = -0.000643;
 	};
 	class tsb_ammo_12ga_00_buck : tsb_ammo_12ga_slug {
@@ -1174,7 +1174,7 @@ class CfgAmmo {
 	};
 	class tsb_ammo_00_buck : BulletBase {
 		caliber = .525;
-		hit = 2.55;
+		hit = 5;
 		airFriction = -0.003;
 	};
 	class tsb_ammo_12ga_No3_Bird : tsb_ammo_12ga_slug {
@@ -1262,5 +1262,45 @@ class CfgAmmo {
 		brightness = 1000000;
 		ace_rearm_caliber = 81;
 		fuseDistance = 50;
+	};
+////////////////////////////////////////////////////////// SMAW ///////////////////////////////////////////////////////////////
+	class rhs_ammo_smaw_HEDP;
+	class tsb_ammo_smaw_ne : rhs_ammo_smaw_HEDP {
+		hit = 120;
+		indirectHit = 60;
+		indirectHitRange = 12;
+		cost = 100;
+		CraterEffects = "ArtyShellCrater";
+		explosionEffects = "RHS_FAE_Explosion";
+	};
+////////////////////////////////////////////////////////// Launcher ///////////////////////////////////////////////////////////
+	class SmokeShell;
+    class SmokeShellRed;
+    class SmokeShellGreen;
+    class SmokeShellYellow;
+    class SmokeShellPurple;
+    class SmokeShellBlue;
+    class SmokeShellOrange;
+
+	class MMM_SmokeShell : SmokeShell {
+		effectsSmoke = "MMM_SmokeShellWhiteEffect";
+	};
+	class MMM_SmokeShellRed : SmokeShellRed {
+		effectsSmoke = "MMM_SmokeShellRedEffect";
+	};
+	class MMM_SmokeShellGreen : SmokeShellGreen {
+		effectsSmoke = "MMM_SmokeShellGreenEffect";
+	};
+	class MMM_SmokeShellYellow : SmokeShellYellow {
+		effectsSmoke = "MMM_SmokeShellYellowEffect";
+	};
+	class MMM_SmokeShellPurple : SmokeShellPurple {
+		effectsSmoke = "MMM_SmokeShellPurpleEffect";
+	};
+	class MMM_SmokeShellBlue : SmokeShellBlue {
+		effectsSmoke = "MMM_SmokeShellBlueEffect";
+	};
+	class MMM_SmokeShellOrange : SmokeShellOrange {
+		effectsSmoke = "MMM_SmokeShellOrangeEffect";
 	};
 };

@@ -26,5 +26,22 @@ class CfgCloudlets
 		rotationVelocityVar=0;
 		sizeVar=0;
 	};
-
+	class SmokeShellWhite;
+	class MMM_SmokeShellWhite : SmokeShellWhite {
+		// coords x,y,z, where y is vertical
+		rubbing = 0.025;
+		moveVelocity[] = {0, 0.5, 0}; 
+		size[] = {1, 4, 5};
+		moveVelocityVar[] = {1, 0.4, 1}; 
+		color[] = {{0.6, 0.6, 0.6, 0.5}, {0.6, 0.6, 0.6, 0.25}, {0.6, 0.6, 0.6, 0}};
+	};	
+	class SmokeShellWhite2;
+	class MMM_SmokeShellWhite2 : SmokeShellWhite2 {
+		// coords x,y,z, where y is vertical
+		moveVelocity[] = {0, 0.5, 0}; 
+		rubbing = 0.025;
+		size[] = {1, 4, 5}; 
+		moveVelocityVar[] = {1, 0.4, 1}; 
+		color[] = {{0.6, 0.6, 0.6, 1}, {0.6, 0.6, 0.6, 0.5}, {0.6, 0.6, 0.6, 0}};
+	};
 };

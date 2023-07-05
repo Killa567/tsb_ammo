@@ -5394,6 +5394,77 @@ class CfgMagazines {
 		displayNameShort = "57-N-231U Subsonic";
 		ammo = "tsb_ammo_762x39_57n231u";
 	};
+//////////////////////////////// SKS ///////////////////////////////////////////
+	class mmm_clip_762x39_10rnd_fmj_sks : CA_Magazine{
+		scope = public;
+		author = "Makarov Ivan Andreyavich";
+		displayName = "7.62x39 SKS 10rnd FMJ Clip";
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: FMJ<br />Capacity: 10";
+		displayNameShort = "FMJ";
+		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak762_10rnd_bklt_mag";
+		picture = "\tsb_ammo\ui\mmm_sks_clip_ui_ca.paa";
+		ammo = "tsb_ammo_762x39_fmj";
+		count = 10;
+		mass = 2.205;
+		// tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class mmm_clip_762x39_10rnd_hp_sks : mmm_clip_762x39_10rnd_fmj_sks{
+		displayName = "7.62x39 SKS 10rnd HP Clip";
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: HP<br />Capacity: 10";
+		displayNameShort = "HP";
+		ammo = "tsb_ammo_762x39_hp";
+	};
+	class mmm_clip_762x39_10rnd_57n231_sks : mmm_clip_762x39_10rnd_fmj_sks{
+		displayName = "7.62x39 SKS 30rnd 57-N-231 Clip";
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 10";
+		displayNameShort = "57-N-231";
+		ammo = "tsb_ammo_762x39_57n231";
+	};
+	class mmm_clip_762x39_10rnd_57n23189_sks : mmm_clip_762x39_10rnd_fmj_sks{
+		displayName = "7.62x39 SKS 30rnd 57-N-231(89) Clip";
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231(89)<br />Capacity: 10";
+		displayNameShort = "57-N-231(89)";
+		ammo = "tsb_ammo_762x39_57n23189";
+	};
+	class mmm_clip_762x39_10rnd_7n23_sks : mmm_clip_762x39_10rnd_fmj_sks{
+		displayName = "7.62x39 SKS 30rnd 7N23 Clip";
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 7N23<br />Capacity: 10";
+		displayNameShort = "7N23";
+		ammo = "tsb_ammo_762x39_7n23";
+	};
+	class mmm_clip_762x39_10rnd_57z231_sks : mmm_clip_762x39_10rnd_fmj_sks{
+		displayName = "7.62x39 SKS 30rnd 57-Z-231 Clip";
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-Z-231<br />Capacity: 10";
+		displayNameShort = "57-Z-231";
+		ammo = "tsb_ammo_762x39_57z231";
+	};
+	class mmm_clip_762x39_10rnd_57bz231_sks : mmm_clip_762x39_10rnd_fmj_sks{
+		displayName = "7.62x39 SKS 30rnd 57-BZ-231 Clip";
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-BZ-231<br />Capacity: 10";
+		displayNameShort = "57-BZ-231";
+		ammo = "tsb_ammo_762x39_57bz231";
+	};
+	class mmm_clip_762x39_10rnd_57t231p_sks : mmm_clip_762x39_10rnd_fmj_sks{
+		displayName = "7.62x39 SKS 30rnd 57-T-231P Clip";
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231P<br />Capacity: 10";
+		displayNameShort = "57-T-231P";
+		ammo = "tsb_ammo_762x39_57t231p";
+		tracersEvery = 1;
+	};
+	class mmm_clip_762x39_10rnd_57t231pm1_sks : mmm_clip_762x39_10rnd_fmj_sks{
+		displayName = "7.62x39 SKS 30rnd 57-T-231PM1 Clip";
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-T-231PM1<br />Capacity: 10";
+		displayNameShort = "57-T-231PM1";
+		ammo = "tsb_ammo_762x39_57t231pm1";
+		tracersEvery = 1;
+	};
+	class mmm_clip_762x39_10rnd_57n231u_sks : mmm_clip_762x39_10rnd_fmj_sks{
+		displayName = "7.62x39 SKS 30rnd 57-N-231U Clip";
+		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231U<br />Capacity: 10";
+		displayNameShort = "57-N-231U";
+		ammo = "tsb_ammo_762x39_57n231u";
+	};
 ////////////////////////////////////////////////////////// 7.62 x 51 //////////////////////////////////////////////////////////
 //////////////////////////////// 20rnd FAL /////////////////////////////////////
 	class rhs_mag_20Rnd_762x51_m80_fnfal;
@@ -5819,14 +5890,11 @@ class CfgMagazines {
 //////////////////////////////// 200rnd Belts //////////////////////////////////
 	class tsb_mag_762x51_200rnd_M59_Softpack : rhsusf_100Rnd_762x51{
 		author = "Killa567";
-		//picture = "\rhsusaf\addons\rhsusf_inventoryicons\data\Softpacks\rhs_mag_30Rnd_556x45_M855A1_Stanag_ca";
+		picture = "\tsb_ammo\data\belt\ui_Ammobelt_ca.paa";
 		scope = public;
 		displayName = "7.62x51 200rnd M59 Softpack";
 		descriptionShort = "Caliber: 7.62x51mm<br />Bullet: M59<br />Capacity: 200<br />Type: Ball";
 		displayNameShort = "M59 Ball" ;
-		//model = "rhsuasf\addons\rhsusf_weapons\Softpacks\rhs_stanag_mag";
-		//modelSpecial = "\rhsusaf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_stanag_usgi_30rnd.p3d";
-		//modelSpecialIsProxy = 1;
 		ammo = "tsb_ammo_762x51_m59";
 		count = 200;
 		mass = 64.12;
@@ -7196,7 +7264,7 @@ class CfgMagazines {
 	class tsb_mag_9x19_17rnd_FMJ_Glock : rhsusf_mag_17Rnd_9x19_FMJ{
 		author = "Killa567";
 		scope = public;
-		displayName = "9x19 Glock 17rnd FMJ Magazine";
+		displayName = "9x19mm Glock 17rnd FMJ Magazine";
 		descriptionShort = "Caliber: 9x19mm<br />Bullet: Winchester FMJ<br />Capacity: 17<br />Type: Full Metal Jacket";
 		displayNameShort = "FMJ";
 		ammo = "tsb_ammo_9x19_Ball";
@@ -7204,38 +7272,136 @@ class CfgMagazines {
 		lastRoundsTracer = 0;
 	};
 	class tsb_mag_9x19_17rnd_JHP_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
-		displayName = "9x19 Glock 17rnd JHP Magazine";
+		displayName = "9x19mm Glock 17rnd JHP Magazine";
 		descriptionShort = "Caliber: 9x19mm<br />Bullet: Speer Gold Dot<br />Capacity: 17<br />Type: Jacketed Hollow Point";
 		displayNameShort = "JHP";
 		ammo = "tsb_ammo_9x19_JHP";
 	};
 	class tsb_mag_9x19_17rnd_M882_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
-		displayName = "9x19 Glock 17rnd M882 Magazine";
+		displayName = "9x19mm Glock 17rnd M882 Magazine";
 		descriptionShort = "Caliber: 9x19mm<br />Bullet: M882<br />Capacity: 17<br />Type: Over Preasured";
 		displayNameShort = "M882 +P";
 		ammo = "tsb_ammo_9x19_M882";
 	};
 	class tsb_mag_9x19_17rnd_Hydra_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
-		displayName = "9x19 Glock 17rnd HydraShok Magazine";
+		displayName = "9x19mm Glock 17rnd HydraShok Magazine";
 		descriptionShort = "Caliber: 9x19mm<br />Bullet: Federal HydraShok<br />Capacity: 17<br />Type: Over Preasured Jacketed Hollow Point";
 		displayNameShort = "JHP+P";
 		ammo = "tsb_ammo_9x19_Hydra";
 	};
 	class tsb_mag_9x19_17rnd_P_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
-		displayName = "9x19 Glock 17rnd +P Magazine";
+		displayName = "9x19mm Glock 17rnd +P Magazine";
 		descriptionShort = "Caliber: 9x19mm<br />Bullet: Cor-Bon<br />Capacity: 17<br />Type: Over Preasured";
 		displayNameShort = "JHP";
 		ammo = "tsb_ammo_9x19_P";
 	};
-	class tsb_mag_9x19_17rnd_JHP_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
-		displayName = "9x19 Glock 17rnd 7N21 Magazine";
+	class tsb_mag_9x19_17rnd_7N21_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
+		displayName = "9x19mm Glock 17rnd 7N21 Magazine";
 		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N21<br />Capacity: 17<br />Type: Armor Piercing";
 		displayNameShort = "AP";
 		ammo = "tsb_ammo_9x19_7N21";
 	};
-	class tsb_mag_9x19_17rnd_JHP_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
-		displayName = "9x19 Glock 17rnd 7N31 Magazine";
+	class tsb_mag_9x19_17rnd_7N31_Glock : tsb_mag_9x19_17rnd_FMJ_Glock{
+		displayName = "9x19mm Glock 17rnd 7N31 Magazine";
 		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N31<br />Capacity: 17<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N31";
+	};
+//////////////////////////////// 13rnd BHP /////////////////////////////////////
+	class UK3CB_BHP_9_13Rnd;
+
+	class tsb_mag_9x19_13rnd_FMJ_BHP : UK3CB_BHP_9_13Rnd{
+		author = "Killa567";
+		scope = public;
+		displayName = "9x19mm BHP 13rnd FMJ Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Winchester FMJ<br />Capacity: 13<br />Type: Full Metal Jacket";
+		displayNameShort = "FMJ";
+		ammo = "tsb_ammo_9x19_Ball";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_9x19_13rnd_JHP_BHP : tsb_mag_9x19_13rnd_FMJ_BHP{
+		displayName = "9x19mm BHP 13rnd JHP Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Speer Gold Dot<br />Capacity: 13<br />Type: Jacketed Hollow Point";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_JHP";
+	};
+	class tsb_mag_9x19_13rnd_M882_BHP : tsb_mag_9x19_13rnd_FMJ_BHP{
+		displayName = "9x19mm BHP 13rnd M882 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: M882<br />Capacity: 13<br />Type: Over Preasured";
+		displayNameShort = "M882 +P";
+		ammo = "tsb_ammo_9x19_M882";
+	};
+	class tsb_mag_9x19_13rnd_Hydra_BHP : tsb_mag_9x19_13rnd_FMJ_BHP{
+		displayName = "9x19mm BHP 13rnd HydraShok Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Federal HydraShok<br />Capacity: 13<br />Type: Over Preasured Jacketed Hollow Point";
+		displayNameShort = "JHP+P";
+		ammo = "tsb_ammo_9x19_Hydra";
+	};
+	class tsb_mag_9x19_13rnd_P_BHP : tsb_mag_9x19_13rnd_FMJ_BHP{
+		displayName = "9x19mm BHP 13rnd +P Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Cor-Bon<br />Capacity: 13<br />Type: Over Preasured";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_P";
+	};
+	class tsb_mag_9x19_13rnd_7N21_BHP : tsb_mag_9x19_13rnd_FMJ_BHP{
+		displayName = "9x19mm BHP 13rnd 7N21 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N21<br />Capacity: 13<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N21";
+	};
+	class tsb_mag_9x19_13rnd_7N31_BHP : tsb_mag_9x19_13rnd_FMJ_BHP{
+		displayName = "9x19mm BHP 13rnd 7N31 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N31<br />Capacity: 13<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N31";
+	};
+//////////////////////////////// 30rnd MP5 /////////////////////////////////////
+	class 30Rnd_9x21_Mag_SMG_02;
+	class tsb_mag_9x19_30rnd_FMJ_MP5 : 30Rnd_9x21_Mag_SMG_02{
+		author = "Killa567";
+		scope = public;
+		displayName = "9x19mm MP5 30rnd FMJ Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Winchester FMJ<br />Capacity: 30<br />Type: Full Metal Jacket";
+		displayNameShort = "FMJ";
+		picture = "\tsb_ammo\ui\mmm_mp5_30rnd_mag.paa";
+		ammo = "tsb_ammo_9x19_Ball";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_9x19_30rnd_JHP_MP5 : tsb_mag_9x19_30rnd_FMJ_MP5{
+		displayName = "9x19mm MP5 30rnd JHP Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Speer Gold Dot<br />Capacity: 30<br />Type: Jacketed Hollow Point";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_JHP";
+	};
+	class tsb_mag_9x19_30rnd_M882_MP5 : tsb_mag_9x19_30rnd_FMJ_MP5{
+		displayName = "9x19mm MP5 30rnd M882 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: M882<br />Capacity: 30<br />Type: Over Preasured";
+		displayNameShort = "M882 +P";
+		ammo = "tsb_ammo_9x19_M882";
+	};
+	class tsb_mag_9x19_30rnd_Hydra_MP5 : tsb_mag_9x19_30rnd_FMJ_MP5{
+		displayName = "9x19mm MP5 30rnd HydraShok Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Federal HydraShok<br />Capacity: 30<br />Type: Over Preasured Jacketed Hollow Point";
+		displayNameShort = "JHP+P";
+		ammo = "tsb_ammo_9x19_Hydra";
+	};
+	class tsb_mag_9x19_30rnd_P_MP5 : tsb_mag_9x19_30rnd_FMJ_MP5{
+		displayName = "9x19mm MP5 30rnd +P Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Cor-Bon<br />Capacity: 30<br />Type: Over Preasured";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_P";
+	};
+	class tsb_mag_9x19_30rnd_7N21_MP5 : tsb_mag_9x19_30rnd_FMJ_MP5{
+		displayName = "9x19mm MP5 30rnd 7N21 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N21<br />Capacity: 30<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N21";
+	};
+	class tsb_mag_9x19_30rnd_7N31_MP5 : tsb_mag_9x19_30rnd_FMJ_MP5{
+		displayName = "9x19mm MP5 30rnd 7N31 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N31<br />Capacity: 30<br />Type: Armor Piercing";
 		displayNameShort = "AP";
 		ammo = "tsb_ammo_9x19_7N31";
 	};
@@ -7399,6 +7565,43 @@ class CfgMagazines {
 		ammo = "tsb_ammo_45_T30";
 		tracersEvery = 1;
 	};
+//////////////////////////////// Kriss Vector //////////////////////////////////
+	class 30Rnd_45ACP_Mag_SMG_01;
+	class tsb_mag_45_Kriss_25rnd_M15 : 30Rnd_45ACP_Mag_SMG_01{
+		author = "Killa567";
+		scope = public;
+		scopeArsenal = 2;
+		count = 25;
+		displayName = ".45 Kriss Vector 25rnd M15";
+		descriptionShort = "Caliber: .45 <br />Bullet: M15<br />Capacity: 25<br />Type: Birdshot";
+		displayNameShort = "M15 Birdshot";
+		ammo = "tsb_ammo_45_m15";
+	};
+	class tsb_mag_45_Kriss_25rnd_Ball : tsb_mag_45_Kriss_25rnd_M15{
+		displayName = ".45 Kriss Vector 25rnd Ball";
+		descriptionShort = "Caliber: .45 <br />Bullet: Ball <br />Capacity: 25<br />Type: Ball";
+		displayNameShort = ".45 Ball";
+		ammo = "tsb_ammo_45_Ball";
+	};
+	class tsb_mag_45_Kriss_25rnd_JHP : tsb_mag_45_Kriss_25rnd_M15{
+		displayName = ".45 Kriss Vector 25rnd JHP";
+		descriptionShort = "Caliber: .45 <br />Bullet: JHP <br />Capacity: 25<br />Type: Jacketed Hollow Points";
+		displayNameShort = ".45 JHP";
+		ammo = "tsb_ammo_45_JHP";
+	};
+	class tsb_mag_45_Kriss_25rnd_P : tsb_mag_45_Kriss_25rnd_M15{
+		displayName = ".45 Kriss Vector 25rnd +P";
+		descriptionShort = "Caliber: .45 <br />Bullet: +P <br />Capacity: 25<br />Type: Over Preasured";
+		displayNameShort = ".45 +P";
+		ammo = "tsb_ammo_45_P";
+	};
+	class tsb_mag_45_Kriss_25rnd_T30 : tsb_mag_45_Kriss_25rnd_M15{
+		displayName = ".45 Kriss Vector 25rnd T30 Tracer";
+		descriptionShort = "Caliber: .45 <br />Bullet: T30 Tracer<br />Capacity: 25<br />Type: Open Tip Match";
+		displayNameShort = "T30 Tracer";
+		ammo = "tsb_ammo_45_T30";
+		tracersEvery = 1;
+	}
 ////////////////////////////////////////////////////////// 12ga Shotgun Ammo //////////////////////////////////////////////////
 //////////////////////////////// 1Rnd //////////////////////////////////////////
 	class rhsusf_5Rnd_Slug;
@@ -7685,6 +7888,83 @@ class CfgMagazines {
 	{
         mass = 93.7;
     };
+    class tsb_mag_smaw_NE : rhs_mag_smaw_HEAA
+	{
+		author = "Killa567";
+		scope = public;
+		scopeArsenal = 2;
+		displayName = "Mk.80 NE";
+		descriptionshort = "Type: Novel Explosive<br />Caliber: 83 mm<br />Used in: SMAW";
+		displayNameShort = "Mk.80 NE";
+		ammo = "tsb_ammo_smaw_ne";
+        mass = 105.6;
+    };
+////////////////////////////////////////////////////////// Thrown /////////////////////////////////////////////////////////////
+//////////////////////////////// Smoke /////////////////////////////////////////
+    class SmokeShell;
+    class SmokeShellRed;
+    class SmokeShellGreen;
+    class SmokeShellYellow;
+    class SmokeShellPurple;
+    class SmokeShellBlue;
+    class SmokeShellOrange;
+
+    class MMM_SmokeShell : SmokeShell	{
+		scope = public;
+		scopeArsenal = 2;
+		author = "Killa517";
+		displayName = "AN/M8  Improved HC Smoke";
+		picture = "\tsb_ammo\ui\mmm_m8_smoke.paa";
+		ammo = "MMM_SmokeShell";
+	};
+	class MMM_SmokeShellRed : SmokeShellRed	{
+		scope = public;
+		scopeArsenal = 2;
+		author = "Killa517";
+		displayName = "M18 Improved Red Smoke";
+		picture = "\tsb_ammo\ui\mmm_m18_red.paa";
+		ammo = "MMM_SmokeShellRed";
+	};
+	class MMM_SmokeShellGreen : SmokeShellGreen	{
+		scope = public;
+		scopeArsenal = 2;
+		author = "Killa517";
+		displayName = "M18 Improved Green Smoke";
+		picture = "\tsb_ammo\ui\mmm_m18_green.paa";
+		ammo = "MMM_SmokeShellGreen";
+	};
+	class MMM_SmokeShellYellow : SmokeShellYellow	{
+		scope = public;
+		scopeArsenal = 2;
+		author = "Killa517";
+		displayName = "M18 Improved Improved Yellow";
+		picture = "\tsb_ammo\ui\mmm_m18_yellow.paa";
+		ammo = "MMM_SmokeShellYellow";
+	};
+	class MMM_SmokeShellPurple : SmokeShellPurple	{
+		scope = public;
+		scopeArsenal = 2;
+		author = "Killa517";
+		displayName = "M18 Improved Purple Smoke";
+		picture = "\tsb_ammo\ui\mmm_m18_purple.paa";
+		ammo = "MMM_SmokeShellPurple";
+	};
+	class MMM_SmokeShellBlue : SmokeShellBlue	{
+		scope = public;
+		scopeArsenal = 2;
+		author = "Killa517";
+		displayName = "M18 Improved Blue Smoke";
+		picture = "\tsb_ammo\ui\mmm_m18_blue.paa";
+		ammo = "MMM_SmokeShellBlue";
+	};
+	class MMM_SmokeShellOrange : SmokeShellOrange	{
+		scope = public;
+		scopeArsenal = 2;
+		author = "Killa517";
+		displayName = "M18 Improved Orange Smoke";
+		picture = "\tsb_ammo\ui\mmm_m18_orange.paa";
+		ammo = "MMM_SmokeShellOrange";
+	};	
 ////////////////////////////////////////////////////////// CSW  ///////////////////////////////////////////////////////////////
 //////////////////////////////// 81mm //////////////////////////////////////////
     class 8Rnd_82mm_Mo_shells;

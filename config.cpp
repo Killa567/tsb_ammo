@@ -25,6 +25,106 @@ class TSB_flashbang_1e{
 		lifeTime=1;
 	};
 };
+class SmokeShellWhiteEffect
+{
+	class SmokeShell;
+	class SmokeShell2;
+};
+class MMM_SmokeShellWhiteEffect: SmokeShellWhiteEffect
+{
+	class SmokeShell: SmokeShell
+	{
+		type="MMM_SmokeShellWhite";
+	};
+	class SmokeShell2: SmokeShell2
+	{
+		type="MMM_SmokeShellWhite2";
+	};
+};
+class SmokeShellRedEffect: SmokeShellWhiteEffect
+{
+};
+class MMM_SmokeShellRedEffect: SmokeShellRedEffect
+{
+	class SmokeShell: SmokeShell
+	{
+		type="MMM_SmokeShellWhite";
+	};
+	class SmokeShell2: SmokeShell2
+	{
+		type="MMM_SmokeShellWhite2";
+	};
+};
+class SmokeShellGreenEffect: SmokeShellWhiteEffect
+{
+};
+class MMM_SmokeShellGreenEffect: SmokeShellGreenEffect
+{
+	class SmokeShell: SmokeShell
+	{
+		type="MMM_SmokeShellWhite";
+	};
+	class SmokeShell2: SmokeShell2
+	{
+		type="MMM_SmokeShellWhite2";
+	};
+};
+class SmokeShellYellowEffect: SmokeShellWhiteEffect
+{
+};
+class MMM_SmokeShellYellowEffect: SmokeShellYellowEffect
+{
+	class SmokeShell: SmokeShell
+	{
+		type="MMM_SmokeShellWhite";
+	};
+	class SmokeShell2: SmokeShell2
+	{
+		type="MMM_SmokeShellWhite2";
+	};
+};
+class SmokeShellPurpleEffect: SmokeShellWhiteEffect
+{
+};
+class MMM_SmokeShellPurpleEffect: SmokeShellPurpleEffect
+{
+	class SmokeShell: SmokeShell
+	{
+		type="MMM_SmokeShellWhite";
+	};
+	class SmokeShell2: SmokeShell2
+	{
+		type="MMM_SmokeShellWhite2";
+	};
+};
+class SmokeShellBlueEffect: SmokeShellWhiteEffect
+{
+};
+class MMM_SmokeShellBlueEffect: SmokeShellBlueEffect
+{
+	class SmokeShell: SmokeShell
+	{
+		type="MMM_SmokeShellWhite";
+	};
+	class SmokeShell2: SmokeShell2
+	{
+		type="MMM_SmokeShellWhite2";
+	};
+};
+class SmokeShellOrangeEffect: SmokeShellWhiteEffect
+{
+};
+class MMM_SmokeShellOrangeEffect: SmokeShellOrangeEffect
+{
+	class SmokeShell: SmokeShell
+	{
+		type="MMM_SmokeShellWhite";
+	};
+	class SmokeShell2: SmokeShell2
+	{
+		type="MMM_SmokeShellWhite2";
+	};
+};
 
 class ACE_ATragMX_Presets {
 	class RHS2010ESR_300WM_ATRAG {

@@ -1,6 +1,4 @@
 class CfgMagazineWells {
-
-
 //////////////////////////////////////////////////////////  4.6 x 30 //////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////// 5.45 x 39 //////////////////////////////////////////////////////////
 //////////////////////////////// AK ////////////////////////////////////////////
@@ -1759,6 +1757,21 @@ class CfgMagazineWells {
 			"tsb_mag_762x54_47rnd_dp_57t323"
 		};
 	};
+//////////////////////////////// SKS ///////////////////////////////////////////
+	class SKS_762x39 {
+		MMM_Magazines[] = {
+			"mmm_clip_762x39_10rnd_fmj_sks",
+			"mmm_clip_762x39_10rnd_hp_sks",
+			"mmm_clip_762x39_10rnd_57n231_sks",
+			"mmm_clip_762x39_10rnd_57n23189_sks",
+			"mmm_clip_762x39_10rnd_7n23_sks",
+			"mmm_clip_762x39_10rnd_57z231_sks",
+			"mmm_clip_762x39_10rnd_57bz231_sks",
+			"mmm_clip_762x39_10rnd_57t231p_sks",
+			"mmm_clip_762x39_10rnd_57t231pm1_sks",
+			"mmm_clip_762x39_10rnd_57n231u_sks"
+		};
+	};
 ////////////////////////////////////////////////////////// 7.62 x 63 (.30-06) /////////////////////////////////////////////////
 //////////////////////////////// M1 Garand /////////////////////////////////////
 	class CBA_3006_Garand {
@@ -1788,8 +1801,43 @@ class CfgMagazineWells {
 		"tsb_mag_9x19_17rnd_M882_Glock",
 		"tsb_mag_9x19_17rnd_Hydra_Glock",
 		"tsb_mag_9x19_17rnd_P_Glock",
-		"tsb_mag_9x19_17rnd_JHP_Glock",
-		"tsb_mag_9x19_17rnd_JHP_Glock"
+		"tsb_mag_9x19_17rnd_7N21_Glock",
+		"tsb_mag_9x19_17rnd_7N31_Glock"
+		};
+	};
+//////////////////////////////// BHP ///////////////////////////////////////////
+	class CBA_9x19_BHP{
+		TSB_Magazines[] ={
+		"tsb_mag_9x19_13rnd_FMJ_BHP",
+		"tsb_mag_9x19_13rnd_JHP_BHP",
+		"tsb_mag_9x19_13rnd_M882_BHP",
+		"tsb_mag_9x19_13rnd_Hydra_BHP",
+		"tsb_mag_9x19_13rnd_P_BHP",
+		"tsb_mag_9x19_13rnd_7N21_BHP",
+		"tsb_mag_9x19_13rnd_7N31_BHP"
+		};
+	};
+//////////////////////////////// MP5 ///////////////////////////////////////////
+	class CBA_9x19_MP5{
+		TSB_Magazines[] ={
+		"tsb_mag_9x19_30rnd_FMJ_MP5";
+		"tsb_mag_9x19_30rnd_JHP_MP5";
+		"tsb_mag_9x19_30rnd_M882_MP5";
+		"tsb_mag_9x19_30rnd_Hydra_MP5";
+		"tsb_mag_9x19_30rnd_P_MP5";
+		"tsb_mag_9x19_30rnd_7N21_MP5";
+		"tsb_mag_9x19_30rnd_7N31_MP5"
+		};
+	};
+	class CBA_9x19_ScorpionEvo3{
+		TSB_Magazines[] ={
+		"tsb_mag_9x19_30rnd_FMJ_MP5";
+		"tsb_mag_9x19_30rnd_JHP_MP5";
+		"tsb_mag_9x19_30rnd_M882_MP5";
+		"tsb_mag_9x19_30rnd_Hydra_MP5";
+		"tsb_mag_9x19_30rnd_P_MP5";
+		"tsb_mag_9x19_30rnd_7N21_MP5";
+		"tsb_mag_9x19_30rnd_7N31_MP5"
 		};
 	};
 //////////////////////////////////////////////////////////    9 x 21 //////////////////////////////////////////////////////////
@@ -1828,6 +1876,16 @@ class CfgMagazineWells {
 		"tsb_mag_45_FX45_15rnd_Ball",
 		"tsb_mag_45_FX45_15rnd_P",
 		"tsb_mag_45_FX45_15rnd_T30"
+		};
+	};
+//////////////////////////////// Kriss Vector //////////////////////////////////
+	class CBA_45ACP_Glock_Full {
+		TSB_Magazines[] ={
+		"tsb_mag_45_Kriss_25rnd_M15",
+		"tsb_mag_45_Kriss_25rnd_Ball",
+		"tsb_mag_45_Kriss_25rnd_JHP",
+		"tsb_mag_45_Kriss_25rnd_P",
+		"tsb_mag_45_Kriss_25rnd_T30"
 		};
 	};
 ////////////////////////////////////////////////////////// 12ga Shotgun Ammo //////////////////////////////////////////////////
@@ -1909,6 +1967,14 @@ class CfgMagazineWells {
 		};
 	};
 //////////////////////////////////////////////////////////  Launcher //////////////////////////////////////////////////////////
+//////////////////////////////// SMAW //////////////////////////////////////////
+	class CBA_SMAW
+		{
+		TSB_Magazines[] =
+		{
+			"tsb_mag_smaw_NE"
+		};
+	};
 //////////////////////////////////////////////////////////       CSW //////////////////////////////////////////////////////////
 //////////////////////////////// 81mm //////////////////////////////////////////
 	class CBA_82mm {
@@ -1923,7 +1989,6 @@ class CfgMagazineWells {
 		"TSB_CSW_1Rnd_81mm_Mo_GB_Flare"
 		};
 	};
-
 ///////////////////////////////////////////////////////// WIP /////////////////////////////////////////////////////////////////
 		// class CBA_9x18_PM {
 		// RHS_Magazines[] = {"rhs_mag_9x18_8_57N181S"};
@@ -1961,6 +2026,5 @@ class CfgMagazineWells {
 	// class CBA_RPG7 {};
 
 	// class TSB_762x39_rpd{};
-	// class TSB_762x39_sks{};
 
 }
