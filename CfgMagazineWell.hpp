@@ -1401,7 +1401,68 @@ class CfgMagazineWells {
 		"tsb_mag_762x51_20rnd_mk319_M14"
 		};
 	};
+
 //////////////////////////////// M240 //////////////////////////////////////////
+
+///240///
+	class M240_68x51 {
+		TSB_Magazines[] ={
+		"tsb_mag_68x51_50rnd_FMJ_Softpack",
+		"tsb_mag_68x51_50rnd_FMJnt_Softpack",
+		"tsb_mag_68x51_50rnd_FMJTracer_Softpack",
+		"tsb_mag_68x51_50rnd_FMJHybrid_Softpack",
+		"tsb_mag_68x51_50rnd_FMJHybridNT_Softpack",
+		"tsb_mag_68x51_50rnd_FMJHybridTracer_Softpack",
+		"tsb_mag_68x51_50rnd_APHybrid_Softpack",
+		"tsb_mag_68x51_50rnd_APHybridNT_Softpack",
+		"tsb_mag_68x51_100rnd_FMJ_Softpack",
+		"tsb_mag_68x51_100rnd_FMJnt_Softpack",
+		"tsb_mag_68x51_100rnd_FMJTracer_Softpack",
+		"tsb_mag_68x51_100rnd_FMJHybrid_Softpack",
+		"tsb_mag_68x51_100rnd_FMJHybridNT_Softpack",
+		"tsb_mag_68x51_100rnd_FMJHybridTracer_Softpack",
+		"tsb_mag_68x51_100rnd_APHybrid_Softpack",
+		"tsb_mag_68x51_100rnd_APHybridNT_Softpack",
+		"tsb_mag_68x51_200rnd_FMJ_Softpack",
+		"tsb_mag_68x51_200rnd_FMJnt_Softpack",
+		"tsb_mag_68x51_200rnd_FMJTracer_Softpack",
+		"tsb_mag_68x51_200rnd_FMJHybrid_Softpack",
+		"tsb_mag_68x51_200rnd_FMJHybridNT_Softpack",
+		"tsb_mag_68x51_200rnd_FMJHybridTracer_Softpack",
+		"tsb_mag_68x51_200rnd_APHybrid_Softpack",
+		"tsb_mag_68x51_200rnd_APHybridNT_Softpack",
+		};
+	};
+
+	class CBA_68x51_LINKS {
+		TSB_Magazines[] ={
+		"tsb_mag_68x51_50rnd_FMJ_Softpack",
+		"tsb_mag_68x51_50rnd_FMJnt_Softpack",
+		"tsb_mag_68x51_50rnd_FMJTracer_Softpack",
+		"tsb_mag_68x51_50rnd_FMJHybrid_Softpack",
+		"tsb_mag_68x51_50rnd_FMJHybridNT_Softpack",
+		"tsb_mag_68x51_50rnd_FMJHybridTracer_Softpack",
+		"tsb_mag_68x51_50rnd_APHybrid_Softpack",
+		"tsb_mag_68x51_50rnd_APHybridNT_Softpack",
+		"tsb_mag_68x51_100rnd_FMJ_Softpack",
+		"tsb_mag_68x51_100rnd_FMJnt_Softpack",
+		"tsb_mag_68x51_100rnd_FMJTracer_Softpack",
+		"tsb_mag_68x51_100rnd_FMJHybrid_Softpack",
+		"tsb_mag_68x51_100rnd_FMJHybridNT_Softpack",
+		"tsb_mag_68x51_100rnd_FMJHybridTracer_Softpack",
+		"tsb_mag_68x51_100rnd_APHybrid_Softpack",
+		"tsb_mag_68x51_100rnd_APHybridNT_Softpack",
+		"tsb_mag_68x51_200rnd_FMJ_Softpack",
+		"tsb_mag_68x51_200rnd_FMJnt_Softpack",
+		"tsb_mag_68x51_200rnd_FMJTracer_Softpack",
+		"tsb_mag_68x51_200rnd_FMJHybrid_Softpack",
+		"tsb_mag_68x51_200rnd_FMJHybridNT_Softpack",
+		"tsb_mag_68x51_200rnd_FMJHybridTracer_Softpack",
+		"tsb_mag_68x51_200rnd_APHybrid_Softpack",
+		"tsb_mag_68x51_200rnd_APHybridNT_Softpack",
+		};
+	};
+	
 	class M240_762x51 {
 		TSB_Magazines[] ={
 		"tsb_mag_762x51_100rnd_M59_Softpack",

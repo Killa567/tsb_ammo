@@ -2,7 +2,12 @@
 *Changes
 -Removal
 
-
+V3.X (Pending)
+Jzpelaez
+	+ .277 Fury / 6.8x51 ammunition.
+	+ M240 in 6.8x51
+	+ M240 6.8x51 boxes/belts
+	* CfgWeapons. Categorized by weapon. + M240 6.8x51
 
 V3 (2023-07-5)
 

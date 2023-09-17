@@ -4781,6 +4781,238 @@ class CfgMagazines {
 	};
 //////////////////////////////////////////////////////////  6.5 x 39 //////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////  6.8 x 43 //////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////  6.8 x 51 //////////////////////////////////////////////////////////
+////////// M240
+////////// 50 rnd
+	class rhsusf_50Rnd_762x51;
+
+	class tsb_mag_68x51_50rnd_FMJ_Softpack : rhsusf_50Rnd_762x51{
+		author = "Jzpelaez";
+		//picture = "\rhsusaf\addons\rhsusf_inventoryicons\data\Softpacks\rhs_mag_30Rnd_556x45_M855A1_Stanag_ca";
+		scope = public;
+		displayName = "6.8x51 50rnd FMJ Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: FMJ<br />Capacity: 50<br />Type: Ball";
+		displayNameShort = "FMJ" ;
+		//model = "rhsuasf\addons\rhsusf_weapons\Softpacks\rhs_stanag_mag";
+		//modelSpecial = "\rhsusaf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_stanag_usgi_30rnd.p3d";
+		//modelSpecialIsProxy = 1;
+		ammo = "tsb_ammo_277_FMJ";
+		count = 50;
+		//mass = 9.35;
+		tracersEvery = 5;
+		lastRoundsTracer = 5;
+	};
+	class tsb_mag_68x51_50rnd_FMJnt_Softpack : tsb_mag_68x51_50rnd_FMJ_Softpack{
+		displayName = "6.8x51 50rnd FMJ Softpack (No Tracers)";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: FMJ<br />Capacity: 50<br />Type: Ball";
+		displayNameShort = "FMJ";
+		ammo = "tsb_ammo_277_FMJ";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_68x51_50rnd_FMJTracer_Softpack : tsb_mag_68x51_50rnd_FMJ_Softpack{
+		displayName = "6.8x51 50rnd Tracer Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: Tracer<br />Capacity: 50<br />Type: Tracer";
+		displayNameShort = "Tracer";
+		ammo = "tsb_ammo_277_FMJTracer";
+		tracersEvery = 1;
+	};
+	class tsb_mag_68x51_50rnd_FMJHybrid_Softpack : tsb_mag_68x51_50rnd_FMJ_Softpack{
+		displayName = "6.8x51 50rnd FMJ Hybrid Case Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: FMJ<br />Capacity: 50<br />Type: Ball Hybrid Case";
+		displayNameShort = "FMJ Hybrid";
+		ammo = "tsb_ammo_277_FMJHybrid";
+		tracersEvery = 5;
+		lastRoundsTracer = 5;
+	};
+	class tsb_mag_68x51_50rnd_FMJHybridNT_Softpack : tsb_mag_68x51_50rnd_FMJ_Softpack{
+		displayName = "6.8x51 50rnd FMJ Hybrid Case Softpack (No Tracers)";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: FMJ<br />Capacity: 50<br />Type: Ball Hybrid Case";
+		displayNameShort = "FMJ Hybrid";
+		ammo = "tsb_ammo_277_FMJHybrid";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_68x51_50rnd_FMJHybridTracer_Softpack : tsb_mag_68x51_50rnd_FMJ_Softpack{
+		displayName = "6.8x51 50rnd FMJ Hybrid Case Tracer Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: Tracer<br />Capacity: 50<br />Type: Tracer Hybrid Case";
+		displayNameShort = "FMJ Hybrid Tracer";
+		ammo = "tsb_ammo_277_FMJHybridTracer";
+		tracersEvery = 1;
+	};
+	class tsb_mag_68x51_50rnd_APHybrid_Softpack : tsb_mag_68x51_50rnd_FMJ_Softpack{
+		displayName = "6.8x51 50rnd AP Hybrid Case Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: AP<br />Capacity: 50<br />Type: Armor Piercing Hybrid Case";
+		displayNameShort = "AP Hybrid";
+		ammo = "tsb_ammo_277_APHybrid";
+		tracersEvery = 5;
+		lastRoundsTracer = 5;
+	};
+	class tsb_mag_68x51_50rnd_APHybridNT_Softpack : tsb_mag_68x51_50rnd_FMJ_Softpack{
+		displayName = "6.8x51 50rnd AP Hybrid Case Softpack (No Tracers)";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: AP<br />Capacity: 50<br />Type: Armor Piercing Hybrid Case";
+		displayNameShort = "AP Hybrid";
+		ammo = "tsb_ammo_277_APHybrid";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+//	class tsb_mag_68x51_50rnd_PTHybrid_Softpack : tsb_mag_68x51_50rnd_FMJ_Softpack{
+//		displayName = "6.8x51 50rnd PT Hybrid Case Softpack";
+//		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: PT<br />Capacity: 50<br />Type: Polymer Tip Hybrid Case";
+//		displayNameShort = "PT Hybrid";
+//		ammo = "tsb_ammo_277_PTHybrid";
+//		tracersEvery = 5;
+//		lastRoundsTracer = 5;
+//	};
+//	class tsb_mag_68x51_50rnd_PTHybridNT_Softpack : tsb_mag_68x51_50rnd_FMJ_Softpack{
+//		displayName = "6.8x51 50rnd PT Hybrid Case Softpack (No Tracers)";
+//		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: PT<br />Capacity: 50<br />Type: Polymer Tip Hybrid Case";
+//		displayNameShort = "PT Hybrid";
+//		ammo = "tsb_ammo_277_PTHybrid";
+//		tracersEvery = 0;
+//		lastRoundsTracer = 0;
+//	};
+////////// 100 rnd
+	class rhsusf_100Rnd_762x51;
+
+	class tsb_mag_68x51_100rnd_FMJ_Softpack : rhsusf_100Rnd_762x51{
+		author = "Jzpelaez";
+		//picture = "\rhsusaf\addons\rhsusf_inventoryicons\data\Softpacks\rhs_mag_30Rnd_556x45_M855A1_Stanag_ca";
+		scope = public;
+		displayName = "6.8x51 100rnd FMJ Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: FMJ<br />Capacity: 100<br />Type: Ball";
+		displayNameShort = "FMJ" ;
+		//model = "rhsuasf\addons\rhsusf_weapons\Softpacks\rhs_stanag_mag";
+		//modelSpecial = "\rhsusaf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_stanag_usgi_30rnd.p3d";
+		//modelSpecialIsProxy = 1;
+		ammo = "tsb_ammo_277_FMJ";
+		count = 100;
+		//mass = 9.35;
+		tracersEvery = 5;
+		lastRoundsTracer = 5;
+	};
+	class tsb_mag_68x51_100rnd_FMJnt_Softpack : tsb_mag_68x51_100rnd_FMJ_Softpack{
+		displayName = "6.8x51 100rnd FMJ Softpack (No Tracers)";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: FMJ<br />Capacity: 100<br />Type: Ball";
+		displayNameShort = "FMJ";
+		ammo = "tsb_ammo_277_FMJ";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_68x51_100rnd_FMJTracer_Softpack : tsb_mag_68x51_100rnd_FMJ_Softpack{
+		displayName = "6.8x51 100rnd Tracer Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: Tracer<br />Capacity: 100<br />Type: Tracer";
+		displayNameShort = "Tracer";
+		ammo = "tsb_ammo_277_FMJTracer";
+		tracersEvery = 1;
+	};
+	class tsb_mag_68x51_100rnd_FMJHybrid_Softpack : tsb_mag_68x51_100rnd_FMJ_Softpack{
+		displayName = "6.8x51 100rnd FMJ Hybrid Case Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: FMJ<br />Capacity: 100<br />Type: Ball Hybrid Case";
+		displayNameShort = "FMJ Hybrid";
+		ammo = "tsb_ammo_277_FMJHybrid";
+		tracersEvery = 5;
+		lastRoundsTracer = 5;
+	};
+	class tsb_mag_68x51_100rnd_FMJHybridNT_Softpack : tsb_mag_68x51_100rnd_FMJ_Softpack{
+		displayName = "6.8x51 100rnd FMJ Hybrid Case Softpack (No Tracers)";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: FMJ<br />Capacity: 100<br />Type: Ball Hybrid Case";
+		displayNameShort = "FMJ Hybrid";
+		ammo = "tsb_ammo_277_FMJHybrid";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_68x51_100rnd_FMJHybridTracer_Softpack : tsb_mag_68x51_100rnd_FMJ_Softpack{
+		displayName = "6.8x51 100rnd FMJ Hybrid Case Tracer Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: Tracer<br />Capacity: 100<br />Type: Tracer Hybrid Case";
+		displayNameShort = "FMJ Hybrid Tracer";
+		ammo = "tsb_ammo_277_FMJHybridTracer";
+		tracersEvery = 1;
+	};
+	class tsb_mag_68x51_100rnd_APHybrid_Softpack : tsb_mag_68x51_100rnd_FMJ_Softpack{
+		displayName = "6.8x51 100rnd AP Hybrid Case Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: AP<br />Capacity: 100<br />Type: Armor Piercing Hybrid Case";
+		displayNameShort = "AP Hybrid";
+		ammo = "tsb_ammo_277_APHybrid";
+		tracersEvery = 5;
+		lastRoundsTracer = 5;
+	};
+	class tsb_mag_68x51_100rnd_APHybridNT_Softpack : tsb_mag_68x51_100rnd_FMJ_Softpack{
+		displayName = "6.8x51 100rnd AP Hybrid Case Softpack (No Tracers)";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: AP<br />Capacity: 100<br />Type: Armor Piercing Hybrid Case";
+		displayNameShort = "AP Hybrid";
+		ammo = "tsb_ammo_277_APHybrid";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+////////// 200 rnd
+	class tsb_mag_68x51_200rnd_FMJ_Softpack : tsb_mag_68x51_100rnd_FMJ_Softpack{
+		author = "Jzpelaez";
+		picture = "\tsb_ammo\data\belt\ui_Ammobelt_ca.paa";
+		scope = public;
+		displayName = "6.8x51 200rnd FMJ Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: FMJ<br />Capacity: 200<br />Type: Ball";
+		displayNameShort = "FMJ" ;
+		ammo = "tsb_ammo_277_FMJ";
+		count = 200;
+		mass = 64.12;
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_68x51_200rnd_FMJnt_Softpack : tsb_mag_68x51_200rnd_FMJ_Softpack{
+		displayName = "6.8x51 200rnd FMJ Softpack (No Tracers)";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: FMJ<br />Capacity: 200<br />Type: Ball";
+		displayNameShort = "FMJ";
+		ammo = "tsb_ammo_277_FMJ";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_68x51_200rnd_FMJTracer_Softpack : tsb_mag_68x51_200rnd_FMJ_Softpack{
+		displayName = "6.8x51 200rnd Tracer Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: Tracer<br />Capacity: 200<br />Type: Tracer";
+		displayNameShort = "Tracer";
+		ammo = "tsb_ammo_277_FMJTracer";
+		tracersEvery = 1;
+	};
+	class tsb_mag_68x51_200rnd_FMJHybrid_Softpack : tsb_mag_68x51_200rnd_FMJ_Softpack{
+		displayName = "6.8x51 200rnd FMJ Hybrid Case Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: FMJ<br />Capacity: 200<br />Type: Ball Hybrid Case";
+		displayNameShort = "FMJ Hybrid";
+		ammo = "tsb_ammo_277_FMJHybrid";
+		tracersEvery = 5;
+		lastRoundsTracer = 5;
+	};
+	class tsb_mag_68x51_200rnd_FMJHybridNT_Softpack : tsb_mag_68x51_200rnd_FMJ_Softpack{
+		displayName = "6.8x51 200rnd FMJ Hybrid Case Softpack (No Tracers)";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: FMJ<br />Capacity: 200<br />Type: Ball Hybrid Case";
+		displayNameShort = "FMJ Hybrid";
+		ammo = "tsb_ammo_277_FMJHybrid";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_68x51_200rnd_FMJHybridTracer_Softpack : tsb_mag_68x51_200rnd_FMJ_Softpack{
+		displayName = "6.8x51 200rnd FMJ Hybrid Case Tracer Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: Tracer<br />Capacity: 200<br />Type: Tracer Hybrid Case";
+		displayNameShort = "FMJ Hybrid Tracer";
+		ammo = "tsb_ammo_277_FMJHybridTracer";
+		tracersEvery = 1;
+	};
+	class tsb_mag_68x51_200rnd_APHybrid_Softpack : tsb_mag_68x51_200rnd_FMJ_Softpack{
+		displayName = "6.8x51 200rnd AP Hybrid Case Softpack";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: AP<br />Capacity: 200<br />Type: Armor Piercing Hybrid Case";
+		displayNameShort = "AP Hybrid";
+		ammo = "tsb_ammo_277_APHybrid";
+		tracersEvery = 5;
+		lastRoundsTracer = 5;
+	};
+	class tsb_mag_68x51_200rnd_APHybridNT_Softpack : tsb_mag_68x51_200rnd_FMJ_Softpack{
+		displayName = "6.8x51 200rnd AP Hybrid Case Softpack (No Tracers)";
+		descriptionShort = "Caliber: 6.8x51mm<br />Bullet: AP<br />Capacity: 200<br />Type: Armor Piercing Hybrid Case";
+		displayNameShort = "AP Hybrid";
+		ammo = "tsb_ammo_277_APHybrid";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
 ////////////////////////////////////////////////////////// 7.62 x 25 //////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////// 7.62 x 39 //////////////////////////////////////////////////////////
 //////////////////////////////// 10rnd Hunting /////////////////////////////////

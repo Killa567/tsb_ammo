@@ -435,6 +435,120 @@ class CfgAmmo {
 	};
 //////////////////////////////////////////////////////////  6.5 x 39 //////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////  6.8 x 43 //////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////  6.8 x 51 //////////////////////////////////////////////////////////
+/// Based off 7.62x51_m59 values. 
+	class tsb_ammo_277_FMJ : BulletBase{
+		hit = 11.5; // 135GR FMJ, non-hybrid case.
+		indirectHit = 0;
+		indirectHitRange = 0;
+		cartridge = "";
+		rhs_cartridge = "\A3\weapons_f\ammo\cartridge_762";
+		visibleFire = 22;
+		audibleFire = 18;
+		visibleFireTime = 3;
+		cost = .9;
+		airLock = true;
+		caliber = 0.9;
+		model = "\rhsusf\addons\rhsusf_weapons\tracer\tracer_orange";
+		tracerScale = 1.2;
+		tracerStartTime = 0;
+		tracerEndTime = 1.3;
+		airFriction = -0.0006814;
+		typicalSpeed = 838;
+		suppressionRadiusBulletClose = 2;
+		suppressionRadiusHit = 4;
+		ACE_caliber = 7.061;
+		ACE_bulletLength = 28.741;
+		ACE_bulletMass = 8.75;
+		ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
+		ACE_ballisticCoefficients[] = {0.236};
+		ACE_velocityBoundaries[] = {};
+		ACE_standardAtmosphere = "ICAO";
+		ACE_dragModel = 7;
+		ACE_muzzleVelocities[] = {838.2, 914.4};
+		ACE_barrelLengths[] = {406.4, 606.9};
+	};
+	class tsb_ammo_277_FMJTracer : tsb_ammo_277_FMJ{
+		hit = 11; // FMJ tracer in non-hybrid case case
+		cost = 0.9;
+		caliber 0.9
+		typicalSpeed = 838;
+		ACE_caliber = 7.061;
+		ACE_bulletLength = 28.741;
+		ACE_bulletMass = 8.75;
+		ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
+		ACE_ballisticCoefficients[] = {0.236};
+		ACE_velocityBoundaries[] = {};
+		ACE_standardAtmosphere = "ICAO";
+		ACE_dragModel = 7;
+		ACE_muzzleVelocities[] = {838.2, 914.4};
+		ACE_barrelLengths[] = {406.4, 606.9};
+	};
+	class tsb_ammo_277_FMJHybrid : tsb_ammo_277_FMJ{
+		hit = 12; // FMJ in hybrid case.
+		cost = 1.0;
+		caliber = 1.2
+		typicalSpeed = 862
+		ACE_caliber = 7.061;
+		ACE_bulletLength = 28.741;
+		ACE_bulletMass = 8.75;
+		ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
+		ACE_ballisticCoefficients[] = {0.246};
+		ACE_velocityBoundaries[] = {};
+		ACE_standardAtmosphere = "ICAO";
+		ACE_dragModel = 7;
+		ACE_muzzleVelocities[] = {862.6, 951.0};
+		ACE_barrelLengths[] = {406.4, 606.9};
+	};
+	class tsb_ammo_277_FMJHybridTracer : tsb_ammo_277_FMJ{
+		hit = 12; // tracer in hybrid case
+		cost = 1.0;
+		caliber 1.2
+		typicalSpeed = 862;
+		ACE_caliber = 7.061;
+		ACE_bulletLength = 28.741;
+		ACE_bulletMass = 8.75;
+		ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
+		ACE_ballisticCoefficients[] = {0.246};
+		ACE_velocityBoundaries[] = {};
+		ACE_standardAtmosphere = "ICAO";
+		ACE_dragModel = 7;
+		ACE_muzzleVelocities[] = {862.6, 951.0};
+		ACE_barrelLengths[] = {406.4, 606.9};
+	};
+	class tsb_ammo_277_APHybrid : tsb_ammo_277_FMJ{
+		hit = 15; // AP in hybrid case.
+		cost = 1.3;
+		caliber = 2.2
+		typicalSpeed = 862
+		ACE_caliber = 7.061;
+		ACE_bulletLength = 28.741;
+		ACE_bulletMass = 8.75;
+		ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
+		ACE_ballisticCoefficients[] = {0.246};
+		ACE_velocityBoundaries[] = {};
+		ACE_standardAtmosphere = "ICAO";
+		ACE_dragModel = 7;
+		ACE_muzzleVelocities[] = {862.6, 951.0};
+		ACE_barrelLengths[] = {406.4, 606.9};
+	};
+	class tsb_ammo_277_PTHybrid : tsb_ammo_277_FMJ{
+		hit = 13; // Polymer Tipped in hybrid case
+		cost = 1.3;
+		caliber = 0.9
+		typicalSpeed = 862
+		ACE_caliber = 7.061;
+		ACE_bulletLength = 28.741;
+		ACE_bulletMass = 8.75;
+		ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
+		ACE_ballisticCoefficients[] = {0.246};
+		ACE_velocityBoundaries[] = {};
+		ACE_standardAtmosphere = "ICAO";
+		ACE_dragModel = 7;
+		ACE_muzzleVelocities[] = {862.6, 951.0};
+		ACE_barrelLengths[] = {406.4, 606.9};
+	};
+	
 ////////////////////////////////////////////////////////// 7.62 x 25 //////////////////////////////////////////////////////////
 	// class tsb_ammo_762x25_ xxx : 
 ////////////////////////////////////////////////////////// 7.62 x 39 //////////////////////////////////////////////////////////
