@@ -1862,7 +1862,7 @@ class CfgMagazines {
 		//modelSpecialIsProxy = 1;
 		ammo = "tsb_ammo_556x45_M193";
 		//count = 100;
-		//mass = 9.35;
+		mass = 46.3;
 		tracersEvery = 5;
 		lastRoundsTracer = 5;
 	};
@@ -1959,7 +1959,7 @@ class CfgMagazines {
 		//modelSpecialIsProxy = 1;
 		ammo = "tsb_ammo_556x45_M193";
 		//count = 150;
-		//mass = 9.35;
+		mass = 59.8;
 		tracersEvery = 5;
 		lastRoundsTracer = 5;
 	};
