@@ -4784,6 +4784,88 @@ class CfgMagazines {
 	};
 //////////////////////////////////////////////////////////  6.5 x 39 //////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////  6.8 x 43 //////////////////////////////////////////////////////////
+//////////////////////////////// 30rnd STANAG //////////////////////////////////
+	class tsb_mag_68x43_26rnd_FMJ_STANAG : rhs_mag_30Rnd_556x45_M855A1_Stanag{
+		author = "Killa567";
+		scope = public;
+		displayName = "6.8x43 STANAG 26rnd FMJ Magazine";
+		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Remmington FMJ<br />Capacity: 26<br />Type: Ball";
+		displayNameShort = "Ball";
+		ammo = "tsb_ammo_556x45_M193";
+		count = 26;
+		//mass = 9.35;
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_68x43_26rnd_Poly_STANAG : tsb_mag_68x43_26rnd_FMJ_STANAG{
+		displayName = "6.8x43 STANAG 26rnd Polymer Magazine";
+		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Hornady SST<br />Capacity: 26<br />Type: Polymer Tipped";
+		displayNameShort = "Polymer";
+		ammo = "tsb_ammo_556x45_M196";
+		tracersEvery = 1;
+	};
+	class tsb_mag_68x43_26rnd_JHP_STANAG : tsb_mag_68x43_26rnd_FMJ_STANAG{
+		displayName = "6.8x43 STANAG 26rnd JHP Magazine";
+		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: SSA JHP<br />Capacity: 26<br />Type: Jacketed Hollow Point";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_556x45_M196";
+		tracersEvery = 1;
+	};
+	class tsb_mag_68x43_26rnd_Tracer_STANAG : tsb_mag_68x43_26rnd_FMJ_STANAG{
+		displayName = "6.8x43 STANAG 26rnd Tracer Magazine";
+		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Tracer<br />Capacity: 26<br />Type: Tracer";
+		displayNameShort = "Tracer";
+		ammo = "tsb_ammo_556x45_M196";
+		tracersEvery = 1;
+	};
+	class tsb_mag_68x43_26rnd_BTHP_STANAG : tsb_mag_68x43_26rnd_FMJ_STANAG{
+		displayName = "6.8x43 STANAG 26rnd BTHP Magazine";
+		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Wilson Combat<br />Capacity: 26<br />Type: Boat Tail Hollow Point";
+		displayNameShort = "BHTP";
+		ammo = "tsb_ammo_556x45_M196";
+		tracersEvery = 1;
+	};
+//////////////////////////////// 30rnd PMAG ////////////////////////////////////
+	class tsb_mag_68x43_26rnd_FMJ_PMAG : rhs_mag_30Rnd_556x45_M855A1_PMAG{
+		author = "Killa567";
+		scope = public;
+		displayName = "6.8x43 PMAG 26rnd FMJ Magazine";
+		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Remmington FMJ<br />Capacity: 26<br />Type: Ball";
+		displayNameShort = "Ball";
+		ammo = "tsb_ammo_556x45_M193";
+		count = 26;
+		//mass = 9.35;
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_68x43_26rnd_Poly_PMAG : tsb_mag_68x43_26rnd_FMJ_PMAG{
+		displayName = "6.8x43 PMAG 26rnd Polymer Magazine";
+		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Hornady SST<br />Capacity: 26<br />Type: Polymer Tipped";
+		displayNameShort = "Polymer";
+		ammo = "tsb_ammo_556x45_M196";
+		tracersEvery = 1;
+	};
+	class tsb_mag_68x43_26rnd_JHP_PMAG : tsb_mag_68x43_26rnd_FMJ_PMAG{
+		displayName = "6.8x43 PMAG 26rnd JHP Magazine";
+		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: SSA JHP<br />Capacity: 26<br />Type: Jacketed Hollow Point";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_556x45_M196";
+		tracersEvery = 1;
+	};
+	class tsb_mag_68x43_26rnd_Tracer_PMAG : tsb_mag_68x43_26rnd_FMJ_PMAG{
+		displayName = "6.8x43 PMAG 26rnd Tracer Magazine";
+		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Tracer<br />Capacity: 26<br />Type: Tracer";
+		displayNameShort = "Tracer";
+		ammo = "tsb_ammo_556x45_M196";
+		tracersEvery = 1;
+	};
+	class tsb_mag_68x43_26rnd_BTHP_PMAG : tsb_mag_68x43_26rnd_FMJ_PMAG{
+		displayName = "6.8x43 PMAG 26rnd BTHP Magazine";
+		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Wilson Combat<br />Capacity: 26<br />Type: Boat Tail Hollow Point";
+		displayNameShort = "BHTP";
+		ammo = "tsb_ammo_556x45_M196";
+		tracersEvery = 1;
+	};
 //////////////////////////////////////////////////////////  6.8 x 51 //////////////////////////////////////////////////////////
 //////////////////////////////// 50Rnd Belt ////////////////////////////////////
 	class rhsusf_50Rnd_762x51;
@@ -5781,7 +5863,6 @@ class CfgMagazines {
 		ammo = "tsb_ammo_762x39_57t231p";
 		tracersEvery = 1;
 	};
-
 	class mmm_mag_762x39_30rnd_M43_m70b : mmm_mag_762x39_30rnd_M43_zastava{
 		displayName = "7.62x39 M70B 30rnd M43 Magazine";
 		descriptionShort = "Caliber: 7.62x39mm<br />Bullet: 57-N-231<br />Capacity: 30<br />Type: Standard";
@@ -8133,8 +8214,416 @@ class CfgMagazines {
 		descriptionShort = "Caliber: 9x19mm<br />Bullet: Pistolenpatrone 08<br />Capacity: 30<br />Type: Full Metal Jacket";
 		displayNameShort = "Pist. Patr. 08";
 	};
+//////////////////////////////// 20rnd PP-2000 /////////////////////////////////
+	class rhs_mag_9x19mm_7n21_20;
+	class tsb_mag_9x19_20rnd_FMJ_PP2000 : rhs_mag_9x19mm_7n21_20{
+		author = "Killa567";
+		scope = public;
+		displayName = "9x19mm PP-2000 20rnd FMJ Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Winchester FMJ<br />Capacity: 20<br />Type: Full Metal Jacket";
+		displayNameShort = "FMJ";
+		ammo = "tsb_ammo_9x19_Ball";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_9x19_20rnd_JHP_PP2000 : tsb_mag_9x19_20rnd_FMJ_PP2000{
+		displayName = "9x19mm PP-2000 20rnd JHP Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Speer Gold Dot<br />Capacity: 20<br />Type: Jacketed Hollow Point";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_JHP";
+	};
+	class tsb_mag_9x19_20rnd_M882_PP2000 : tsb_mag_9x19_20rnd_FMJ_PP2000{
+		displayName = "9x19mm PP-2000 20rnd M882 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: M882<br />Capacity: 20<br />Type: Over Preasured";
+		displayNameShort = "M882 +P";
+		ammo = "tsb_ammo_9x19_M882";
+	};
+	class tsb_mag_9x19_20rnd_Hydra_PP2000 : tsb_mag_9x19_20rnd_FMJ_PP2000{
+		displayName = "9x19mm PP-2000 20rnd HydraShok Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Federal HydraShok<br />Capacity: 20<br />Type: Over Preasured Jacketed Hollow Point";
+		displayNameShort = "JHP+P";
+		ammo = "tsb_ammo_9x19_Hydra";
+	};
+	class tsb_mag_9x19_20rnd_P_PP2000 : tsb_mag_9x19_20rnd_FMJ_PP2000{
+		displayName = "9x19mm PP-2000 20rnd +P Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Cor-Bon<br />Capacity: 20<br />Type: Over Preasured";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_P";
+	};
+	class tsb_mag_9x19_20rnd_7N21_PP2000 : tsb_mag_9x19_20rnd_FMJ_PP2000{
+		displayName = "9x19mm PP-2000 20rnd 7N21 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N21<br />Capacity: 20<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N21";
+	};
+	class tsb_mag_9x19_20rnd_7N31_PP2000 : tsb_mag_9x19_20rnd_FMJ_PP2000{
+		displayName = "9x19mm PP-2000 20rnd 7N31 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N31<br />Capacity: 20<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N31";
+	};
+//////////////////////////////// 44rnd PP-2000 /////////////////////////////////
+	class rhs_mag_9x19mm_7n21_44;
+	class tsb_mag_9x19_44rnd_FMJ_PP2000 : rhs_mag_9x19mm_7n21_44{
+		author = "Killa567";
+		scope = public;
+		displayName = "9x19mm PP-2000 44rnd FMJ Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Winchester FMJ<br />Capacity: 44<br />Type: Full Metal Jacket";
+		displayNameShort = "FMJ";
+		ammo = "tsb_ammo_9x19_Ball";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_9x19_44rnd_JHP_PP2000 : rhs_mag_9x19mm_7n21_20{
+		displayName = "9x19mm PP-2000 44rnd JHP Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Speer Gold Dot<br />Capacity: 44<br />Type: Jacketed Hollow Point";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_JHP";
+	};
+	class tsb_mag_9x19_44rnd_M882_PP2000 : rhs_mag_9x19mm_7n21_20{
+		displayName = "9x19mm PP-2000 44rnd M882 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: M882<br />Capacity: 44<br />Type: Over Preasured";
+		displayNameShort = "M882 +P";
+		ammo = "tsb_ammo_9x19_M882";
+	};
+	class tsb_mag_9x19_44rnd_Hydra_PP2000 : rhs_mag_9x19mm_7n21_20{
+		displayName = "9x19mm PP-2000 44rnd HydraShok Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Federal HydraShok<br />Capacity: 44<br />Type: Over Preasured Jacketed Hollow Point";
+		displayNameShort = "JHP+P";
+		ammo = "tsb_ammo_9x19_Hydra";
+	};
+	class tsb_mag_9x19_44rnd_P_PP2000 : rhs_mag_9x19mm_7n21_20{
+		displayName = "9x19mm PP-2000 44rnd +P Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Cor-Bon<br />Capacity: 44<br />Type: Over Preasured";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_P";
+	};
+	class tsb_mag_9x19_44rnd_7N21_PP2000 : rhs_mag_9x19mm_7n21_20{
+		displayName = "9x19mm PP-2000 44rnd 7N21 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N21<br />Capacity: 44<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N21";
+	};
+	class tsb_mag_9x19_44rnd_7N31_PP2000 : rhs_mag_9x19mm_7n21_20{
+		displayName = "9x19mm PP-2000 44rnd 7N31 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N31<br />Capacity: 44<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N31";
+	};
+//////////////////////////////// 15rnd CZ99 ////////////////////////////////////
+	class rhssaf_mag_15Rnd_9x19_FMJ;
+	class tsb_mag_9x19_15rnd_FMJ_CZ99 : rhssaf_mag_15Rnd_9x19_FMJ{
+		author = "Killa567";
+		scope = public;
+		displayName = "9x19mm CZ99 15rnd FMJ Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Winchester FMJ<br />Capacity: 15<br />Type: Full Metal Jacket";
+		displayNameShort = "FMJ";
+		ammo = "tsb_ammo_9x19_Ball";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_9x19_15rnd_JHP_CZ99 : tsb_mag_9x19_15rnd_FMJ_CZ99{
+		displayName = "9x19mm CZ99 15rnd JHP Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Speer Gold Dot<br />Capacity: 15<br />Type: Jacketed Hollow Point";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_JHP";
+	};
+	class tsb_mag_9x19_15rnd_M882_CZ99 : tsb_mag_9x19_15rnd_FMJ_CZ99{
+		displayName = "9x19mm CZ99 15rnd M882 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: M882<br />Capacity: 15<br />Type: Over Preasured";
+		displayNameShort = "M882 +P";
+		ammo = "tsb_ammo_9x19_M882";
+	};
+	class tsb_mag_9x19_15rnd_Hydra_CZ99 : tsb_mag_9x19_15rnd_FMJ_CZ99{
+		displayName = "9x19mm CZ99 15rnd HydraShok Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Federal HydraShok<br />Capacity: 15<br />Type: Over Preasured Jacketed Hollow Point";
+		displayNameShort = "JHP+P";
+		ammo = "tsb_ammo_9x19_Hydra";
+	};
+	class tsb_mag_9x19_15rnd_P_CZ99 : tsb_mag_9x19_15rnd_FMJ_CZ99{
+		displayName = "9x19mm CZ99 15rnd +P Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Cor-Bon<br />Capacity: 15<br />Type: Over Preasured";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_P";
+	};
+	class tsb_mag_9x19_15rnd_7N21_CZ99 : tsb_mag_9x19_15rnd_FMJ_CZ99{
+		displayName = "9x19mm CZ99 15rnd 7N21 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N21<br />Capacity: 15<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N21";
+	};
+	class tsb_mag_9x19_15rnd_7N31_CZ99 : tsb_mag_9x19_15rnd_FMJ_CZ99{
+		displayName = "9x19mm CZ99 15rnd 7N31 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N31<br />Capacity: 15<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N31";
+	};
+//////////////////////////////// 15rnd P226 ////////////////////////////////////
+	class hlc_15Rnd_9x19_B_P226;
+	class tsb_mag_9x19_15rnd_FMJ_P226 : hlc_15Rnd_9x19_B_P226{
+		author = "Killa567";
+		scope = public;
+		displayName = "9x19mm P226 15rnd FMJ Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Winchester FMJ<br />Capacity: 15<br />Type: Full Metal Jacket";
+		displayNameShort = "FMJ";
+		ammo = "tsb_ammo_9x19_Ball";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_9x19_15rnd_JHP_P226 : tsb_mag_9x19_15rnd_FMJ_P226{
+		displayName = "9x19mm P226 15rnd JHP Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Speer Gold Dot<br />Capacity: 15<br />Type: Jacketed Hollow Point";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_JHP";
+	};
+	class tsb_mag_9x19_15rnd_M882_P226 : tsb_mag_9x19_15rnd_FMJ_P226{
+		displayName = "9x19mm P226 15rnd M882 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: M882<br />Capacity: 15<br />Type: Over Preasured";
+		displayNameShort = "M882 +P";
+		ammo = "tsb_ammo_9x19_M882";
+	};
+	class tsb_mag_9x19_15rnd_Hydra_P226 : tsb_mag_9x19_15rnd_FMJ_P226{
+		displayName = "9x19mm P226 15rnd HydraShok Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Federal HydraShok<br />Capacity: 15<br />Type: Over Preasured Jacketed Hollow Point";
+		displayNameShort = "JHP+P";
+		ammo = "tsb_ammo_9x19_Hydra";
+	};
+	class tsb_mag_9x19_15rnd_P_P226 : tsb_mag_9x19_15rnd_FMJ_P226{
+		displayName = "9x19mm P226 15rnd +P Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Cor-Bon<br />Capacity: 15<br />Type: Over Preasured";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_P";
+	};
+	class tsb_mag_9x19_15rnd_7N21_P226 : tsb_mag_9x19_15rnd_FMJ_P226{
+		displayName = "9x19mm P226 15rnd 7N21 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N21<br />Capacity: 15<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N21";
+	};
+	class tsb_mag_9x19_15rnd_7N31_P226 : tsb_mag_9x19_15rnd_FMJ_P226{
+		displayName = "9x19mm P226 15rnd 7N31 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N31<br />Capacity: 15<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N31";
+	};
+//////////////////////////////// 13rnd P228 ////////////////////////////////////
+	class hlc_13Rnd_9x19_B_P228;
+	class tsb_mag_9x19_13rnd_FMJ_P228 : hlc_13Rnd_9x19_B_P228{
+		author = "Killa567";
+		scope = public;
+		displayName = "9x19mm P228 13rnd FMJ Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Winchester FMJ<br />Capacity: 13<br />Type: Full Metal Jacket";
+		displayNameShort = "FMJ";
+		ammo = "tsb_ammo_9x19_Ball";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_9x19_13rnd_JHP_P228 : tsb_mag_9x19_13rnd_FMJ_P228{
+		displayName = "9x19mm P228 13rnd JHP Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Speer Gold Dot<br />Capacity: 13<br />Type: Jacketed Hollow Point";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_JHP";
+	};
+	class tsb_mag_9x19_13rnd_M882_P228 : tsb_mag_9x19_13rnd_FMJ_P228{
+		displayName = "9x19mm P228 13rnd M882 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: M882<br />Capacity: 13<br />Type: Over Preasured";
+		displayNameShort = "M882 +P";
+		ammo = "tsb_ammo_9x19_M882";
+	};
+	class tsb_mag_9x19_13rnd_Hydra_P228 : tsb_mag_9x19_13rnd_FMJ_P228{
+		displayName = "9x19mm P228 13rnd HydraShok Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Federal HydraShok<br />Capacity: 13<br />Type: Over Preasured Jacketed Hollow Point";
+		displayNameShort = "JHP+P";
+		ammo = "tsb_ammo_9x19_Hydra";
+	};
+	class tsb_mag_9x19_13rnd_P_P228 : tsb_mag_9x19_13rnd_FMJ_P228{
+		displayName = "9x19mm P228 13rnd +P Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Cor-Bon<br />Capacity: 13<br />Type: Over Preasured";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_P";
+	};
+	class tsb_mag_9x19_13rnd_7N21_P228 : tsb_mag_9x19_13rnd_FMJ_P228{
+		displayName = "9x19mm P228 13rnd 7N21 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N21<br />Capacity: 13<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N21";
+	};
+	class tsb_mag_9x19_13rnd_7N31_P228 : tsb_mag_9x19_13rnd_FMJ_P228{
+		displayName = "9x19mm P228 13rnd 7N31 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N31<br />Capacity: 13<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N31";
+	};
+//////////////////////////////// 10rnd P239 ////////////////////////////////////
+	class hlc_10Rnd_9x19_B_P239;
+	class tsb_mag_9x19_10rnd_FMJ_P239 : hlc_10Rnd_9x19_B_P239{
+		author = "Killa567";
+		scope = public;
+		displayName = "9x19mm P239 10rnd FMJ Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Winchester FMJ<br />Capacity: 10<br />Type: Full Metal Jacket";
+		displayNameShort = "FMJ";
+		ammo = "tsb_ammo_9x19_Ball";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_9x19_10rnd_JHP_P239 : tsb_mag_9x19_10rnd_FMJ_P239{
+		displayName = "9x19mm P239 10rnd JHP Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Speer Gold Dot<br />Capacity: 10<br />Type: Jacketed Hollow Point";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_JHP";
+	};
+	class tsb_mag_9x19_10rnd_M882_P239 : tsb_mag_9x19_10rnd_FMJ_P239{
+		displayName = "9x19mm P239 10rnd M882 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: M882<br />Capacity: 10<br />Type: Over Preasured";
+		displayNameShort = "M882 +P";
+		ammo = "tsb_ammo_9x19_M882";
+	};
+	class tsb_mag_9x19_10rnd_Hydra_P239 : tsb_mag_9x19_10rnd_FMJ_P239{
+		displayName = "9x19mm P239 10rnd HydraShok Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Federal HydraShok<br />Capacity: 10<br />Type: Over Preasured Jacketed Hollow Point";
+		displayNameShort = "JHP+P";
+		ammo = "tsb_ammo_9x19_Hydra";
+	};
+	class tsb_mag_9x19_10rnd_P_P239 : tsb_mag_9x19_10rnd_FMJ_P239{
+		displayName = "9x19mm P239 10rnd +P Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Cor-Bon<br />Capacity: 10<br />Type: Over Preasured";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_P";
+	};
+	class tsb_mag_9x19_10rnd_7N21_P239 : tsb_mag_9x19_10rnd_FMJ_P239{
+		displayName = "9x19mm P239 10rnd 7N21 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N21<br />Capacity: 10<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N21";
+	};
+	class tsb_mag_9x19_10rnd_7N31_P239 : tsb_mag_9x19_10rnd_FMJ_P239{
+		displayName = "9x19mm P239 10rnd 7N31 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N31<br />Capacity: 10<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N31";
+	};
+//////////////////////////////// 17rnd P99 /////////////////////////////////////
+	class 16Rnd_9x21_Mag;
+	class tsb_mag_9x19_17rnd_FMJ_P99 : 16Rnd_9x21_Mag{
+		author = "Killa567";
+		scope = public;
+		displayName = "9x19mm P99 17rnd FMJ Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Winchester FMJ<br />Capacity: 17<br />Type: Full Metal Jacket";
+		displayNameShort = "FMJ";
+		ammo = "tsb_ammo_9x19_Ball";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_9x19_17rnd_JHP_P99 : tsb_mag_9x19_17rnd_FMJ_P99{
+		displayName = "9x19mm P99 17rnd JHP Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Speer Gold Dot<br />Capacity: 17<br />Type: Jacketed Hollow Point";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_JHP";
+	};
+	class tsb_mag_9x19_17rnd_M882_P99 : tsb_mag_9x19_17rnd_FMJ_P99{
+		displayName = "9x19mm P99 17rnd M882 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: M882<br />Capacity: 17<br />Type: Over Preasured";
+		displayNameShort = "M882 +P";
+		ammo = "tsb_ammo_9x19_M882";
+	};
+	class tsb_mag_9x19_17rnd_Hydra_P99 : tsb_mag_9x19_17rnd_FMJ_P99{
+		displayName = "9x19mm P99 17rnd HydraShok Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Federal HydraShok<br />Capacity: 17<br />Type: Over Preasured Jacketed Hollow Point";
+		displayNameShort = "JHP+P";
+		ammo = "tsb_ammo_9x19_Hydra";
+	};
+	class tsb_mag_9x19_17rnd_P_P99 : tsb_mag_9x19_17rnd_FMJ_P99{
+		displayName = "9x19mm P99 17rnd +P Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: Cor-Bon<br />Capacity: 17<br />Type: Over Preasured";
+		displayNameShort = "JHP";
+		ammo = "tsb_ammo_9x19_P";
+	};
+	class tsb_mag_9x19_17rnd_7N21_P99 : tsb_mag_9x19_17rnd_FMJ_P99{
+		displayName = "9x19mm P99 17rnd 7N21 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N21<br />Capacity: 17<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N21";
+	};
+	class tsb_mag_9x19_17rnd_7N31_P99 : tsb_mag_9x19_17rnd_FMJ_P99{
+		displayName = "9x19mm P99 17rnd 7N31 Magazine";
+		descriptionShort = "Caliber: 9x19mm<br />Bullet: 7N31<br />Capacity: 17<br />Type: Armor Piercing";
+		displayNameShort = "AP";
+		ammo = "tsb_ammo_9x19_7N31";
+	};
 //////////////////////////////////////////////////////////    9 x 21 //////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////    9 x 39 //////////////////////////////////////////////////////////
+//////////////////////////////// 10rnd VAL /////////////////////////////////////
+	class rhs_10rnd_9x39mm_SP5;
+	class tsb_mag_9x39_10rnd_SP5_VAL : rhs_10rnd_9x39mm_SP5{
+		author = "Killa567";
+		scope = public;
+		displayName = "9x39mm VAL 10rnd SP5 Magazine";
+		descriptionShort = "Caliber: 9x39mm<br />Bullet: SP5<br />Capacity: 10<br />Type: Precision";
+		displayNameShort = "SP5 Precision";
+		ammo = "tsb_ammo_9x39_sp5";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_9x19_10rnd_SP6_VAL : tsb_mag_9x39_10rnd_SP5_VAL{
+		displayName = "9x39mm VAL 10rnd SP6 Magazine";
+		descriptionShort = "Caliber: 9x39mm<br />Bullet: SP6<br />Capacity: 10<br />Type: Armor Piercing";
+		displayNameShort = "SP6 AP";
+		ammo = "tsb_ammo_9x39_sp6";
+	};
+	class tsb_mag_9x19_10rnd_PAB_VAL : tsb_mag_9x39_10rnd_SP5_VAL{
+		displayName = "9x39mm VAL 10rnd PAB-9 Magazine";
+		descriptionShort = "Caliber: 9x39mm<br />Bullet: PAB-9<br />Capacity: 10<br />Type: Armor Piercing";
+		displayNameShort = "PAB-9 AP";
+		ammo = "tsb_ammo_9x39_pab";
+	};
+	class tsb_mag_9x19_10rnd_SPP_VAL : tsb_mag_9x39_10rnd_SP5_VAL{
+		displayName = "9x39mm VAL 10rnd SPP Magazine";
+		descriptionShort = "Caliber: 9x39mm<br />Bullet: SPP<br />Capacity: 10<br />Type: Armor Piercing Precision";
+		displayNameShort = "SPP APP";
+		ammo = "tsb_ammo_9x39_spp";
+	};
+	class tsb_mag_9x19_10rnd_BP_VAL : tsb_mag_9x39_10rnd_SP5_VAL{
+		displayName = "9x39mm VAL 10rnd BP Magazine";
+		descriptionShort = "Caliber: 9x39mm<br />Bullet: Cor-Bon<br />Capacity: 10<br />Type: Armor Piercing Special";
+		displayNameShort = "BP AP";
+		ammo = "tsb_ammo_9x39_BP";
+	};
+//////////////////////////////// 20rnd VAL /////////////////////////////////////
+	class rhs_20rnd_9x39mm_SP5;
+	class tsb_mag_9x39_20rnd_SP5_VAL : rhs_20rnd_9x39mm_SP5{
+		author = "Killa567";
+		scope = public;
+		displayName = "9x39mm VAL 20rnd SP5 Magazine";
+		descriptionShort = "Caliber: 9x39mm<br />Bullet: SP5<br />Capacity: 20<br />Type: Precision";
+		displayNameShort = "SP5 Precision";
+		ammo = "tsb_ammo_9x39_sp5";
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_9x19_20rnd_SP6_VAL : tsb_mag_9x39_20rnd_SP5_VAL{
+		displayName = "9x39mm VAL 20rnd SP6 Magazine";
+		descriptionShort = "Caliber: 9x39mm<br />Bullet: SP6<br />Capacity: 20<br />Type: Armor Piercing";
+		displayNameShort = "SP6 AP";
+		ammo = "tsb_ammo_9x39_sp6";
+	};
+	class tsb_mag_9x19_20rnd_PAB_VAL : tsb_mag_9x39_20rnd_SP5_VAL{
+		displayName = "9x39mm VAL 20rnd PAB-9 Magazine";
+		descriptionShort = "Caliber: 9x39mm<br />Bullet: PAB-9<br />Capacity: 20<br />Type: Armor Piercing";
+		displayNameShort = "PAB-9 AP";
+		ammo = "tsb_ammo_9x39_pab";
+	};
+	class tsb_mag_9x19_20rnd_SPP_VAL : tsb_mag_9x39_20rnd_SP5_VAL{
+		displayName = "9x39mm VAL 20rnd SPP Magazine";
+		descriptionShort = "Caliber: 9x39mm<br />Bullet: SPP<br />Capacity: 20<br />Type: Armor Piercing Precision";
+		displayNameShort = "SPP APP";
+		ammo = "tsb_ammo_9x39_spp";
+	};
+	class tsb_mag_9x19_20rnd_BP_VAL : tsb_mag_9x39_20rnd_SP5_VAL{
+		displayName = "9x39mm VAL 20rnd BP Magazine";
+		descriptionShort = "Caliber: 9x39mm<br />Bullet: Cor-Bon<br />Capacity: 20<br />Type: Armor Piercing Special";
+		displayNameShort = "BP AP";
+		ammo = "tsb_ammo_9x39_BP";
+	};
 ////////////////////////////////////////////////////////// 11.4 x 23 (.45 ACP) ////////////////////////////////////////////////
 //////////////////////////////// M1911 /////////////////////////////////////////
 	class rhsusf_mag_7x45acp_MHP;

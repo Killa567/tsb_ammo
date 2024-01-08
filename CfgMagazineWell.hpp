@@ -1156,7 +1156,22 @@ class CfgMagazineWells {
 	};	
 //////////////////////////////////////////////////////////  6.5 x 39 //////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////  6.8 x 43 //////////////////////////////////////////////////////////
+	class CBA_68SPC_STANAG {
+		TSB_Magazines[] ={
+		"tsb_mag_68x43_26rnd_FMJ_STANAG",
+		"tsb_mag_68x43_26rnd_Poly_STANAG",
+		"tsb_mag_68x43_26rnd_JHP_STANAG",
+		"tsb_mag_68x43_26rnd_Tracer_STANAG",
+		"tsb_mag_68x43_26rnd_BTHP_STANAG",
+		"tsb_mag_68x43_26rnd_FMJ_PMAG",
+		"tsb_mag_68x43_26rnd_Poly_PMAG",
+		"tsb_mag_68x43_26rnd_JHP_PMAG",
+		"tsb_mag_68x43_26rnd_Tracer_PMAG",
+		"tsb_mag_68x43_26rnd_BTHP_PMAG"
+		};
+	};	
 //////////////////////////////////////////////////////////  6.8 x 51 //////////////////////////////////////////////////////////
+//////////////////////////////// M240 NGSW /////////////////////////////////////
 	class MMM_68x51_NGSW {
 		TSB_Magazines[] = {
 			"tsb_mag_68x51_50rnd_FMJ_Softpack",
@@ -1917,9 +1932,9 @@ class CfgMagazineWells {
 //////////////////////////////// Noreen BN /////////////////////////////////////
 	class MMM_Noreen_BN {
 		TSB_Magazines[] ={
-		"tsb_mag_762x53_10rnd_M2AP_BN",
-		"tsb_mag_762x53_10rnd_M2_BN",
-		"tsb_mag_762x53_10rnd_M1T_BN"
+		"tsb_mag_762x53_20rnd_M2AP_BN",
+		"tsb_mag_762x53_20rnd_M2_BN",
+		"tsb_mag_762x53_20rnd_M1T_BN"
 		};
 	};
 ////////////////////////////////////////////////////////// 7.62 x 67 (.300 WM) ////////////////////////////////////////////////
@@ -2002,11 +2017,111 @@ class CfgMagazineWells {
 //////////////////////////////// F1 ////////////////////////////////////////////
 	class MMM_9x19_F1 {
         MMM_Magazines[] = {
-            "MMM_F1_mag_temp"
+            "MMM_mag_9x19_34rnd_FMJ_F1",
+			"tsb_mag_9x19_34rnd_JHP_F1",
+			"tsb_mag_9x19_34rnd_M882_F1",
+			"tsb_mag_9x19_34rnd_Hydra_F1",
+			"tsb_mag_9x19_34rnd_P_F1",
+			"tsb_mag_9x19_34rnd_7N21_F1",
+			"tsb_mag_9x19_34rnd_7N31_F1"
         };
     };
+//////////////////////////////// PP-2000 ///////////////////////////////////////
+    class CBA_9x19_PP2000 {
+        MMM_Magazines[] = {
+            "tsb_mag_9x19_20rnd_FMJ_PP2000",
+			"tsb_mag_9x19_20rnd_JHP_PP2000",
+			"tsb_mag_9x19_20rnd_M882_PP2000",
+			"tsb_mag_9x19_20rnd_Hydra_PP2000",
+			"tsb_mag_9x19_20rnd_P_PP2000",
+			"tsb_mag_9x19_20rnd_7N21_PP2000",
+			"tsb_mag_9x19_20rnd_7N31_PP2000",
+			"tsb_mag_9x19_44rnd_FMJ_PP2000",
+			"tsb_mag_9x19_44rnd_JHP_PP2000",
+			"tsb_mag_9x19_44rnd_M882_PP2000",
+			"tsb_mag_9x19_44rnd_Hydra_PP2000",
+			"tsb_mag_9x19_44rnd_P_PP2000",
+			"tsb_mag_9x19_44rnd_7N21_PP2000",
+			"tsb_mag_9x19_44rnd_7N31_PP2000"
+        };
+    };
+//////////////////////////////// CZ99 //////////////////////////////////////////
+    class CZ99_9x19_PARA{
+		MMM_Magazines[] ={
+		"tsb_mag_9x19_15rnd_FMJ_CZ99",
+		"tsb_mag_9x19_15rnd_JHP_CZ99",
+		"tsb_mag_9x19_15rnd_M882_CZ99",
+		"tsb_mag_9x19_15rnd_Hydra_CZ99",
+		"tsb_mag_9x19_15rnd_P_CZ99",
+		"tsb_mag_9x19_15rnd_7N21_CZ99",
+		"tsb_mag_9x19_15rnd_7N31_CZ99"
+		};
+	};
+//////////////////////////////// P226 //////////////////////////////////////////
+	class CBA_9x19_P226{
+		MMM_Magazines[] ={
+		"tsb_mag_9x19_15rnd_FMJ_P226",
+		"tsb_mag_9x19_15rnd_JHP_P226",
+		"tsb_mag_9x19_15rnd_M882_P226",
+		"tsb_mag_9x19_15rnd_Hydra_P226",
+		"tsb_mag_9x19_15rnd_P_P226",
+		"tsb_mag_9x19_15rnd_7N21_P226",
+		"tsb_mag_9x19_15rnd_7N31_P226"
+		};
+	};
+//////////////////////////////// P228 //////////////////////////////////////////
+	class CBA_9x19_P228{
+		MMM_Magazines[] ={
+		"tsb_mag_9x19_13rnd_FMJ_P228",
+		"tsb_mag_9x19_13rnd_JHP_P228",
+		"tsb_mag_9x19_13rnd_M882_P228",
+		"tsb_mag_9x19_13rnd_Hydra_P228",
+		"tsb_mag_9x19_13rnd_P_P228",
+		"tsb_mag_9x19_13rnd_7N21_P228",
+		"tsb_mag_9x19_13rnd_7N31_P228"
+		};
+	};
+//////////////////////////////// P239 //////////////////////////////////////////
+	class CBA_9x19_P239{
+		MMM_Magazines[] ={
+		"tsb_mag_9x19_10rnd_FMJ_P239",
+		"tsb_mag_9x19_10rnd_JHP_P239",
+		"tsb_mag_9x19_10rnd_M882_P239",
+		"tsb_mag_9x19_10rnd_Hydra_P239",
+		"tsb_mag_9x19_10rnd_P_P239",
+		"tsb_mag_9x19_10rnd_7N21_P239",
+		"tsb_mag_9x19_10rnd_7N31_P239"
+		};
+	};
+//////////////////////////////// P99 ///////////////////////////////////////////
+	class Pistol_9x21{
+		TSB_Magazines[] ={
+		"tsb_mag_9x19_17rnd_FMJ_P99",
+		"tsb_mag_9x19_17rnd_JHP_P99",
+		"tsb_mag_9x19_17rnd_M882_P99",
+		"tsb_mag_9x19_17rnd_Hydra_P99",
+		"tsb_mag_9x19_17rnd_P_P99",
+		"tsb_mag_9x19_17rnd_7N21_P99",
+		"tsb_mag_9x19_17rnd_7N31_P99"
+		};
+	};
 //////////////////////////////////////////////////////////    9 x 21 //////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////    9 x 39 //////////////////////////////////////////////////////////
+//////////////////////////////// AS-VAL ////////////////////////////////////////
+	class CBA_9x39_VSS{
+		MMM_Magazines[] ={
+		"tsb_mag_9x39_10rnd_SP5_VAL",
+		"tsb_mag_9x19_10rnd_SP6_VAL",
+		"tsb_mag_9x19_10rnd_PAB_VAL",
+		"tsb_mag_9x19_10rnd_SPP_VAL",
+		"tsb_mag_9x19_10rnd_BP_VAL",
+		"tsb_mag_9x39_20rnd_SP5_VAL",
+		"tsb_mag_9x19_20rnd_SP6_VAL",
+		"tsb_mag_9x19_20rnd_PAB_VAL",
+		"tsb_mag_9x19_20rnd_SPP_VAL",
+		"tsb_mag_9x19_20rnd_BP_VAL"
+		};
+	};
 ////////////////////////////////////////////////////////// 11.4 x 23 (.45 ACP) ////////////////////////////////////////////////
 //////////////////////////////// M1911 /////////////////////////////////////////
 	class CBA_45ACP_1911 {

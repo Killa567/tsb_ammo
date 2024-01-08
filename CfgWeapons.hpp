@@ -199,20 +199,22 @@ class cfgWeapons {
 		};
 	};
 	class MMM_BN_3006 : srifle_DMR_02_F {
+		scope = 2;
 		displayName = ".30-06 Noreen Bad News ULR (Black)";
 		magazineWell[] = {"MMM_Noreen_BN"};
-		magazines[] = {};
 	};
 	class tsb_weap_m240B_68x51 : rhs_weap_m240B {
+		scope = 2;
 		author = "Jzpelaez";
 		displayName = "M240B (6.8x51)";
-		magazines[] = { };
-		magazineWell[] = {"MMM_68x51_NGSW";
+		magazines[] = {};
+		magazineWell[] = {"MMM_68x51_NGSW"};
 	};
 	class tsb_weap_m240G_68x51 : rhs_weap_m240G {
+		scope = 2;
 		author = "Jzpelaez";
 		displayName = "M240G (6.8x51)";
-		magazines[] = { };
+		magazines[] = {};
 		magazineWell[] = {"MMM_68x51_NGSW"};
 	};
 };

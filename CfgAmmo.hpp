@@ -140,8 +140,7 @@ class CfgAmmo {
 		nvgOnly			= 0;
 		tracerStartTime	= 0.073;
 		tracerEndTime	= 1;
-		}; //Orange Tracer
-
+	}; //Orange Tracer
 	class tsb_ammo_556x45_M855 : tsb_ammo_556x45_M193{
 		hit				= 9;
 		typicalSpeed	= 948.8424;
@@ -435,6 +434,51 @@ class CfgAmmo {
 	};
 //////////////////////////////////////////////////////////  6.5 x 39 //////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////  6.8 x 43 //////////////////////////////////////////////////////////
+	class tsb_ammo_68x43_FMJ : BulletBase{
+		hit = 9.8; // 
+		indirectHit = 0;
+		indirectHitRange = 0;
+		cartridge = "";
+		rhs_cartridge = "\A3\weapons_f\ammo\cartridge_762";
+		visibleFire = 22;
+		audibleFire = 18;
+		visibleFireTime = 3;
+		cost = .9;
+		airLock = true;
+		caliber = 0.85;
+		model = "\rhsusf\addons\rhsusf_weapons\tracer\tracer_orange";
+		tracerScale = 1.2;
+		tracerStartTime = 0;
+		tracerEndTime = 1.3;
+		airFriction = -0.0006814;
+		typicalSpeed = 785;
+		suppressionRadiusBulletClose = 2;
+		suppressionRadiusHit = 4;
+	};
+	class tsb_ammo_68x43_Poly : tsb_ammo_68x43_FMJ{
+		hit = 8.6; //Hornady SST
+		cost = 0.9;
+		caliber = 0.95;
+		typicalSpeed = 750;
+	};
+	class tsb_ammo_68x43_JHP : tsb_ammo_68x43_FMJ{
+		hit = 9.9; //SSA OTM
+		cost = 0.9;
+		caliber = 0.75;
+		typicalSpeed = 785;
+	};
+	class tsb_ammo_68x43_Tracer : tsb_ammo_68x43_FMJ{
+		hit = 9.5; 
+		cost = 0.9;
+		caliber = 0.82;
+		typicalSpeed = 785;
+	};
+	class tsb_ammo_68x43_BTHP : tsb_ammo_68x43_FMJ{
+		hit = 10; //Wilson combat BHTP
+		cost = 0.9;
+		caliber = 0.85;
+		typicalSpeed = 890;
+	};
 //////////////////////////////////////////////////////////  6.8 x 51 //////////////////////////////////////////////////////////
 	class tsb_ammo_277_FMJ : BulletBase{
 		hit = 11.5; // 135GR FMJ, non-hybrid case.
@@ -470,7 +514,7 @@ class CfgAmmo {
 	class tsb_ammo_277_FMJTracer : tsb_ammo_277_FMJ{
 		hit = 11; // FMJ tracer in non-hybrid case case
 		cost = 0.9;
-		caliber 0.9
+		caliber = 0.9;
 		typicalSpeed = 838;
 		ACE_caliber = 7.061;
 		ACE_bulletLength = 28.741;
@@ -486,7 +530,7 @@ class CfgAmmo {
 	class tsb_ammo_277_FMJHybrid : tsb_ammo_277_FMJ{
 		hit = 12; // FMJ in hybrid case.
 		cost = 1.0;
-		caliber = 1.2
+		caliber = 1.2;
 		typicalSpeed = 862
 		ACE_caliber = 7.061;
 		ACE_bulletLength = 28.741;
@@ -502,7 +546,7 @@ class CfgAmmo {
 	class tsb_ammo_277_FMJHybridTracer : tsb_ammo_277_FMJ{
 		hit = 12; // tracer in hybrid case
 		cost = 1.0;
-		caliber 1.2
+		caliber = 1.2;
 		typicalSpeed = 862;
 		ACE_caliber = 7.061;
 		ACE_bulletLength = 28.741;
@@ -518,7 +562,7 @@ class CfgAmmo {
 	class tsb_ammo_277_APHybrid : tsb_ammo_277_FMJ{
 		hit = 15; // AP in hybrid case.
 		cost = 1.3;
-		caliber = 2.2
+		caliber = 2.2;
 		typicalSpeed = 862
 		ACE_caliber = 7.061;
 		ACE_bulletLength = 28.741;
@@ -534,7 +578,7 @@ class CfgAmmo {
 	class tsb_ammo_277_PTHybrid : tsb_ammo_277_FMJ{
 		hit = 13; // Polymer Tipped in hybrid case
 		cost = 1.3;
-		caliber = 0.9
+		caliber = 0.9;
 		typicalSpeed = 862
 		ACE_caliber = 7.061;
 		ACE_bulletLength = 28.741;
@@ -547,7 +591,6 @@ class CfgAmmo {
 		ACE_muzzleVelocities[] = {862.6, 951.0};
 		ACE_barrelLengths[] = {406.4, 606.9};
 	};
-
 ////////////////////////////////////////////////////////// 7.62 x 25 //////////////////////////////////////////////////////////
 	// class tsb_ammo_762x25_ xxx : 
 ////////////////////////////////////////////////////////// 7.62 x 39 //////////////////////////////////////////////////////////
@@ -1062,7 +1105,79 @@ class CfgAmmo {
 //////////////////////////////////////////////////////////	9 x 21   //////////////////////////////////////////////////////////
 	// class tsb_ammo_9x21_ xxx :
 //////////////////////////////////////////////////////////	9 x 39   //////////////////////////////////////////////////////////
-	// class tsb_ammo_9x39_ xxx :
+	class tsb_ammo_9x39_sp5 : BulletBase{
+		hit = 11;
+		indirectHit = 0;
+		indirectHitRange = 0;
+		cartridge = "FxCartridge_9_39";
+		rhs_cartridge = "\A3\weapons_f\ammo\cartridge_762";
+		visibleFire = 22;
+		audibleFire = 18;
+		visibleFireTime = 3;
+		cost = .8;
+		airLock = true;
+		caliber = 0.3;
+		model = "\rhsusf\addons\rhsusf_weapons\tracer\tracer_orange";
+		tracerScale = 1.2;
+		tracerStartTime = 0;
+		// tracerStartTime = 0.045; old
+		tracerEndTime = 1.3;
+		airFriction = -0.0006814;
+		typicalSpeed = 838;
+		suppressionRadiusBulletClose = 2;
+		suppressionRadiusHit = 4;
+		ACE_caliber = 9.246;
+	    ACE_bulletLength = 31.496;
+	    ACE_bulletMass = 16.1;
+	    ACE_ammoTempMuzzleVelocityShifts[] = {-2.655,-2.547,-2.285,-2.012,-1.698,-1.28,-0.764,-0.153,0.596,1.517,2.619};
+	    ACE_ballisticCoefficients[] = {0.275};
+	    ACE_velocityBoundaries[] = {};
+	    ACE_standardAtmosphere = "ICAO";
+	    ACE_muzzleVelocities[] = {280,300,320};
+	    ACE_barrelLengths[] = {254,414.02,508};
+	    ACE_dragModel = 1;
+	}; 
+	class tsb_ammo_9x39_sp6 : tsb_ammo_9x39_sp5{
+		hit = 11.4;
+		typicalSpeed = 737;
+		airFriction = -0.0016519;
+		caliber = 0.85;
+		deflecting = 15;
+		visibleFire = 3;
+		audibleFire = 6;
+		ACE_bulletLength = 31.496;
+	    ACE_ammoTempMuzzleVelocityShifts[] = {-2.655,-2.547,-2.285,-2.012,-1.698,-1.28,-0.764,-0.153,0.596,1.517,2.619};
+	    ACE_velocityBoundaries[] = {};
+	    ACE_standardAtmosphere = "ICAO";
+	    ACE_dragModel = 1;
+	};
+	class tsb_ammo_9x39_pab : tsb_ammo_9x39_sp5{
+		hit = 11.4;
+		typicalSpeed = 737;
+		airFriction = -0.0016519;
+		caliber = 0.85;
+		deflecting = 15;
+		visibleFire = 3;
+		audibleFire = 6;
+	};
+	class tsb_ammo_9x39_spp : tsb_ammo_9x39_sp5{
+		hit = 11.4;
+		typicalSpeed = 737;
+		airFriction = -0.0016519;
+		caliber = 0.85;
+		deflecting = 15;
+		visibleFire = 3;
+		audibleFire = 6;
+	};
+	class tsb_ammo_9x39_BP : tsb_ammo_9x39_sp5{
+		hit = 11.4;
+		typicalSpeed = 737;
+		airFriction = -0.0016519;
+		caliber = 0.85;
+		deflecting = 15;
+		visibleFire = 3;
+		audibleFire = 6;
+	};
 ////////////////////////////////////////////////////////// 11.4 x 23 (.45 ACP) ////////////////////////////////////////////////
 
 	class tsb_ammo_45_Ball : BulletBase {
