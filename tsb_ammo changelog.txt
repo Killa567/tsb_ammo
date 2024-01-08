@@ -8,6 +8,8 @@ Jzpelaez
 	+ M240 in 6.8x51
 	+ M240 6.8x51 boxes/belts
 	* CfgWeapons. Categorized by weapon. + M240 6.8x51
+	
+	* 100 round and 150 round 5.56 C-Mags weight adjusted. 150 rounders no longer weigh less, and both weights changed to more accurate value. 100rnd 3.46 lbs -> 4.63 lbs. 150rnd 3.00 lbs -> 5.98 lbs.
 
 V3 (2023-07-5)
 
