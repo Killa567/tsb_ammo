@@ -4,11 +4,14 @@ class mortar_82mm;
 class hgun_P07_F;
 class GrenadeLauncher;
 class srifle_DMR_02_F;
-class rhs_weap_m240B;
-class rhs_weap_m240G;
+class rhs_weap_m240_base;
+class WeaponSlotsInfo;
+class rhs_western_rifle_laser_slot;
 
 
 class cfgWeapons {
+	class rhs_weap_m240B;
+	class rhs_weap_m240G;
 	class uk3cb_aug_base : Rifle_Base_F {
 		magazineWell[] = {"CBA_556x45_STEYR"};
 	};

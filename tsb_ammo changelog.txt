@@ -2,16 +2,13 @@
 *Changes
 -Removal
 
-V3.X (Pending)
+V3 (Pending)
 Jzpelaez
 	+ .277 Fury / 6.8x51 ammunition.
 	+ M240 in 6.8x51
 	+ M240 6.8x51 boxes/belts
 	* CfgWeapons. Categorized by weapon. + M240 6.8x51
-	
 	* 100 round and 150 round 5.56 C-Mags weight adjusted. 150 rounders no longer weigh less, and both weights changed to more accurate value. 100rnd 3.46 lbs -> 4.63 lbs. 150rnd 3.00 lbs -> 5.98 lbs.
-
-V3 (2023-07-5)
 
 By Killa567
 	+ M21 Mags
@@ -26,9 +23,39 @@ By Killa567
 	+ G17 Mags
 	+ BHP Mags
 	+ MP5 Mags
+	+ P99 Mags
+	+ P226 Mags
+	  + 10rnd
+	  + 13rnd
+	  + 15rnd
+	+ MP443 Mags
+	+ M9 Mags
+	+ PP-2000 Mags
+	  + 20rnd 
+	  + 44rnd
+	+ 9x39 Ammo
+	  + SP5
+	  + SP6
+	  + PAB-9
+	  + SPP
+	  + BP
+	+ VAL/VSS/AK9/SR-3M Mags
+	  + 10rnd
+	  + 20rnd
+	  + 30rnd
+	+ 6.8x43 Ammo
+	  + FMJ
+	  + Tracer
+	  + JHP
+	  + BHTP
+	  + Poly Tipped
+	+ ACR (6.8) Mags
+	  + Stanag
+	  + PMAG
 	+ SMAW Ammo
 	  + NE (Thermo)
 	+ Improved Smokes
+
 	* Changed the Hit of Buck and Flechette to hopefully actually work
 	
 			
