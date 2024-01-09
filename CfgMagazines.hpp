@@ -4791,7 +4791,7 @@ class CfgMagazines {
 		displayName = "6.8x43 STANAG 26rnd FMJ Magazine";
 		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Remmington FMJ<br />Capacity: 26<br />Type: Ball";
 		displayNameShort = "Ball";
-		ammo = "tsb_ammo_556x45_M193";
+		ammo = "tsb_ammo_68x43_FMJ";
 		count = 26;
 		//mass = 9.35;
 		tracersEvery = 0;
@@ -4801,29 +4801,26 @@ class CfgMagazines {
 		displayName = "6.8x43 STANAG 26rnd Polymer Magazine";
 		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Hornady SST<br />Capacity: 26<br />Type: Polymer Tipped";
 		displayNameShort = "Polymer";
-		ammo = "tsb_ammo_556x45_M196";
-		tracersEvery = 1;
+		ammo = "tsb_ammo_68x43_Poly";
 	};
 	class tsb_mag_68x43_26rnd_JHP_STANAG : tsb_mag_68x43_26rnd_FMJ_STANAG{
 		displayName = "6.8x43 STANAG 26rnd JHP Magazine";
 		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: SSA JHP<br />Capacity: 26<br />Type: Jacketed Hollow Point";
 		displayNameShort = "JHP";
-		ammo = "tsb_ammo_556x45_M196";
-		tracersEvery = 1;
+		ammo = "tsb_ammo_68x43_JHP";
 	};
 	class tsb_mag_68x43_26rnd_Tracer_STANAG : tsb_mag_68x43_26rnd_FMJ_STANAG{
 		displayName = "6.8x43 STANAG 26rnd Tracer Magazine";
 		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Tracer<br />Capacity: 26<br />Type: Tracer";
 		displayNameShort = "Tracer";
-		ammo = "tsb_ammo_556x45_M196";
+		ammo = "tsb_ammo_68x43_Tracer";
 		tracersEvery = 1;
 	};
 	class tsb_mag_68x43_26rnd_BTHP_STANAG : tsb_mag_68x43_26rnd_FMJ_STANAG{
 		displayName = "6.8x43 STANAG 26rnd BTHP Magazine";
 		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Wilson Combat<br />Capacity: 26<br />Type: Boat Tail Hollow Point";
 		displayNameShort = "BHTP";
-		ammo = "tsb_ammo_556x45_M196";
-		tracersEvery = 1;
+		ammo = "tsb_ammo_68x43_BTHP";
 	};
 //////////////////////////////// 30rnd PMAG ////////////////////////////////////
 	class tsb_mag_68x43_26rnd_FMJ_PMAG : rhs_mag_30Rnd_556x45_M855A1_PMAG{
@@ -4832,7 +4829,7 @@ class CfgMagazines {
 		displayName = "6.8x43 PMAG 26rnd FMJ Magazine";
 		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Remmington FMJ<br />Capacity: 26<br />Type: Ball";
 		displayNameShort = "Ball";
-		ammo = "tsb_ammo_556x45_M193";
+		ammo = "tsb_ammo_68x43_FMJ";
 		count = 26;
 		//mass = 9.35;
 		tracersEvery = 0;
@@ -4842,29 +4839,26 @@ class CfgMagazines {
 		displayName = "6.8x43 PMAG 26rnd Polymer Magazine";
 		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Hornady SST<br />Capacity: 26<br />Type: Polymer Tipped";
 		displayNameShort = "Polymer";
-		ammo = "tsb_ammo_556x45_M196";
-		tracersEvery = 1;
+		ammo = "tsb_ammo_68x43_Poly";
 	};
 	class tsb_mag_68x43_26rnd_JHP_PMAG : tsb_mag_68x43_26rnd_FMJ_PMAG{
 		displayName = "6.8x43 PMAG 26rnd JHP Magazine";
 		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: SSA JHP<br />Capacity: 26<br />Type: Jacketed Hollow Point";
 		displayNameShort = "JHP";
-		ammo = "tsb_ammo_556x45_M196";
-		tracersEvery = 1;
+		ammo = "tsb_ammo_68x43_JHP";
 	};
 	class tsb_mag_68x43_26rnd_Tracer_PMAG : tsb_mag_68x43_26rnd_FMJ_PMAG{
 		displayName = "6.8x43 PMAG 26rnd Tracer Magazine";
 		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Tracer<br />Capacity: 26<br />Type: Tracer";
 		displayNameShort = "Tracer";
-		ammo = "tsb_ammo_556x45_M196";
+		ammo = "tsb_ammo_68x43_Tracer";
 		tracersEvery = 1;
 	};
 	class tsb_mag_68x43_26rnd_BTHP_PMAG : tsb_mag_68x43_26rnd_FMJ_PMAG{
 		displayName = "6.8x43 PMAG 26rnd BTHP Magazine";
 		descriptionShort = "Caliber: 6.8x43mm<br />Bullet: Wilson Combat<br />Capacity: 26<br />Type: Boat Tail Hollow Point";
 		displayNameShort = "BHTP";
-		ammo = "tsb_ammo_556x45_M196";
-		tracersEvery = 1;
+		ammo = "tsb_ammo_68x43_BTHP";
 	};
 //////////////////////////////////////////////////////////  6.8 x 51 //////////////////////////////////////////////////////////
 //////////////////////////////// 50Rnd Belt ////////////////////////////////////
@@ -5084,6 +5078,69 @@ class CfgMagazines {
 		lastRoundsTracer = 0;
 	};
 ////////////////////////////////////////////////////////// 7.62 x 25 //////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////// 7.62 x 35 //////////////////////////////////////////////////////////
+//////////////////////////////// 30rnd STANAG //////////////////////////////////
+	class tsb_mag_762x35_30rnd_FMJ_STANAG : rhs_mag_30Rnd_556x45_M855A1_Stanag{
+		author = "Killa567";
+		scope = public;
+		displayName = ".300blk STANAG 30rnd FMJ Magazine";
+		descriptionShort = "Caliber: 7.62x35mm<br />Bullet: S&B FMJ<br />Capacity: 30<br />Type: Ball";
+		displayNameShort = "Ball";
+		ammo = "tsb_ammo_762x35_FMJ";
+		count = 30;
+		//mass = 9.35;
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_762x35_30rnd_Poly_STANAG : tsb_mag_68x43_26rnd_FMJ_STANAG{
+		displayName = ".300blk STANAG 30rnd Polymer Magazine";
+		descriptionShort = "Caliber: 7.62x35mm<br />Bullet: Hornady V-Max<br />Capacity: 30<br />Type: Polymer Tipped";
+		displayNameShort = "Polymer";
+		ammo = "tsb_ammo_762x25_Poly";
+	};
+	class tsb_mag_762x35_30rnd_OTM_STANAG : tsb_mag_68x43_26rnd_FMJ_STANAG{
+		displayName = ".300blk STANAG 30rnd OTM Magazine";
+		descriptionShort = "Caliber: 7.62x35mm<br />Bullet: S&B <br />Capacity: 30<br />Type: Open Tip Match";
+		displayNameShort = "OTM";
+		ammo = "tsb_ammo_762x25_OTM";
+	};
+	class tsb_mag_762x35_30rnd_Subsonic_STANAG : tsb_mag_68x43_26rnd_FMJ_STANAG{
+		displayName = ".300blk STANAG 30rnd Subsonic Magazine";
+		descriptionShort = "Caliber: 7.62x35mm<br />Bullet: S&B <br />Capacity: 30<br />Type: Subsonic";
+		displayNameShort = "Subsonic";
+		ammo = "tsb_ammo_762x25_Sub";
+	};
+//////////////////////////////// 30rnd PMAG ////////////////////////////////////
+	class tsb_mag_762x35_30rnd_FMJ_PMAG : rhs_mag_30Rnd_556x45_M855A1_PMAG{
+		author = "Killa567";
+		scope = public;
+		displayName = ".300blk PMAG 30rnd FMJ Magazine";
+		descriptionShort = "Caliber: 7.62x35mm<br />Bullet: S&B FMJ<br />Capacity: 30<br />Type: Ball";
+		displayNameShort = "Ball";
+		ammo = "tsb_ammo_762x35_FMJ";
+		count = 30;
+		//mass = 9.35;
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+	};
+	class tsb_mag_762x35_30rnd_Poly_PMAG : tsb_mag_68x43_26rnd_FMJ_PMAG{
+		displayName = ".300blk PMAG 30rnd Polymer Magazine";
+		descriptionShort = "Caliber: 7.62x35mm<br />Bullet: Hornady V-Max<br />Capacity: 30<br />Type: Polymer Tipped";
+		displayNameShort = "Polymer";
+		ammo = "tsb_ammo_762x25_Poly";
+	};
+	class tsb_mag_762x35_30rnd_OTM_PMAG : tsb_mag_68x43_26rnd_FMJ_PMAG{
+		displayName = ".300blk PMAG 30rnd OTM Magazine";
+		descriptionShort = "Caliber: 7.62x35mm<br />Bullet: S&B <br />Capacity: 30<br />Type: Open Tip Match";
+		displayNameShort = "OTM";
+		ammo = "tsb_ammo_762x25_OTM";
+	};
+	class tsb_mag_762x35_30rnd_Subsonic_PMAG : tsb_mag_68x43_26rnd_FMJ_PMAG{
+		displayName = ".300blk PMAG 30rnd Subsonic Magazine";
+		descriptionShort = "Caliber: 7.62x35mm<br />Bullet: S&B <br />Capacity: 30<br />Type: Subsonic";
+		displayNameShort = "Subsonic";
+		ammo = "tsb_ammo_762x25_Sub";
+	};
 ////////////////////////////////////////////////////////// 7.62 x 39 //////////////////////////////////////////////////////////
 //////////////////////////////// 10rnd Hunting /////////////////////////////////
 	class tsb_mag_762x39_10rnd_fmj_civ : CA_Magazine{

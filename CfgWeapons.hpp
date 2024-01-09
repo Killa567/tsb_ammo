@@ -8,10 +8,10 @@ class rhs_weap_m240_base;
 class WeaponSlotsInfo;
 class rhs_western_rifle_laser_slot;
 
-
 class cfgWeapons {
 	class rhs_weap_m240B;
 	class rhs_weap_m240G;
+
 	class uk3cb_aug_base : Rifle_Base_F {
 		magazineWell[] = {"CBA_556x45_STEYR"};
 	};
@@ -200,24 +200,5 @@ class cfgWeapons {
 			"MMM_SmokeShellBlueMuzzle",
 			"MMM_SmokeShellOrangeMuzzle"
 		};
-	};
-	class MMM_BN_3006 : srifle_DMR_02_F {
-		scope = 2;
-		displayName = ".30-06 Noreen Bad News ULR (Black)";
-		magazineWell[] = {"MMM_Noreen_BN"};
-	};
-	class tsb_weap_m240B_68x51 : rhs_weap_m240B {
-		scope = 2;
-		author = "Jzpelaez";
-		displayName = "M240B (6.8x51)";
-		magazines[] = {};
-		magazineWell[] = {"MMM_68x51_NGSW"};
-	};
-	class tsb_weap_m240G_68x51 : rhs_weap_m240G {
-		scope = 2;
-		author = "Jzpelaez";
-		displayName = "M240G (6.8x51)";
-		magazines[] = {};
-		magazineWell[] = {"MMM_68x51_NGSW"};
 	};
 };

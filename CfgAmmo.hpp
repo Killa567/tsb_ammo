@@ -345,42 +345,6 @@ class CfgAmmo {
 
 
 	class tsb_ammo_556x45_SS109 : tsb_ammo_556x45_M855{}; //855
-////////////////Unfinished///////////////////////////////////////////////////////
-
-	class tsb_ammo_556x45_M202 : tsb_ammo_556x45_M193{}; //58 gr Ball
-	class tsb_ammo_556x45_XM287 : tsb_ammo_556x45_M193{}; //68 gr Ball
-	class tsb_ammo_556x45_XM288 : tsb_ammo_556x45_M193{}; //68 Tracer
-	class tsb_ammo_556x45_XM777 : tsb_ammo_556x45_M193{}; //55 Gr Armor Peircing
-	class tsb_ammo_556x45_XM778 : tsb_ammo_556x45_M193{}; // 777 With Tracer
-	class tsb_ammo_556x45_M862 : tsb_ammo_556x45_M193{}; 
-	class tsb_ammo_556x45_Mk255mod0 : tsb_ammo_556x45_M193{};
-
-	class tsb_ammo_556x45_FMJ : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_HP : tsb_ammo_556x45_M193{};
-
-	class tsb_ammo_556x45_DM11 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_DM11A1 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_DM18 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_DM21 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_DM31 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_DM38 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_DM41A1 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_DM51 : tsb_ammo_556x45_M193{};
-
-	class tsb_ammo_556x45_L2A1 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L2A2 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L15A1 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L15A2 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L17A1 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L17A2 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L31A1 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L1A1 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L1A2 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L16A1 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L1A1ct : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L1A2ct : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L18A1 : tsb_ammo_556x45_M193{};
-	class tsb_ammo_556x45_L1A1cb : tsb_ammo_556x45_M193{};
 //////////////////////////////////////////////////////////  5.7 x 28 //////////////////////////////////////////////////////////
 	class tsb_ammo_57x28_SS190 : BulletBase{
 		hit = 8.5;
@@ -593,6 +557,50 @@ class CfgAmmo {
 	};
 ////////////////////////////////////////////////////////// 7.62 x 25 //////////////////////////////////////////////////////////
 	// class tsb_ammo_762x25_ xxx : 
+////////////////////////////////////////////////////////// 7.62 x 35 //////////////////////////////////////////////////////////
+	class tsb_ammo_762x35_FMJ : BulletBase{
+		hit = 11.5; 
+		indirectHit = 0;
+		indirectHitRange = 0;
+		cartridge = "";
+		rhs_cartridge = "\A3\weapons_f\ammo\cartridge_762";
+		visibleFire = 22;
+		audibleFire = 18;
+		visibleFireTime = 3;
+		cost = .9;
+		airLock = true;
+		caliber = 0.9;
+		model = "\rhsusf\addons\rhsusf_weapons\tracer\tracer_orange";
+		tracerScale = 1.2;
+		tracerStartTime = 0;
+		tracerEndTime = 1.3;
+		airFriction = -0.0006814;
+		typicalSpeed = 795;
+		suppressionRadiusBulletClose = 2;
+		suppressionRadiusHit = 4;
+	};
+	class tsb_ammo_762x25_OTM : tsb_ammo_762x35_FMJ{
+		hit = 9.9; //OTM
+		cost = 0.9;
+		caliber = 0.75;
+		typicalSpeed = 675;
+	};
+	class tsb_ammo_762x25_Poly : tsb_ammo_762x35_FMJ{
+		hit = 8.6; //Hornady V-Max
+		cost = 0.9;
+		caliber = 0.95;
+		typicalSpeed = 724;
+	};
+	class tsb_ammo_762x25_Sub : tsb_ammo_762x35_FMJ{
+		hit = 8.0; //SS OTM
+		cost = 0.9;
+		caliber = 0.65;
+		typicalSpeed = 310;
+		visibleFire = 1.2;
+		audibleFire = 2.4;
+		suppressionRadiusBulletClose = 2;
+		suppressionRadiusHit = 4;
+	};
 ////////////////////////////////////////////////////////// 7.62 x 39 //////////////////////////////////////////////////////////
 	class tsb_ammo_762x39_57n231 : B_762x51_Ball{
 		cartridge = "RHS_Cartridge_762x39";
@@ -903,29 +911,6 @@ class CfgAmmo {
 		ACE_barrelLengths[] = {650.0};
 
 	};
-
-	// class tsb_ammo_762x51_ss771 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_l78 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_p801 : tsb_ammo_762x51_m59{};
-
-	// class tsb_ammo_762x51_dm41 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_dm111 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_dm111a1 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_dm111a2 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_dm151 : tsb_ammo_762x51_m59{};
-
-	// class tsb_ammo_762x51_l1a1 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_l1a2 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_l2a2 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_l2a3 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_l2a4 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_l5a1 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_l5a2 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_l5a3 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_l5a4 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_l5a5 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_l42a1 : tsb_ammo_762x51_m59{};
-	// class tsb_ammo_762x51_l44a1 : tsb_ammo_762x51_m59{};
 ////////////////////////////////////////////////////////// 7.62 x 54 //////////////////////////////////////////////////////////
 	class tsb_ammo_762x54_57n323s : B_762x51_Ball {
 		cartridge = "RHS_Cartridge_762x54r";

@@ -52,6 +52,14 @@ By Killa567
 	+ ACR (6.8) Mags
 	  + Stanag
 	  + PMAG
+	+ 7.62x35 (.300 Blkout)
+	  + FMJ
+	  + Polymer
+	  + OTM
+	  + Subsonic
+	+ .300 Blackout Mags
+	  + STANAG
+	  + PMAG
 	+ SMAW Ammo
 	  + NE (Thermo)
 	+ Improved Smokes

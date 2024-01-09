@@ -1,3 +1,3 @@
 class CfgMods {
-	author = "Makarov Ivan Andreyavich";
+	author = "Killa567";
 };
